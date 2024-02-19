@@ -546,12 +546,12 @@ const Menus = () => (
           </ul>
         </li> */}
         <li className="menu-item">
-          <Link legacyBehavior href="about">
+          <Link legacyBehavior >
             Home
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="about">
+          <Link legacyBehavior >
             About
           </Link>
         </li>
@@ -559,12 +559,12 @@ const Menus = () => (
           <a href="#">Services</a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="services">
+              <Link legacyBehavior >
                 Our Services
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="service-details">
+              <Link legacyBehavior >
                 Service Details
               </Link>
             </li>

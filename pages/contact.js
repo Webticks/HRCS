@@ -22,7 +22,7 @@ const Contact = () => {
               <div className="information-one_content-box ml-lg-40">
                 <div className="section-title section-title-left mb-50 wow fadeInDown">
                   <span className="sub-title">Get In Touch</span>
-                  <h2>Ready to Work Together! Join With Fintex</h2>
+                  <h2>Ready to Work Together! Join With HRCS</h2>
                 </div>
                 <div className="single-info-item animate-hover-icon d-flex mb-20 wow fadeInUp">
                   <div className="icon">
@@ -40,8 +40,8 @@ const Contact = () => {
                   <div className="info">
                     <h3 className="title">Email Us</h3>
                     <p>
-                      <a href="mailto:supportfintex@gmail.com">
-                        supportfintex@gmail.com
+                      <a href="mailto:supporthrcs@gmail.com">
+                        supporthrcs@gmail.com
                       </a>
                     </p>
                   </div>

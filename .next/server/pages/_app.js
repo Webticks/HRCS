@@ -1,74 +1,147 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 2888;
+exports.ids = [2888];
 exports.modules = {
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ 1693:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ \"./node_modules/slick-carousel/slick/slick-theme.css\");\n/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _src_layout_PreLoader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/layout/PreLoader */ \"./src/layout/PreLoader.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    const [loader, setLoader] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoader(false);\n        }, 1000);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"HRCS\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"assets/images/favicon.ico\",\n                        type: \"image/png\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/fontawesome/css/all.min.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/flaticon/flaticon.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 32,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/bootstrap/css/bootstrap.min.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 34,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/magnific-popup/dist/magnific-popup.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/slick/slick.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 44,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/jquery-ui/jquery-ui.min.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 46,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/nice-select/css/nice-select.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 51,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/animate.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 56,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/default.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 58,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/style.css\"\n                    }, void 0, false, {\n                        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                        lineNumber: 60,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, this),\n            loader && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_layout_PreLoader__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {}, void 0, false, {\n                fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                lineNumber: 62,\n                columnNumber: 18\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n                lineNumber: 63,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\pages\\\\_app.js\",\n        lineNumber: 15,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQTZCO0FBQ3lCO0FBQ1I7QUFDRTtBQUNqQjtBQUMvQixTQUFTSyxNQUFNLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFFLEVBQUU7SUFDdkMsTUFBTSxDQUFDQyxRQUFRQyxVQUFVLEdBQUdOLCtDQUFRQSxDQUFDLElBQUk7SUFDekNELGdEQUFTQSxDQUFDLElBQU07UUFDZFEsV0FBVyxJQUFNO1lBQ2ZELFVBQVUsS0FBSztRQUNqQixHQUFHO0lBQ0wsR0FBRyxFQUFFO0lBRUwscUJBQ0UsOERBQUNSLDJDQUFRQTs7MEJBQ1AsOERBQUNELGtEQUFJQTs7a0NBQ0gsOERBQUNXO2tDQUFNOzs7Ozs7a0NBSVAsOERBQUNDO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMQyxNQUFLOzs7Ozs7a0NBR1AsOERBQUNIO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLOzs7Ozs7a0NBR1AsOERBQUNGO3dCQUFLQyxLQUFJO3dCQUFhQyxNQUFLOzs7Ozs7a0NBRTVCLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDRjt3QkFBS0MsS0FBSTt3QkFBYUMsTUFBSzs7Ozs7O2tDQUU1Qiw4REFBQ0Y7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7Ozs7OztrQ0FHUCw4REFBQ0Y7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7Ozs7OztrQ0FHUCw4REFBQ0Y7d0JBQUtDLEtBQUk7d0JBQWFDLE1BQUs7Ozs7OztrQ0FFNUIsOERBQUNGO3dCQUFLQyxLQUFJO3dCQUFhQyxNQUFLOzs7Ozs7a0NBRTVCLDhEQUFDRjt3QkFBS0MsS0FBSTt3QkFBYUMsTUFBSzs7Ozs7Ozs7Ozs7O1lBRTdCTix3QkFBVSw4REFBQ0osNkRBQVNBOzs7OzswQkFDckIsOERBQUNFO2dCQUFXLEdBQUdDLFNBQVM7Ozs7Ozs7Ozs7OztBQUc5QjtBQUVBLGlFQUFlRixLQUFLQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZmludGV4LXJlYWN0Ly4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcbmltcG9ydCB7IEZyYWdtZW50LCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgXCJzbGljay1jYXJvdXNlbC9zbGljay9zbGljay10aGVtZS5jc3NcIjtcbmltcG9ydCBQcmVMb2FkZXIgZnJvbSBcIi4uL3NyYy9sYXlvdXQvUHJlTG9hZGVyXCI7XG5pbXBvcnQgXCIuLi9zdHlsZXMvZ2xvYmFscy5jc3NcIjtcbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xuICBjb25zdCBbbG9hZGVyLCBzZXRMb2FkZXJdID0gdXNlU3RhdGUodHJ1ZSk7XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICBzZXRMb2FkZXIoZmFsc2UpO1xuICAgIH0sIDEwMDApO1xuICB9LCBbXSk7XG5cbiAgcmV0dXJuIChcbiAgICA8RnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPlxuICAgICAgICAgIEhSQ1NcbiAgICAgICAgPC90aXRsZT5cbiAgICAgICAgey8qPT09PT09IEZhdmljb24gSWNvbiA9PT09PT0qL31cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzaG9ydGN1dCBpY29uXCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2ltYWdlcy9mYXZpY29uLmljb1wiXG4gICAgICAgICAgdHlwZT1cImltYWdlL3BuZ1wiXG4gICAgICAgIC8+XG4gICAgICAgIHsvKj09PT09PSBGb250QXdlc29tZSBjc3MgPT09PT09Ki99XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9mb250cy9mb250YXdlc29tZS9jc3MvYWxsLm1pbi5jc3NcIlxuICAgICAgICAvPlxuICAgICAgICB7Lyo9PT09PT0gRmxhdGljb24gY3NzID09PT09PSovfVxuICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImFzc2V0cy9mb250cy9mbGF0aWNvbi9mbGF0aWNvbi5jc3NcIiAvPlxuICAgICAgICB7Lyo9PT09PT0gQm9vdHN0cmFwIGNzcyA9PT09PT0qL31cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzXCJcbiAgICAgICAgLz5cbiAgICAgICAgey8qPT09PT09IG1hZ25pZmljLXBvcHVwIGNzcyA9PT09PT0qL31cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL3ZlbmRvci9tYWduaWZpYy1wb3B1cC9kaXN0L21hZ25pZmljLXBvcHVwLmNzc1wiXG4gICAgICAgIC8+XG4gICAgICAgIHsvKj09PT09PSBTbGljay1wb3B1cCBjc3MgPT09PT09Ki99XG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL3ZlbmRvci9zbGljay9zbGljay5jc3NcIiAvPlxuICAgICAgICB7Lyo9PT09PT0gSnF1ZXJ5IFVJIGNzcyA9PT09PT0qL31cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL3ZlbmRvci9qcXVlcnktdWkvanF1ZXJ5LXVpLm1pbi5jc3NcIlxuICAgICAgICAvPlxuICAgICAgICB7Lyo9PT09PT0gTmljZSBTZWxlY3QgY3NzID09PT09PSovfVxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvdmVuZG9yL25pY2Utc2VsZWN0L2Nzcy9uaWNlLXNlbGVjdC5jc3NcIlxuICAgICAgICAvPlxuICAgICAgICB7Lyo9PT09PT0gQW5pbWF0ZSBjc3MgPT09PT09Ki99XG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL3ZlbmRvci9hbmltYXRlLmNzc1wiIC8+XG4gICAgICAgIHsvKj09PT09PSBEZWZhdWx0IGNzcyA9PT09PT0qL31cbiAgICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL2RlZmF1bHQuY3NzXCIgLz5cbiAgICAgICAgey8qPT09PT09IFN0eWxlIGNzcyA9PT09PT0qL31cbiAgICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL3N0eWxlLmNzc1wiIC8+XG4gICAgICA8L0hlYWQ+XG4gICAgICB7bG9hZGVyICYmIDxQcmVMb2FkZXIgLz59XG4gICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgPC9GcmFnbWVudD5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgTXlBcHA7XG4iXSwibmFtZXMiOlsiSGVhZCIsIkZyYWdtZW50IiwidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJQcmVMb2FkZXIiLCJNeUFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImxvYWRlciIsInNldExvYWRlciIsInNldFRpbWVvdXQiLCJ0aXRsZSIsImxpbmsiLCJyZWwiLCJocmVmIiwidHlwZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+// EXTERNAL MODULE: ./node_modules/slick-carousel/slick/slick-theme.css
+var slick_theme = __webpack_require__(1598);
+;// CONCATENATED MODULE: ./src/layout/PreLoader.js
+
+const PreLoader = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: "preloader",
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "loader",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "pre-shadow"
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "pre-box"
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const layout_PreLoader = (PreLoader);
+
+// EXTERNAL MODULE: ./styles/globals.css
+var globals = __webpack_require__(6764);
+;// CONCATENATED MODULE: ./pages/_app.js
+
+
+
+
+
+
+function MyApp({ Component , pageProps  }) {
+    const [loader, setLoader] = (0,external_react_.useState)(true);
+    (0,external_react_.useEffect)(()=>{
+        setTimeout(()=>{
+            setLoader(false);
+        }, 1000);
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                        children: "HRCS"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "shortcut icon",
+                        href: "assets/images/favicon.ico",
+                        type: "image/png"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/fonts/fontawesome/css/all.min.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/fonts/flaticon/flaticon.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/vendor/bootstrap/css/bootstrap.min.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/vendor/magnific-popup/dist/magnific-popup.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/vendor/slick/slick.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/vendor/jquery-ui/jquery-ui.min.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/vendor/nice-select/css/nice-select.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/vendor/animate.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/default.css"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/style.css"
+                    })
+                ]
+            }),
+            loader && /*#__PURE__*/ jsx_runtime_.jsx(layout_PreLoader, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            })
+        ]
+    });
+}
+/* harmony default export */ const _app = (MyApp);
+
 
 /***/ }),
 
-/***/ "./src/layout/PreLoader.js":
-/*!*********************************!*\
-  !*** ./src/layout/PreLoader.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst PreLoader = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"preloader\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"loader\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"pre-shadow\"\n                }, void 0, false, {\n                    fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\src\\\\layout\\\\PreLoader.js\",\n                    lineNumber: 5,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"pre-box\"\n                }, void 0, false, {\n                    fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\src\\\\layout\\\\PreLoader.js\",\n                    lineNumber: 6,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\src\\\\layout\\\\PreLoader.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"G:\\\\02 - Client Work\\\\Webticks\\\\HRCS\\\\src\\\\layout\\\\PreLoader.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PreLoader);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGF5b3V0L1ByZUxvYWRlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTtBQUFBLE1BQU1BLFlBQVksSUFBTTtJQUN0QixxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTtrQkFDYiw0RUFBQ0Q7WUFBSUMsV0FBVTs7OEJBQ2IsOERBQUNEO29CQUFJQyxXQUFVOzs7Ozs7OEJBQ2YsOERBQUNEO29CQUFJQyxXQUFVOzs7Ozs7Ozs7Ozs7Ozs7OztBQUl2QjtBQUNBLGlFQUFlRixTQUFTQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZmludGV4LXJlYWN0Ly4vc3JjL2xheW91dC9QcmVMb2FkZXIuanM/MzY4NSJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBQcmVMb2FkZXIgPSAoKSA9PiB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXYgY2xhc3NOYW1lPVwicHJlbG9hZGVyXCI+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9hZGVyXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcmUtc2hhZG93XCI+PC9kaXY+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcmUtYm94XCI+PC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufTtcclxuZXhwb3J0IGRlZmF1bHQgUHJlTG9hZGVyO1xyXG4iXSwibmFtZXMiOlsiUHJlTG9hZGVyIiwiZGl2IiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/layout/PreLoader.js\n");
-
-/***/ }),
-
-/***/ "./node_modules/slick-carousel/slick/slick-theme.css":
-/*!***********************************************************!*\
-  !*** ./node_modules/slick-carousel/slick/slick-theme.css ***!
-  \***********************************************************/
+/***/ 1598:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
+/***/ 6764:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -76,14 +149,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -94,7 +164,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(1693));
 module.exports = __webpack_exports__;
 
 })();

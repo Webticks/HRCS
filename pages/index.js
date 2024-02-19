@@ -240,14 +240,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/service-details">
+                          <Link legacyBehavior >
                             <a>Consulting Services</a>
                           </Link>
                         </h3>
                         <p>
                           Comprehensive consulting for high-rise building compliance.
                         </p>
-                        <Link legacyBehavior href="/service-details">
+                        <Link legacyBehavior >
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -260,14 +260,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/service-details">
+                          <Link legacyBehavior >
                             <a>Technical labour solution</a>
                           </Link>
                         </h3>
                         <p>
                           Technical labor solutions catering to the unique needs of high-rise buildings.
                         </p>
-                        <Link legacyBehavior href="/service-details">
+                        <Link legacyBehavior >
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -310,14 +310,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/service-details">
+                          <Link legacyBehavior >
                             <a>Fire safety log management</a>
                           </Link>
                         </h3>
                         <p>
                           Efficient fire safety log management services.
                         </p>
-                        <Link legacyBehavior href="/service-details">
+                        <Link legacyBehavior >
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -330,14 +330,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/service-details">
+                          <Link legacyBehavior >
                             <a>Compliance audits</a>
                           </Link>
                         </h3>
                         <p>
                           Expertise in conducting compliance audits for high-rise structures.
                         </p>
-                        <Link legacyBehavior href="/service-details">
+                        <Link legacyBehavior >
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
