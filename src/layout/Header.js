@@ -221,12 +221,6 @@ const Header2 = ({ singleMenus }) => (
                   </a>
                 </li>
               </ul>
-              <div className="lang-dropdown">
-                <select className="">
-                  <option value={1}>English</option>
-                  <option value={2}>Russian</option>
-                </select>
-              </div>
             </div>
           </div>
         </div>
@@ -546,12 +540,12 @@ const Menus = () => (
           </ul>
         </li> */}
         <li className="menu-item">
-          <Link legacyBehavior >
+          <Link legacyBehavior href="about">
             Home
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior >
+          <Link legacyBehavior href="about">
             About
           </Link>
         </li>
@@ -559,12 +553,12 @@ const Menus = () => (
           <a href="#">Services</a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior >
+              <Link legacyBehavior href="">
                 Our Services
               </Link>
             </li>
             <li>
-              <Link legacyBehavior >
+              <Link legacyBehavior href="">
                 Service Details
               </Link>
             </li>
