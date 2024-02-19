@@ -15,7 +15,7 @@ const MobileMenu = () => {
     <Fragment>
       <nav className="main-menu d-block d-xl-none">
         <ul>
-          <li className="menu-item has-children">
+          {/* <li className="menu-item has-children">
             <a href="#">Home</a>
             <ul className="sub-menu" style={activeLi("home")}>
               <li className="has-children">
@@ -94,7 +94,7 @@ const MobileMenu = () => {
             <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
               <i className="far fa-angle-down" />
             </span>
-          </li>
+          </li> */}
           <li className="menu-item">
             <Link legacyBehavior href="about">
               About
@@ -104,12 +104,12 @@ const MobileMenu = () => {
             <a href="#">Services</a>
             <ul className="sub-menu" style={activeLi("services")}>
               <li>
-                <Link legacyBehavior href="services">
+                <Link legacyBehavior href="/">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="service-details">
+                <Link legacyBehavior href="/">
                   Service Details
                 </Link>
               </li>
