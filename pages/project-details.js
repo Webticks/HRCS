@@ -52,7 +52,7 @@ const PProjectDetails = () => {
               </div>
               {/*=== Block Image ===*/}
               <figure className="block-image mb-30 wow fadeInUp">
-                <Image src="assets/images/project/project-single-1.jpg" alt="" />
+                <img src="assets/images/project/project-single-1.jpg" alt="" />
               </figure>
               {/*=== Content Block ===*/}
               <div className="content-block mb-35 wow fadeInUp">
@@ -142,7 +142,7 @@ const PProjectDetails = () => {
               <div className="row">
                 <div className="col-md-6">
                   <figure className="block-image mb-40 wow fadeInUp">
-                    <Image
+                    <img
                       src="assets/images/project/project-single-2.jpg"
                       alt=""
                     />
@@ -150,7 +150,7 @@ const PProjectDetails = () => {
                 </div>
                 <div className="col-md-6">
                   <figure className="block-image mb-40 wow fadeInUp">
-                    <Image
+                    <img
                       src="assets/images/project/project-single-3.jpg"
                       alt=""
                     />
@@ -179,7 +179,7 @@ const PProjectDetails = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="prev-post post-nav-item d-flex align-items-center mb-30">
                     <div className="thumb">
-                      <Image
+                      <img
                         src="assets/images/project/prev.jpg"
                         alt="Post Thumb"
                       />
@@ -199,7 +199,7 @@ const PProjectDetails = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="next-post post-nav-item d-flex align-items-center mb-30">
                     <div className="thumb">
-                      <Image
+                      <img
                         src="assets/images/project/next.jpg"
                         alt="Post Thumb"
                       />

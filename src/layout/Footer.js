@@ -142,7 +142,7 @@ const DefaultFooter = () => (
                 <div className="footer-widget-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <Image src="assets/images/logo/footer-logo-1.png" alt="" />
+                      <img src="assets/images/logo/footer-logo-1.png" alt="" />
                     </a>
                   </Link>
                 </div>
@@ -233,7 +233,7 @@ const Footer2 = () => (
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <Image
+                      <img
                         src="assets/images/logo/footer-logo-2.png"
                         alt="Footer Logo"
                       />
@@ -355,7 +355,7 @@ const Footer3 = () => (
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <Image
+                      <img
                         src="assets/images/logo/logo-3.png"
                         alt="Footer Logo"
                       />
@@ -504,7 +504,7 @@ const Footer4 = () => (
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <Image
+                      <img
                         src="assets/images/logo/logo-4.png"
                         alt="Footer Logo"
                       />
@@ -673,7 +673,7 @@ const Footer5 = () => (
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <Image
+                      <img
                         src="assets/images/logo/logo-4.png"
                         alt="Footer Logo"
                       />

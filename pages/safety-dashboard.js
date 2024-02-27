@@ -89,7 +89,7 @@ const SafetyDashboard = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <Image
+                                <img
                                     src="assets/images/services/safetyDashboards.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"
