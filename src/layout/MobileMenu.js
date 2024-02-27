@@ -4,18 +4,18 @@ const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   const multiMenuSet = (value) =>
-      setMultiMenu(multiMenu === value ? "" : value),
+    setMultiMenu(multiMenu === value ? "" : value),
     multiMenuActiveLi = (value) =>
       value === multiMenu ? { display: "block" } : { display: "none" };
   return (
     <Fragment>
       <nav className="main-menu d-block d-xl-none">
         <ul>
-          {/* <li className="menu-item has-children">
+          <li className="menu-item has-children">
             <a href="#">Home</a>
             <ul className="sub-menu" style={activeLi("home")}>
               <li className="has-children">
@@ -94,7 +94,7 @@ const MobileMenu = () => {
             <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
               <i className="far fa-angle-down" />
             </span>
-          </li> */}
+          </li>
           <li className="menu-item">
             <Link legacyBehavior href="about">
               About
@@ -104,13 +104,43 @@ const MobileMenu = () => {
             <a href="#">Services</a>
             <ul className="sub-menu" style={activeLi("services")}>
               <li>
-                <Link legacyBehavior href="/">
-                  Our Services
+                <Link legacyBehavior href="compliance-audits">
+                  Compliance Audits
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="/">
-                  Service Details
+                <Link legacyBehavior href="fire-log-compliance">
+                  Fire Log Compliance
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="certification-compliance">
+                  Certification Compliance
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="inspection-services">
+                  Inspection Services
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="risk-management">
+                  Risk Management
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="safety-dashboard">
+                  Safety Dashboards
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="Labor Solutions">
+                  Labor Solutions
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="training-education">
+                  Training and Education
                 </Link>
               </li>
             </ul>
@@ -121,7 +151,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </li>
-          {/* <li className="menu-item has-children">
+          <li className="menu-item has-children">
             <a href="#">Team</a>
             <ul className="sub-menu" style={activeLi("team")}>
               <li>
@@ -251,7 +281,7 @@ const MobileMenu = () => {
             <span className="dd-trigger" onClick={() => activeMenuSet("blog")}>
               <i className="far fa-angle-down" />
             </span>
-          </li> */}
+          </li>
           <li className="menu-item">
             <Link legacyBehavior href="contact">
               Contact

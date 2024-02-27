@@ -280,6 +280,14 @@ label {
   height: 60px;
   border: none;
 }
+.custom-select {
+  width: 100%; /* Set the width as needed */
+  padding: 8px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  box-sizing: border-box; /* Ensure padding and border don't increase the total width */
+  margin-top: 5px; /* Add margin to separate it from the label */
+}
 
 textarea.form_control {
   padding-top: 15px;
@@ -303,7 +311,7 @@ textarea.form_control {
 
 .sub-title {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 24px;
   color: #EDC253;
 }
@@ -2601,7 +2609,7 @@ button {
   max-width: 260px;
   margin-left: auto;
   margin-right: 35px;
-  margin-top: -50px;
+  margin-top: -35px;
   border-radius: 5px;
 }
 .service-item .text {
@@ -2920,8 +2928,8 @@ button {
 }
 .optimization-one_image-box .big-logo {
   position: absolute;
-  left: -65px;
-  top: 50%;
+  left: -105px;
+  top: 90%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }

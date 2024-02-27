@@ -540,12 +540,13 @@ const Menus = () => (
           </ul>
         </li> */}
         <li className="menu-item">
-          <Link legacyBehavior href="about">
+          <Link legacyBehavior href="/">
             Home
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="about">
+          {/* <Link legacyBehavior href="about"> */}
+          <Link legacyBehavior href="/">
             About
           </Link>
         </li>
@@ -553,13 +554,43 @@ const Menus = () => (
           <a href="#">Services</a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="">
-                Our Services
+              <Link legacyBehavior href="compliance-audits">
+                Compliance Audits
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="">
-                Service Details
+              <Link legacyBehavior href="fire-log-compliance">
+                Fire Log Compliance
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="certification-compliance">
+                Certification Compliance
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="inspection-services">
+                Inspection Services
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="risk-management">
+                Risk Management
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="safety-dashboard">
+                Safety Dashboards
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="Labor Solutions">
+                Labor Solutions
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="training-education">
+                Training and Education
               </Link>
             </li>
           </ul>

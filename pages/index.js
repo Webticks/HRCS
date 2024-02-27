@@ -170,51 +170,6 @@ const Index = () => {
       </section>
       {/*====== End Hero Section ======*/}
 
-      {/*====== Start Fact Section ======*/}
-      <section className="p-r z-1 pt-70">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="fact-wrapper ml-lg-55">
-                <div className="row justify-content-center">
-                  <div className="col-lg-4 col-md-6 col-sm-12">
-                    <div className="single-counter-item-three text-center mb-40 wow fadeInDown">
-                      <div className="text">
-                        <h2 className="number">
-                          <Counter end={690} />+
-                        </h2>
-                        <h5>Completed Projects</h5>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12">
-                    <div className="single-counter-item-three text-center mb-40 wow fadeInUp">
-                      <div className="text">
-                        <h2 className="number">
-                          <Counter end={500} />+
-                        </h2>
-                        <h5>Happy Clients</h5>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12">
-                    <div className="single-counter-item-three text-center mb-40 wow fadeInDown">
-                      <div className="text">
-                        <h2 className="number">
-                          <Counter end={1090} />+
-                        </h2>
-                        <h5>Workers Employed</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Fact Section ======*/}
-
       {/*====== Start Service section ======*/}
       <section className="pt-70">
         <div className="container">
@@ -240,14 +195,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/">
+                          <Link legacyBehavior href="/certification-compliance">
                             <a>Consulting Services</a>
                           </Link>
                         </h3>
                         <p>
                           Comprehensive consulting for high-rise building compliance.
                         </p>
-                        <Link legacyBehavior href="/">
+                        <Link legacyBehavior href="/certification-compliance">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -260,14 +215,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/">
+                          <Link legacyBehavior href="/labor-solutions">
                             <a>Technical labour solution</a>
                           </Link>
                         </h3>
                         <p>
                           Technical labor solutions catering to the unique needs of high-rise buildings.
                         </p>
-                        <Link legacyBehavior href="/">
+                        <Link legacyBehavior href="/labor-solutions">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -310,14 +265,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/">
+                          <Link legacyBehavior href="/fire-log-compliance">
                             <a>Fire safety log management</a>
                           </Link>
                         </h3>
                         <p>
                           Efficient fire safety log management services.
                         </p>
-                        <Link legacyBehavior href="/">
+                        <Link legacyBehavior href="/fire-log-compliance">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -330,14 +285,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/">
+                          <Link legacyBehavior href="/compliance-audits">
                             <a>Compliance audits</a>
                           </Link>
                         </h3>
                         <p>
                           Expertise in conducting compliance audits for high-rise structures.
                         </p>
-                        <Link legacyBehavior href="/">
+                        <Link legacyBehavior href="/compliance-audits">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -401,7 +356,7 @@ const Index = () => {
                   </div>
                 </div>
                 <img
-                  src="assets/images/gallery/img-1.jpg"
+                  src="assets/images/services/missionImg.png"
                   className="wow fadeInDown"
                   alt="Fact image"
                 />
@@ -415,34 +370,8 @@ const Index = () => {
                   <h2>Safety Elevated Excellence</h2>
                 </div>
                 <p className="wow fadeInUp">
-                  At High Rise Compliance Solutions LLC, our mission is to ensure superior fire and life safety for all buildings. We lead with expertise and innovation, streamlining compliance, mitigating risks, and upholding the highest ethical standards.
+                High Rise Compliance Solutions LLC ensures safety through tailored risk management for buildings. Our expertise leads in fire & life safety compliance, empowering stakeholders for a secure work environment. As a trusted partner, we ensure regulatory compliance, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, we prioritize our team's well-being and professional growth. Through competitive benefits and ongoing training, we deliver exceptional solutions, contributing to a safer world.
                 </p>
-                <div className="single-counter-item d-flex align-items-center mb-40 wow fadeInDown">
-                  <div className="icon">
-                    <a href="#">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <div className="text d-flex justify-content-between align-items-center">
-                    <h2 className="number">
-                      <Counter end={2359} />
-                    </h2>
-                    <h5>Projects Completed in Last 5 Years</h5>
-                  </div>
-                </div>
-                <div className="single-counter-item d-flex align-items-center mb-40 wow fadeInDown">
-                  <div className="icon">
-                    <a href="#">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <div className="text d-flex justify-content-between">
-                    <h2 className="number">
-                      <Counter end={5368} />
-                    </h2>
-                    <h5>Happy Global Customers Who Trusted Us</h5>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -457,17 +386,17 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="about-four_image-box p-r z-1">
                 <img
-                  src="assets/images/about/about-6.jpg"
+                  src="assets/images/about/about3.png"
                   className="about-img-one wow fadeInDown"
                   alt="About Image"
                 />
                 <img
-                  src="assets/images/about/about-7.jpg"
+                  src="assets/images/about/about1.png"
                   className="about-img-two wow fadeInLeft"
                   alt="About Image"
                 />
                 <img
-                  src="assets/images/about/about-8.jpg"
+                  src="assets/images/about/about2.png"
                   className="about-img-three wow fadeInUp"
                   alt="About Image"
                 />
@@ -577,108 +506,6 @@ const Index = () => {
         </div>
       </section>
       {/*====== Start Advantage Section ======*/}
-      {/*====== Start Projects Section ======*/}
-      <section className="project-section pt-125">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              {/*=== Common Heading ===*/}
-              <div className="section-title text-center mb-60 wow fadeInDown">
-                <span className="sub-title">Latest Project &amp; Case</span>
-                <h2>Let’s Looks Our Global Projects</h2>
-              </div>
-            </div>
-          </div>
-          {/*=== Projects Slider ===*/}
-          <Slider {...projectsSliderTwo} className="projects-slider-two">
-            {/*=== Project Item ===*/}
-            <div className="project-item-two mb-50 wow fadeInUp">
-              <div className="img-holder">
-                <img
-                  src="assets/images/project/img-6.jpg"
-                  alt="project image"
-                />
-              </div>
-              <div className="project-content">
-                <h3 className="title">
-                  <Link legacyBehavior href="/project-details">
-                    <a>Working Space</a>
-                  </Link>
-                </h3>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/*=== Project Item ===*/}
-            <div className="project-item-two mb-50 wow fadeInUp">
-              <div className="img-holder">
-                <img
-                  src="assets/images/project/img-7.jpg"
-                  alt="project image"
-                />
-              </div>
-              <div className="project-content">
-                <h3 className="title">
-                  <Link legacyBehavior href="/project-details">
-                    <a>Team Meeting</a>
-                  </Link>
-                </h3>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/*=== Project Item ===*/}
-            <div className="project-item-two mb-50 wow fadeInUp">
-              <div className="img-holder">
-                <img
-                  src="assets/images/project/img-8.jpg"
-                  alt="project image"
-                />
-              </div>
-              <div className="project-content">
-                <h3 className="title">
-                  <Link legacyBehavior href="/project-details">
-                    <a>Investment Solutions</a>
-                  </Link>
-                </h3>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/*=== Project Item ===*/}
-            <div className="project-item-two mb-50 wow fadeInUp">
-              <div className="img-holder">
-                <img
-                  src="assets/images/project/img-7.jpg"
-                  alt="project image"
-                />
-              </div>
-              <div className="project-content">
-                <h3 className="title">
-                  <Link legacyBehavior href="/project-details">
-                    <a>Team Meeting</a>
-                  </Link>
-                </h3>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
-      {/*====== End Projects Section ======*/}
 
       {/*====== Start Feedback Section ======*/}
       <section className="testimonial-section-variable-width pt-120">
@@ -819,7 +646,7 @@ const Index = () => {
               <div className="map-one_content-box mb-50 wow fadeInDown">
                 <div className="section-title section-title-left mb-50">
                   <span className="sub-title">Get In Touch</span>
-                  <h2>Ready to Get Free Consultations ?</h2>
+                  <h2>Request for Proposal</h2>
                 </div>
                 <div className="map-box">
                   <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
@@ -851,11 +678,11 @@ const Index = () => {
                         <input
                           type="text"
                           className="form_control"
-                          placeholder="Phone Number"
-                          name="phone"
+                          placeholder="Company Name"
+                          name="name"
                           required=""
                         />
-                        <i className="fal fa-mobile-alt" />
+                        <i className="far fa-user" />
                       </div>
                     </div>
                     <div className="col-lg-12">
@@ -875,23 +702,60 @@ const Index = () => {
                         <input
                           type="text"
                           className="form_control"
-                          placeholder="Subject"
-                          name="subject"
+                          placeholder="Phone Number"
+                          name="phone"
                           required=""
                         />
-                        <i className="far fa-engine-warning" />
+                        <i className="fal fa-mobile-alt" />
                       </div>
                     </div>
+
+                    <div className="col-lg-12" >
+                      <label htmlFor="check1">
+                        <span>
+                          What service or system are you interested in?
+                        </span>
+                      </label>
+                    </div>
                     <div className="col-lg-12">
-                      <div className="form_group">
-                        <textarea
-                          className="form_control"
-                          placeholder="Write Message........."
-                          name="message"
-                          defaultValue={""}
-                        />
-                        <i className="far fa-pencil" />
-                      </div>
+                      <select id="check1" name="serviceSelection" className="custom-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        {/* Add more options as needed */}
+                      </select>
+                    </div>
+
+                    <div className="col-lg-12">
+                      <label htmlFor="check1">
+                        <span>
+                          How did you hear about us?
+                        </span>
+                      </label>
+                    </div>
+                    <div className="col-lg-12">
+                      <select id="check1" name="serviceSelection" className="custom-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        {/* Add more options as needed */}
+                      </select>
+                    </div>
+
+                    <div className="col-lg-12">
+                      <label htmlFor="check1">
+                        <span>
+                          State
+                        </span>
+                      </label>
+                    </div>
+                    <div className="col-lg-12">
+                      <select id="check1" name="serviceSelection" className="custom-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        {/* Add more options as needed */}
+                      </select>
                     </div>
                     <div className="col-lg-12">
                       <div className="form_checkbox">

@@ -84,22 +84,28 @@ const DefaultFooter = () => (
               <div className="footer-content">
                 <ul className="widget-nav">
                   <li>
-                    <a href="#">Business Consulting</a>
+                    <a href="compliance-audits">Compliance Audits</a>
                   </li>
                   <li>
-                    <a href="#">Financial Investment</a>
+                    <a href="fire-log-compliance">Fire Log Compliance</a>
                   </li>
                   <li>
-                    <a href="#">Corporate Business</a>
+                    <a href="certification-compliance">Certification Compliance</a>
                   </li>
                   <li>
-                    <a href="#">IT Consulting</a>
+                    <a href="inspection-services">Inspection Services</a>
                   </li>
                   <li>
-                    <a href="#">Web Strategy</a>
+                    <a href="risk-management">Risk Management</a>
                   </li>
                   <li>
-                    <a href="#">Business Development</a>
+                    <a href="safety-dashboard">Safety Dashboards</a>
+                  </li>
+                  <li>
+                    <a href="Labor Solutions">Labor Solutions</a>
+                  </li>
+                  <li>
+                    <a href="training-education">Training and Education</a>
                   </li>
                 </ul>
               </div>
@@ -269,22 +275,28 @@ const Footer2 = () => (
               <div className="footer-content">
                 <ul className="widget-nav">
                   <li>
-                    <a href="#">Business Consulting</a>
+                    <a href="compliance-audits">Compliance Audits</a>
                   </li>
                   <li>
-                    <a href="#">Financial Investment</a>
+                    <a href="fire-log-compliance">Fire Log Compliance</a>
                   </li>
                   <li>
-                    <a href="#">Corporate Business</a>
+                    <a href="certification-compliance">Certification Compliance</a>
                   </li>
                   <li>
-                    <a href="#">IT Consulting</a>
+                    <a href="inspection-services">Inspection Services</a>
                   </li>
                   <li>
-                    <a href="#">Web Strategy</a>
+                    <a href="risk-management">Risk Management</a>
                   </li>
                   <li>
-                    <a href="#">Business Development</a>
+                    <a href="safety-dashboard">Safety Dashboards</a>
+                  </li>
+                  <li>
+                    <a href="Labor Solutions">Labor Solutions</a>
+                  </li>
+                  <li>
+                    <a href="training-education">Training and Education</a>
                   </li>
                 </ul>
               </div>
