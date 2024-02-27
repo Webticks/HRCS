@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import FintexAccordion from "../src/components/FintexAccordion";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const LaborSolutions = () => {
     const faqsData = [
         { title: "Automation and Controls Specialists", answer: "These experts play a pivotal role in ensuring the seamless functioning of building automation systems and control mechanisms. They specialize in the installation, maintenance, and troubleshooting of these systems, ensuring optimal performance and integration with fire and life safety systems." },
@@ -84,7 +84,7 @@ const LaborSolutions = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/labor2.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

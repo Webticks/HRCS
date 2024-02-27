@@ -1,6 +1,7 @@
 import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
+import Image from "next/image";
 const Contact = () => {
   return (
     <Layout>
@@ -11,7 +12,7 @@ const Contact = () => {
             <div className="col-lg-6">
               {/*=== Information Image Box ===*/}
               <div className="information-one_img-box mb-50 wow fadeInLeft">
-                <img
+                <Image
                   src="assets/images/contact/img-1.jpg"
                   alt="Contact Image"
                 />
@@ -26,7 +27,7 @@ const Contact = () => {
                 </div>
                 <div className="single-info-item animate-hover-icon d-flex mb-20 wow fadeInUp">
                   <div className="icon">
-                    <img src="assets/images/icon/icon-1.png" alt="Icon" />
+                    <Image src="assets/images/icon/icon-1.png" alt="Icon" />
                   </div>
                   <div className="info">
                     <h3 className="title">Loaction</h3>
@@ -35,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div className="single-info-item animate-hover-icon d-flex mb-20 wow fadeInUp">
                   <div className="icon">
-                    <img src="assets/images/icon/icon-2.png" alt="Icon" />
+                    <Image src="assets/images/icon/icon-2.png" alt="Icon" />
                   </div>
                   <div className="info">
                     <h3 className="title">Email Us</h3>
@@ -48,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div className="single-info-item animate-hover-icon d-flex mb-20 wow fadeInUp">
                   <div className="icon">
-                    <img src="assets/images/icon/icon-3.png" alt="Icon" />
+                    <Image src="assets/images/icon/icon-3.png" alt="Icon" />
                   </div>
                   <div className="info">
                     <h3 className="title">Phone Number</h3>

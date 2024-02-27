@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const LatestServices = () => {
   const services = [
@@ -70,7 +71,7 @@ const ServiceItem = ({ imgSrc, title, link, description }) => (
   <div className="col-lg-3 col-md-6 mb-4">
     <div className="service-item wow fadeInUp">
       <div className="img-holder">
-        <img src={imgSrc} alt="service image" style={{ height: '190px', width: '100%' }} />
+        <Image src={imgSrc} alt="service image" style={{ height: '190px', width: '100%' }} />
       </div>
       <div className="service-content">
         <div className="text">

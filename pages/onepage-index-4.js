@@ -4,6 +4,7 @@ import Counter from "../src/components/Counter";
 import Index4Accordion from "../src/components/Index4Accordion";
 import Layout from "../src/layout/Layout";
 import { partnerSliderOne, testimonialSliderFour } from "../src/sliderProps";
+import Image from "next/image";
 const IndexSingle4 = () => {
   const singleMenus = [
     { name: "Home", href: "onepage-home" },
@@ -21,22 +22,22 @@ const IndexSingle4 = () => {
       <section className="banner-four p-r z-1" id="onepage-home">
         <div className="shape shape-one animate-float-x">
           <span>
-            <img src="assets/images/hero/h-shape-1.png" alt="Shape" />
+            <Image src="assets/images/hero/h-shape-1.png" alt="Shape" />
           </span>
         </div>
         <div className="shape shape-two">
           <span>
-            <img src="assets/images/hero/h-shape-2.png" alt="Shape" />
+            <Image src="assets/images/hero/h-shape-2.png" alt="Shape" />
           </span>
         </div>
         <div className="shape shape-three">
           <span>
-            <img src="assets/images/hero/h-shape-3.png" alt="Shape" />
+            <Image src="assets/images/hero/h-shape-3.png" alt="Shape" />
           </span>
         </div>
         <div className="shape shape-four animate-float-x">
           <span>
-            <img src="assets/images/hero/h-shape-4.png" alt="Shape" />
+            <Image src="assets/images/hero/h-shape-4.png" alt="Shape" />
           </span>
         </div>
         <div className="shape-dot shape-dot-one animate-float-y">
@@ -88,7 +89,7 @@ const IndexSingle4 = () => {
             </div>
             <div className="col-xl-5">
               <div className="hero-img-box wow fadeInRight" data-wow-delay="1s">
-                <img
+                <Image
                   src="assets/images/hero/hero-four-1.png"
                   alt="Hero Image"
                 />
@@ -111,7 +112,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-13.png"
                       alt="Partner Image"
                     />
@@ -121,7 +122,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-14.png"
                       alt="Partner Image"
                     />
@@ -131,7 +132,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-15.png"
                       alt="Partner Image"
                     />
@@ -141,7 +142,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-16.png"
                       alt="Partner Image"
                     />
@@ -151,7 +152,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-17.png"
                       alt="Partner Image"
                     />
@@ -161,7 +162,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-18.png"
                       alt="Partner Image"
                     />
@@ -171,7 +172,7 @@ const IndexSingle4 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-15.png"
                       alt="Partner Image"
                     />
@@ -245,7 +246,7 @@ const IndexSingle4 = () => {
             </div>
             <div className="col-xl-6 col-lg-12">
               <div className="service-one_image-box text-center mb-20 p-r z-1 wow fadeInDown">
-                <img
+                <Image
                   src="assets/images/service/img-7.png"
                   className="service-one-img"
                   alt="Service Image"
@@ -325,17 +326,17 @@ const IndexSingle4 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-four_image-box p-r z-1">
-                <img
+                <Image
                   src="assets/images/about/about-6.jpg"
                   className="about-img-one wow fadeInDown"
                   alt="About Image"
                 />
-                <img
+                <Image
                   src="assets/images/about/about-7.jpg"
                   className="about-img-two wow fadeInLeft"
                   alt="About Image"
                 />
-                <img
+                <Image
                   src="assets/images/about/about-8.jpg"
                   className="about-img-three wow fadeInUp"
                   alt="About Image"
@@ -345,7 +346,7 @@ const IndexSingle4 = () => {
                 </div>
                 <div className="shape shape-one animate-float-x">
                   <span>
-                    <img src="assets/images/shape/pattern-bg-2.png" alt="" />
+                    <Image src="assets/images/shape/pattern-bg-2.png" alt="" />
                   </span>
                 </div>
               </div>
@@ -473,7 +474,7 @@ const IndexSingle4 = () => {
                   On the other hand denounce righteous indignation dislike mens
                   who beguiled and demoralized charmso pleasure
                 </p>
-                <img
+                <Image
                   src="assets/images/gallery/graph-2.png"
                   alt="Graph Image"
                 />
@@ -507,7 +508,7 @@ const IndexSingle4 = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -529,7 +530,7 @@ const IndexSingle4 = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-6.jpg"
                     alt="Author Thumb"
                   />
@@ -551,7 +552,7 @@ const IndexSingle4 = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -573,7 +574,7 @@ const IndexSingle4 = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -595,7 +596,7 @@ const IndexSingle4 = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -664,7 +665,7 @@ const IndexSingle4 = () => {
             </div>
             <div className="col-lg-6">
               <div className="skill-img-box mb-50 text-lg-right text-md-center p-r z-1 wow fadeInRight">
-                <img src="assets/images/gallery/skill-2.png" alt="" />
+                <Image src="assets/images/gallery/skill-2.png" alt="" />
                 <div className="circle-border">
                   <span />
                   <span />
@@ -680,10 +681,10 @@ const IndexSingle4 = () => {
         <div className="container">
           <div className="newsletter-wrapper-two pt-80 pb-80 wow fadeInLeft">
             <div className="shape-svg">
-              <img src="assets/images/shape/shape-10.png" alt="Shape" />
+              <Image src="assets/images/shape/shape-10.png" alt="Shape" />
             </div>
             <div className="newsletter-image-box">
-              <img
+              <Image
                 src="assets/images/gallery/newsletter-1.jpg"
                 className="newsletter-image-one"
                 alt=""

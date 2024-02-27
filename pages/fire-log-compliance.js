@@ -5,7 +5,7 @@ import FintexAccordion from "../src/components/FintexAccordion";
 import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const FireLogCompliance = () => {
     const faqsData = [
         { title: "Compliance Assurance", answer: "We stay updated with the latest fire safety regulations, codes, and standards. Our service ensures that your Fire Safety Log Book remains fully compliant, reducing the risk of violations and penalties." },
@@ -60,7 +60,7 @@ const FireLogCompliance = () => {
                                     Maintaining a comprehensive and up-to-date Fire Safety Log Book is crucial for the safety and compliance
                                     of any facility. However, the task can be complex and time-consuming, often requiring meticulous
                                     record-keeping and in-depth knowledge of fire safety regulations. Our Fire Safety Log Book Compliance
-                                    Management Service is designed to relieve you of this burden, ensuring that your facility's fire safety
+                                    Management Service is designed to relieve you of this burden, ensuring that your facility&apos;s fire safety
                                     records are always in compliance with the latest regulations and readily accessible when needed.
                                 </p>
                             </div>
@@ -96,7 +96,7 @@ const FireLogCompliance = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/logBookRed.png"
                                     className="optimization-img-one"
                                     alt="optimization image"

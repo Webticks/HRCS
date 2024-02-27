@@ -5,6 +5,7 @@ import FintexAccordion from "../src/components/FintexAccordion";
 import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
+import Image from "next/image";
 const ServiceDetails = () => {
   const faqsData = [
     { title: "How to Getting Started your Business" },
@@ -60,19 +61,19 @@ const ServiceDetails = () => {
             <div className="col-lg-6">
               {/*=== Solution Image Box ===*/}
               <div className="solution-one_image-box p-r mb-50">
-                <img
+                <Image
                   src="assets/images/gallery/solution-1.jpg"
                   className="solution-img-one wow fadeInRight"
                   alt=""
                 />
-                <img
+                <Image
                   src="assets/images/gallery/solution-2.jpg"
                   className="solution-img-two wow fadeInLeft"
                   alt=""
                 />
                 <div className="company-card text-center wow fadeInUp">
                   <h5 className="title">Company Yearly Graph</h5>
-                  <img src="assets/images/gallery/graph.png" alt="" />
+                  <Image src="assets/images/gallery/graph.png" alt="" />
                 </div>
               </div>
             </div>
@@ -87,7 +88,7 @@ const ServiceDetails = () => {
             <div className="col-lg-6">
               {/*=== Management Image Box ===*/}
               <div className="management-one_img-box mb-50 wow fadeInLeft">
-                <img
+                <Image
                   src="assets/images/gallery/img-4.jpg"
                   alt="management image"
                 />
@@ -269,7 +270,7 @@ const ServiceDetails = () => {
             <div className="col-xl-7 col-lg-6">
               {/*=== Optimization Image Box ===*/}
               <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                <img
+                <Image
                   src="assets/images/gallery/optimization-1.jpg"
                   className="optimization-img-one"
                   alt="optimization image"
@@ -277,7 +278,7 @@ const ServiceDetails = () => {
                 <div className="big-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img
+                      <Image
                         src="assets/images/logo/big-logo-2.png"
                         alt="Site Logo"
                       />

@@ -4,6 +4,7 @@ import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import { gallerySlider, videoSlider } from "../src/sliderProps";
+import Image from "next/image";
 const JobDetails = () => {
   return (
     <Layout>
@@ -17,7 +18,7 @@ const JobDetails = () => {
                 {/*=== Single Job Item ===*/}
                 <div className="single-job-item d-flex mb-30 wow fadeInUp">
                   <div className="job-thumb">
-                    <img
+                    <Image
                       src="assets/images/career/job-1.png"
                       alt="Job Author"
                     />
@@ -175,25 +176,25 @@ const JobDetails = () => {
                   <h4 className="title">Photos &amp; Videos</h4>
                   <Slider {...gallerySlider} className="gallery-slider mb-20">
                     <div className="single-gallery-img">
-                      <img
+                      <Image
                         src="assets/images/career/img-1.jpg"
                         alt="Gallery Image"
                       />
                     </div>
                     <div className="single-gallery-img">
-                      <img
+                      <Image
                         src="assets/images/career/img-2.jpg"
                         alt="Gallery Image"
                       />
                     </div>
                     <div className="single-gallery-img">
-                      <img
+                      <Image
                         src="assets/images/career/img-3.jpg"
                         alt="Gallery Image"
                       />
                     </div>
                     <div className="single-gallery-img">
-                      <img
+                      <Image
                         src="assets/images/career/img-2.jpg"
                         alt="Gallery Image"
                       />
@@ -204,7 +205,7 @@ const JobDetails = () => {
                     className="video-slider mb-35 wow fadeInUp"
                   >
                     <div className="single-video">
-                      <img src="assets/images/career/img-4.jpg" alt="" />
+                      <Image src="assets/images/career/img-4.jpg" alt="" />
                       <div className="image-overlay" />
                       <div className="play-content text-center">
                         <a
@@ -216,7 +217,7 @@ const JobDetails = () => {
                       </div>
                     </div>
                     <div className="single-video">
-                      <img src="assets/images/career/img-4.jpg" alt="" />
+                      <Image src="assets/images/career/img-4.jpg" alt="" />
                       <div className="image-overlay" />
                       <div className="play-content text-center">
                         <a
@@ -234,7 +235,7 @@ const JobDetails = () => {
                   <h4 className="title">Related Jobs</h4>
                   <div className="single-job-item d-flex mb-30">
                     <div className="job-thumb">
-                      <img
+                      <Image
                         src="assets/images/career/job-2.png"
                         alt="Job Author"
                       />
@@ -275,7 +276,7 @@ const JobDetails = () => {
                   </div>
                   <div className="single-job-item d-flex mb-30">
                     <div className="job-thumb">
-                      <img
+                      <Image
                         src="assets/images/career/job-3.png"
                         alt="Job Author"
                       />
@@ -316,7 +317,7 @@ const JobDetails = () => {
                   </div>
                   <div className="single-job-item d-flex mb-30">
                     <div className="job-thumb">
-                      <img
+                      <Image
                         src="assets/images/career/job-4.png"
                         alt="Job Author"
                       />
@@ -357,7 +358,7 @@ const JobDetails = () => {
                   </div>
                   <div className="single-job-item d-flex mb-30">
                     <div className="job-thumb">
-                      <img
+                      <Image
                         src="assets/images/career/job-5.png"
                         alt="Job Author"
                       />

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
+import Image from "next/image";
 const BlogDetails = () => {
   return (
     <Layout>
@@ -42,7 +43,7 @@ const BlogDetails = () => {
                         sed quia consequuntur magni dolores eos qui ratione
                       </p>
                       <figure className="block-image">
-                        <img
+                        <Image
                           src="assets/images/blog/single-blog-1.jpg"
                           alt=""
                         />
@@ -103,7 +104,7 @@ const BlogDetails = () => {
                 {/*===  Post Author Box  ===*/}
                 <div className="post-author-box d-flex mb-80 wow fadeInUp">
                   <div className="author-thumb">
-                    <img
+                    <Image
                       src="assets/images/blog/author-1.jpg"
                       alt="post author"
                     />
@@ -150,7 +151,7 @@ const BlogDetails = () => {
                     <div className="col-xl-6 col-lg-6 col-md-6">
                       <div className="prev-post post-nav-item d-flex mb-30">
                         <div className="thumb">
-                          <img
+                          <Image
                             src="assets/images/blog/prev.jpg"
                             alt="Post Thumb"
                           />
@@ -173,7 +174,7 @@ const BlogDetails = () => {
                     <div className="col-xl-6 col-lg-6 col-md-6">
                       <div className="next-post post-nav-item d-flex mb-30">
                         <div className="thumb">
-                          <img
+                          <Image
                             src="assets/images/blog/next.jpg"
                             alt="Post Thumb"
                           />
@@ -217,7 +218,7 @@ const BlogDetails = () => {
                             maecenas accumsan lacus vel facilisis.{" "}
                           </p>
                           <div className="comment-author-title">
-                            <img
+                            <Image
                               src="assets/images/blog/comment-1.jpg"
                               alt="comment avater"
                             />
@@ -243,7 +244,7 @@ const BlogDetails = () => {
                             suspendisse ultrices
                           </p>
                           <div className="comment-author-title">
-                            <img
+                            <Image
                               src="assets/images/blog/comment-2.jpg"
                               alt="comment avater"
                             />
@@ -271,7 +272,7 @@ const BlogDetails = () => {
                             demoralized charmsthrough{" "}
                           </p>
                           <div className="comment-author-title">
-                            <img
+                            <Image
                               src="assets/images/blog/comment-1.jpg"
                               alt="comment avater"
                             />
@@ -426,7 +427,7 @@ const BlogDetails = () => {
                   </h4>
                   <ul className="recent-post-list">
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-1.jpg"
                         alt="post thumb"
                       />
@@ -443,7 +444,7 @@ const BlogDetails = () => {
                       </div>
                     </li>
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-2.jpg"
                         alt="post thumb"
                       />
@@ -460,7 +461,7 @@ const BlogDetails = () => {
                       </div>
                     </li>
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-3.jpg"
                         alt="post thumb"
                       />
@@ -477,7 +478,7 @@ const BlogDetails = () => {
                       </div>
                     </li>
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-4.jpg"
                         alt="post thumb"
                       />

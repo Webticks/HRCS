@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import { testimonialSliderOne } from "../sliderProps";
 import ProgressBar from "./ProgressBar";
-
+import Image from "next/image";
 const FeedbackSectionChart = () => {
   return (
     <div className="container">
@@ -45,7 +45,7 @@ const FeedbackSectionChart = () => {
                   </ul>
                   <div className="author-thumb-title d-flex">
                     <div className="author-thumb">
-                      <img
+                      <Image
                         src="assets/images/testimonial/thumb-1.jpg"
                         alt="Author Image"
                       />
@@ -89,7 +89,7 @@ const FeedbackSectionChart = () => {
                   </ul>
                   <div className="author-thumb-title d-flex">
                     <div className="author-thumb">
-                      <img
+                      <Image
                         src="assets/images/testimonial/thumb-1.jpg"
                         alt="Author Image"
                       />
@@ -133,7 +133,7 @@ const FeedbackSectionChart = () => {
                   </ul>
                   <div className="author-thumb-title d-flex">
                     <div className="author-thumb">
-                      <img
+                      <Image
                         src="assets/images/testimonial/thumb-1.jpg"
                         alt="Author Image"
                       />

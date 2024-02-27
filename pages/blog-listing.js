@@ -2,6 +2,7 @@ import Link from "next/link";
 import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
+import Image from "next/image";
 const BlogListing = () => {
   return (
     <Layout>
@@ -14,7 +15,7 @@ const BlogListing = () => {
               <div className="blog-list-wrpper">
                 <div className="blog-post-item-two d-flex mb-40 wow fadeInUp">
                   <div className="post-thumbnail">
-                    <img src="assets/images/blog/img-7.jpg" alt="Blog Image" />
+                    <Image src="assets/images/blog/img-7.jpg" alt="Blog Image" />
                     <span className="post-date">
                       <a href="#">
                         25<span>Mar</span>
@@ -52,7 +53,7 @@ const BlogListing = () => {
                 </div>
                 <div className="blog-post-item-two d-flex mb-40 wow fadeInUp">
                   <div className="post-thumbnail">
-                    <img src="assets/images/blog/img-8.jpg" alt="Blog Image" />
+                    <Image src="assets/images/blog/img-8.jpg" alt="Blog Image" />
                     <span className="post-date">
                       <a href="#">
                         25<span>Mar</span>
@@ -173,7 +174,7 @@ const BlogListing = () => {
                 </div>
                 <div className="blog-post-item-two d-flex mb-40 wow fadeInUp">
                   <div className="post-thumbnail">
-                    <img src="assets/images/blog/img-9.jpg" alt="Blog Image" />
+                    <Image src="assets/images/blog/img-9.jpg" alt="Blog Image" />
                     <span className="post-date">
                       <a href="#">
                         25<span>Mar</span>
@@ -211,7 +212,7 @@ const BlogListing = () => {
                 </div>
                 <div className="blog-post-item-two d-flex mb-40 wow fadeInUp">
                   <div className="post-thumbnail">
-                    <img src="assets/images/blog/img-10.jpg" alt="Blog Image" />
+                    <Image src="assets/images/blog/img-10.jpg" alt="Blog Image" />
                     <span className="post-date">
                       <a href="#">
                         25<span>Mar</span>
@@ -429,7 +430,7 @@ const BlogListing = () => {
                   </h4>
                   <ul className="recent-post-list">
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-1.jpg"
                         alt="post thumb"
                       />
@@ -446,7 +447,7 @@ const BlogListing = () => {
                       </div>
                     </li>
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-2.jpg"
                         alt="post thumb"
                       />
@@ -463,7 +464,7 @@ const BlogListing = () => {
                       </div>
                     </li>
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-3.jpg"
                         alt="post thumb"
                       />
@@ -480,7 +481,7 @@ const BlogListing = () => {
                       </div>
                     </li>
                     <li className="post-thumbnail-content">
-                      <img
+                      <Image
                         src="assets/images/blog/post-thumb-4.jpg"
                         alt="post thumb"
                       />

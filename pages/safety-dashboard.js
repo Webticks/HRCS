@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import FintexAccordion from "../src/components/FintexAccordion";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const SafetyDashboard = () => {
     const faqsData = [
         { title: "Comprehensive Compliance Overview", answer: "Our dashboard provides an instant and comprehensive overview of your building's compliance status, allowing you to quickly identify any areas that require attention. It consolidates data from fire prevention, detection, and suppression systems, as well as regulatory requirements, enabling you to stay informed and take prompt action." },
@@ -89,7 +89,7 @@ const SafetyDashboard = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/safetyDashboards.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

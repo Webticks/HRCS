@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 
 const ProductGallerySlider = () => {
   const [nav1, setNav1] = useState(null);
@@ -9,7 +10,7 @@ const ProductGallerySlider = () => {
   useEffect(() => {
     setNav1(slider1);
     setNav2(slider2);
-  });
+  }, [slider1, slider2]);
   const thumbs = {
     dots: false,
     arrows: false,
@@ -42,7 +43,7 @@ const ProductGallerySlider = () => {
             href="assets/images/product/product-big-1.jpg"
             className="img-popup"
           >
-            <img src="assets/images/product/product-big-1.jpg" alt="Product" />
+            <Image src="assets/images/product/product-big-1.jpg" alt="Product" />
           </a>
         </div>
         <div className="product-img">
@@ -50,7 +51,7 @@ const ProductGallerySlider = () => {
             href="assets/images/product/product-big-2.jpg"
             className="img-popup"
           >
-            <img src="assets/images/product/product-big-2.jpg" alt="Product" />
+            <Image src="assets/images/product/product-big-2.jpg" alt="Product" />
           </a>
         </div>
         <div className="product-img">
@@ -58,7 +59,7 @@ const ProductGallerySlider = () => {
             href="assets/images/product/product-big-3.jpg"
             className="img-popup"
           >
-            <img src="assets/images/product/product-big-3.jpg" alt="Product" />
+            <Image src="assets/images/product/product-big-3.jpg" alt="Product" />
           </a>
         </div>
         <div className="product-img">
@@ -66,7 +67,7 @@ const ProductGallerySlider = () => {
             href="assets/images/product/product-big-4.jpg"
             className="img-popup"
           >
-            <img src="assets/images/product/product-big-4.jpg" alt="Product" />
+            <Image src="assets/images/product/product-big-4.jpg" alt="Product" />
           </a>
         </div>
       </Slider>
@@ -77,16 +78,16 @@ const ProductGallerySlider = () => {
         className="product-thumb-slider"
       >
         <div className="product-img">
-          <img src="assets/images/product/product-thumb-1.jpg" alt="Product" />
+          <Image src="assets/images/product/product-thumb-1.jpg" alt="Product" />
         </div>
         <div className="product-img">
-          <img src="assets/images/product/product-thumb-2.jpg" alt="Product" />
+          <Image src="assets/images/product/product-thumb-2.jpg" alt="Product" />
         </div>
         <div className="product-img">
-          <img src="assets/images/product/product-thumb-3.jpg" alt="Product" />
+          <Image src="assets/images/product/product-thumb-3.jpg" alt="Product" />
         </div>
         <div className="product-img">
-          <img src="assets/images/product/product-thumb-4.jpg" alt="Product" />
+          <Image src="assets/images/product/product-thumb-4.jpg" alt="Product" />
         </div>
       </Slider>
     </div>

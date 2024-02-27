@@ -4,6 +4,7 @@ import Counter from "../src/components/Counter";
 import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
+import Image from "next/image";
 import {
   partnerSliderOne,
   teamSliderOne,
@@ -47,7 +48,7 @@ const About = () => {
               <div className="about-two_image-box pl-lg-70 mb-50 wow fadeInRight">
                 <div className="about-one-img">
                   <div className="image-overlay" />
-                  <img src="assets/images/about/about-3.jpg" alt="" />
+                  <Image src="assets/images/about/about-3.jpg" alt="" />
                   <div className="play-box">
                     <a
                       href="https://www.youtube.com/watch?v=TboWOSW7qCI"
@@ -125,14 +126,14 @@ const About = () => {
               <div className="about-three_image-box p-r mb-50">
                 <div className="row">
                   <div className="col-md-6">
-                    <img
+                    <Image
                       src="assets/images/gallery/img-2.jpg"
                       className="about-one-img wow fadeInUp"
                       alt="Mission Image"
                     />
                   </div>
                   <div className="col-md-6">
-                    <img
+                    <Image
                       src="assets/images/gallery/img-3.jpg"
                       className="about-two-img wow fadeInDown"
                       alt="Mission Image"
@@ -142,7 +143,7 @@ const About = () => {
                 <div className="big-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img
+                      <Image
                         src="assets/images/logo/big-logo-1.png"
                         alt="Site logo"
                       />
@@ -264,7 +265,7 @@ const About = () => {
                   data-wow-delay=".2s"
                 >
                   <div className="history-img">
-                    <img
+                    <Image
                       src="assets/images/gallery/history-1.jpg"
                       alt="history image"
                     />
@@ -284,7 +285,7 @@ const About = () => {
                   data-wow-delay=".3s"
                 >
                   <div className="history-img">
-                    <img
+                    <Image
                       src="assets/images/gallery/history-2.jpg"
                       alt="history image"
                     />
@@ -304,7 +305,7 @@ const About = () => {
                   data-wow-delay=".4s"
                 >
                   <div className="history-img">
-                    <img
+                    <Image
                       src="assets/images/gallery/history-3.jpg"
                       alt="history image"
                     />
@@ -324,7 +325,7 @@ const About = () => {
                   data-wow-delay=".5s"
                 >
                   <div className="history-img">
-                    <img
+                    <Image
                       src="assets/images/gallery/history-4.jpg"
                       alt="history image"
                     />
@@ -344,7 +345,7 @@ const About = () => {
                   data-wow-delay=".6s"
                 >
                   <div className="history-img">
-                    <img
+                    <Image
                       src="assets/images/gallery/history-5.jpg"
                       alt="history image"
                     />
@@ -373,7 +374,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-1.png"
                     alt="Partner Image"
                   />
@@ -383,7 +384,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-2.png"
                     alt="Partner Image"
                   />
@@ -393,7 +394,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-3.png"
                     alt="Partner Image"
                   />
@@ -403,7 +404,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-4.png"
                     alt="Partner Image"
                   />
@@ -413,7 +414,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-5.png"
                     alt="Partner Image"
                   />
@@ -423,7 +424,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-6.png"
                     alt="Partner Image"
                   />
@@ -433,7 +434,7 @@ const About = () => {
             <div className="partner-item">
               <div className="partner-img">
                 <a href="#">
-                  <img
+                  <Image
                     src="assets/images/partners/logo-3.png"
                     alt="Partner Image"
                   />
@@ -460,7 +461,7 @@ const About = () => {
           <Slider {...teamSliderOne} className="team-slider-one">
             <div className="single-team-item mb-40 wow fadeInUp">
               <div className="img-holder">
-                <img src="assets/images/team/team-1.jpg" alt="Team Image" />
+                <Image src="assets/images/team/team-1.jpg" alt="Team Image" />
                 <svg
                   className="team-shape"
                   xmlns="http://www.w3.org/2000/svg"
@@ -507,7 +508,7 @@ const About = () => {
             </div>
             <div className="single-team-item mb-40 wow fadeInUp">
               <div className="img-holder">
-                <img src="assets/images/team/team-2.jpg" alt="Team Image" />
+                <Image src="assets/images/team/team-2.jpg" alt="Team Image" />
                 <svg
                   className="team-shape"
                   xmlns="http://www.w3.org/2000/svg"
@@ -554,7 +555,7 @@ const About = () => {
             </div>
             <div className="single-team-item mb-40 wow fadeInUp">
               <div className="img-holder">
-                <img src="assets/images/team/team-3.jpg" alt="Team Image" />
+                <Image src="assets/images/team/team-3.jpg" alt="Team Image" />
                 <svg
                   className="team-shape"
                   xmlns="http://www.w3.org/2000/svg"
@@ -601,7 +602,7 @@ const About = () => {
             </div>
             <div className="single-team-item mb-40 wow fadeInUp">
               <div className="img-holder">
-                <img src="assets/images/team/team-2.jpg" alt="Team Image" />
+                <Image src="assets/images/team/team-2.jpg" alt="Team Image" />
                 <svg
                   className="team-shape"
                   xmlns="http://www.w3.org/2000/svg"
@@ -705,7 +706,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -752,7 +753,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -799,7 +800,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -846,7 +847,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />

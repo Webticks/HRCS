@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import FintexAccordion from "../src/components/FintexAccordion";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const TrainingEducation = () => {
     const faqsData = [
         { title: "Specialized Training", answer: "One-size-fits-all training does not suffice when it comes to safety. Our programs are tailor-made to address the specific needs and challenges of your high-rise building, ensuring maximum relevance and impact." },
@@ -89,7 +89,7 @@ const TrainingEducation = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/training2.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

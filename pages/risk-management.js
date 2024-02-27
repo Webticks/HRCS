@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import FintexAccordion from "../src/components/FintexAccordion";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const RiskManagement = () => {
     const faqsData = [
         { title: "Personalized Approach", answer: "No two buildings are alike, and neither are their risk profiles. Our expert team takes a personalized approach, thoroughly investigating your building's intricacies to devise bespoke risk management strategies." },
@@ -55,7 +55,7 @@ const RiskManagement = () => {
                                 <p>
                                     High Rise Compliance Solutions LLC We recognize that each high-rise building is unique, with its own
                                     set of challenges and vulnerabilities. Our customized risk management strategies are thoughtfully crafted
-                                    to fortify your building's resilience and shield it from potential liabilities.
+                                    to fortify your building&apos;s resilience and shield it from potential liabilities.
                                 </p>
                             </div>
                         </div>
@@ -81,14 +81,14 @@ const RiskManagement = () => {
                                     <li>Enhance Building Resilience</li>
                                     <li>Regulatory Compliance Integration</li>
                                     <li>Proactive Safety Culture</li>
-                                    <li>Unlock Your Building's Full Resilience Potential</li>
+                                    <li>Unlock Your Building&apos;s Full Resilience Potential</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/paperwork.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

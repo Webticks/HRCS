@@ -5,7 +5,7 @@ import FintexAccordion from "../src/components/FintexAccordion";
 import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const ComplianceAudits = () => {
     const faqsData = [
         { title: "In-Depth Audits", answer: "Our seasoned auditors conduct comprehensive evaluations of your high-rise building's fire and life safety systems. By meticulously examining each aspect of your safety measures, we leave no room for potential oversights, providing you with a comprehensive compliance picture." },
@@ -90,7 +90,7 @@ const ComplianceAudits = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/comp2.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

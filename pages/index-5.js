@@ -6,12 +6,13 @@ import {
   projectsSliderTwo,
   testimonialSliderThree,
 } from "../src/sliderProps";
+import Image from "next/image";
 const Index5 = () => {
   return (
     <Layout header={5} footer={5} extraBodyCls="home-five">
       <section className="banner-five p-r z-1">
         <div className="pattern-shape">
-          <img src="assets/images/shape/pattern-3.png" alt="Pattern Shape" />
+          <Image src="assets/images/shape/pattern-3.png" alt="Pattern Shape" />
         </div>
         <div className="container">
           <div className="row align-items-center">
@@ -47,7 +48,7 @@ const Index5 = () => {
             </div>
             <div className="col-lg-5">
               <div className="hero-img-box p-r z-1">
-                <img
+                <Image
                   src="assets/images/hero/hero-five-1.png"
                   className="wow fadeInRight"
                   data-wow-delay=".5s"
@@ -109,7 +110,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-19.png"
                       alt="Partner Image"
                     />
@@ -119,7 +120,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-20.png"
                       alt="Partner Image"
                     />
@@ -129,7 +130,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-21.png"
                       alt="Partner Image"
                     />
@@ -139,7 +140,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-22.png"
                       alt="Partner Image"
                     />
@@ -149,7 +150,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-23.png"
                       alt="Partner Image"
                     />
@@ -159,7 +160,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-24.png"
                       alt="Partner Image"
                     />
@@ -169,7 +170,7 @@ const Index5 = () => {
               <div className="partner-item">
                 <div className="partner-img">
                   <a href="#">
-                    <img
+                    <Image
                       src="assets/images/partners/logo-23.png"
                       alt="Partner Image"
                     />
@@ -182,12 +183,12 @@ const Index5 = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="about-seven_image-box mb-50 p-r z-1 text-center mr-lg-70">
-                  <img
+                  <Image
                     src="assets/images/about/about-9.png"
                     className="about-img-one wow fadeInLeft"
                     alt="About Image"
                   />
-                  <img
+                  <Image
                     src="assets/images/about/avatar-2.png"
                     className="about-img-two wow fadeInUp animate-float-y"
                     alt="About Image"
@@ -377,17 +378,17 @@ const Index5 = () => {
             </div>
             <div className="col-lg-6">
               <div className="benefits-image-box p-r z-1 mb-50">
-                <img
+                <Image
                   src="assets/images/gallery/benefit-1.jpg"
                   className="benefit-img-one wow fadeInDown animate-float-x"
                   alt="Image"
                 />
-                <img
+                <Image
                   src="assets/images/gallery/benefit-2.jpg"
                   className="benefit-img-two wow fadeInLeft animate-float-y"
                   alt="Image"
                 />
-                <img
+                <Image
                   src="assets/images/gallery/benefit-3.jpg"
                   className="benefit-img-three wow fadeInUp animate-float-y"
                   alt="Image"
@@ -436,7 +437,7 @@ const Index5 = () => {
           >
             <div className="project-item-five mb-60">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-29.jpg"
                   alt="Project Image"
                 />
@@ -451,7 +452,7 @@ const Index5 = () => {
             </div>
             <div className="project-item-five mb-60">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-30.jpg"
                   alt="Project Image"
                 />
@@ -466,7 +467,7 @@ const Index5 = () => {
             </div>
             <div className="project-item-five mb-60">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-31.jpg"
                   alt="Project Image"
                 />
@@ -481,7 +482,7 @@ const Index5 = () => {
             </div>
             <div className="project-item-five mb-60">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-30.jpg"
                   alt="Project Image"
                 />
@@ -513,7 +514,7 @@ const Index5 = () => {
             <div className="col-xl-3 col-md-6 col-sm-12">
               <div className="single-team-item-three mb-40 wow fadeInDown">
                 <div className="img-holder">
-                  <img
+                  <Image
                     src="assets/images/team/team-14.jpg"
                     alt="Member Image"
                   />
@@ -555,7 +556,7 @@ const Index5 = () => {
             <div className="col-xl-3 col-md-6 col-sm-12">
               <div className="single-team-item-three mb-40 wow fadeInUp">
                 <div className="img-holder">
-                  <img
+                  <Image
                     src="assets/images/team/team-15.jpg"
                     alt="Member Image"
                   />
@@ -597,7 +598,7 @@ const Index5 = () => {
             <div className="col-xl-3 col-md-6 col-sm-12">
               <div className="single-team-item-three mb-40 wow fadeInDown">
                 <div className="img-holder">
-                  <img
+                  <Image
                     src="assets/images/team/team-16.jpg"
                     alt="Member Image"
                   />
@@ -639,7 +640,7 @@ const Index5 = () => {
             <div className="col-xl-3 col-md-6 col-sm-12">
               <div className="single-team-item-three mb-40 wow fadeInUp">
                 <div className="img-holder">
-                  <img
+                  <Image
                     src="assets/images/team/team-17.jpg"
                     alt="Member Image"
                   />
@@ -685,12 +686,12 @@ const Index5 = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="process-image-box p-r z-1">
-                  <img
+                  <Image
                     src="assets/images/gallery/process-1.jpg"
                     className="process-img-one wow fadeInLeft"
                     alt="Process Image"
                   />
-                  <img
+                  <Image
                     src="assets/images/gallery/process-2.jpg"
                     className="process-img-two wow fadeInDown animate-float-y"
                     alt="Process Image"
@@ -775,7 +776,7 @@ const Index5 = () => {
                   <div className="row align-items-lg-center">
                     <div className="col-lg-5">
                       <div className="testimonial-img">
-                        <img
+                        <Image
                           src="assets/images/testimonial/img-1.jpg"
                           alt="Testimonial image"
                         />
@@ -783,7 +784,7 @@ const Index5 = () => {
                     </div>
                     <div className="col-lg-7">
                       <div className="testimonial-content">
-                        <img
+                        <Image
                           src="assets/images/testimonial/company-logo.png"
                           alt="company logo"
                           className="company-logo"
@@ -807,7 +808,7 @@ const Index5 = () => {
                   <div className="row align-items-lg-center">
                     <div className="col-lg-5">
                       <div className="testimonial-img">
-                        <img
+                        <Image
                           src="assets/images/testimonial/img-1.jpg"
                           alt="Testimonial image"
                         />
@@ -815,7 +816,7 @@ const Index5 = () => {
                     </div>
                     <div className="col-lg-7">
                       <div className="testimonial-content">
-                        <img
+                        <Image
                           src="assets/images/testimonial/company-logo.png"
                           alt="company logo"
                           className="company-logo"
@@ -839,7 +840,7 @@ const Index5 = () => {
                   <div className="row align-items-lg-center">
                     <div className="col-lg-5">
                       <div className="testimonial-img">
-                        <img
+                        <Image
                           src="assets/images/testimonial/img-1.jpg"
                           alt="Testimonial image"
                         />
@@ -847,7 +848,7 @@ const Index5 = () => {
                     </div>
                     <div className="col-lg-7">
                       <div className="testimonial-content">
-                        <img
+                        <Image
                           src="assets/images/testimonial/company-logo.png"
                           alt="company logo"
                           className="company-logo"
@@ -896,7 +897,7 @@ const Index5 = () => {
                   Sed ut perspiciatis unde omnis natus voluptatem accutium
                   doloremque laudantium totam rem aperiam eaque
                 </p>
-                <img
+                <Image
                   src="assets/images/contact/img-2.jpg"
                   alt="Contact Image"
                 />

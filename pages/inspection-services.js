@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import FintexAccordion from "../src/components/FintexAccordion";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const InspectionServices = () => {
     const faqsData = [
         { title: "Scheduled Inspections", answer: "Our team of highly trained professionals will handle all aspects of scheduling your regulatory inspections, ensuring they are conducted promptly and in accordance with local, national, and international standards." },
@@ -56,7 +56,7 @@ const InspectionServices = () => {
                                     your safety systems’ regulatory inspection schedule is handled by our team. We understand managing the
                                     multitude of regulatory inspections for fire and life safety systems in high-rise buildings can be
                                     overwhelming and time-consuming. That is why we offer a comprehensive inspection services solution
-                                    designed to alleviate the burden and ensure your building's safety remains in exemplary condition.
+                                    designed to alleviate the burden and ensure your building&apos;s safety remains in exemplary condition.
                                 </p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const InspectionServices = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/inspectionServices.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

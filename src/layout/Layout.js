@@ -12,7 +12,7 @@ const Layout = ({ children, header, footer, extraBodyCls, singleMenus }) => {
     return () => {
       niceSelect({ withoutwide: true });
     };
-  }, []);
+  }, [extraBodyCls]);
 
   return (
     <Fragment>

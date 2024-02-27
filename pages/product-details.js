@@ -6,6 +6,7 @@ import PageBanner from "../src/components/PageBanner";
 import ProductGallerySlider from "../src/components/slider/ProductGallerySlider";
 import Layout from "../src/layout/Layout";
 import { recentProductSlider } from "../src/sliderProps";
+import Image from "next/image";
 const ProductDetails = () => {
   return (
     <Layout>
@@ -278,7 +279,7 @@ const ProductDetails = () => {
             <div className="single-product-item mb-30 text-center wow fadeInUp">
               <span className="status">New</span>
               <div className="product-img">
-                <img
+                <Image
                   src="assets/images/product/img-1.png"
                   alt="product image"
                 />
@@ -321,7 +322,7 @@ const ProductDetails = () => {
             </div>
             <div className="single-product-item mb-30 text-center wow fadeInUp">
               <div className="product-img">
-                <img
+                <Image
                   src="assets/images/product/img-2.png"
                   alt="product image"
                 />
@@ -359,7 +360,7 @@ const ProductDetails = () => {
             </div>
             <div className="single-product-item mb-30 text-center wow fadeInUp">
               <div className="product-img">
-                <img
+                <Image
                   src="assets/images/product/img-3.png"
                   alt="product image"
                 />
@@ -400,7 +401,7 @@ const ProductDetails = () => {
             </div>
             <div className="single-product-item mb-30 text-center wow fadeInUp">
               <div className="product-img">
-                <img
+                <Image
                   src="assets/images/product/img-4.png"
                   alt="product image"
                 />
@@ -441,7 +442,7 @@ const ProductDetails = () => {
             </div>
             <div className="single-product-item mb-30 text-center wow fadeInUp">
               <div className="product-img">
-                <img
+                <Image
                   src="assets/images/product/img-5.png"
                   alt="product image"
                 />

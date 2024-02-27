@@ -6,6 +6,7 @@ import ProgressBar from "../src/components/ProgressBar";
 import LatestServices from "../src/components/slider/LatestServices";
 import Layout from "../src/layout/Layout";
 import Counter from "../src/components/Counter";
+import Image from "next/image";
 import {
   heroSliderOne,
   projectsSliderTwo,
@@ -278,7 +279,7 @@ const Index = () => {
             </div>
             <div className="col-xl-6 col-lg-12">
               <div className="service-one_image-box text-center mb-20 p-r z-1 wow fadeInDown">
-                <img
+                <Image
                   src="assets/images/service/logbook.png"
                   className="service-one-img"
                   alt="Service Image"
@@ -389,7 +390,7 @@ const Index = () => {
                   </h3>
                   <div className="author-thumb-title d-flex align-items-center">
                     <div className="author-thumb">
-                      <img
+                      <Image
                         src="assets/images/author-1.jpg"
                         alt="Author Image"
                       />
@@ -400,7 +401,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <img
+                <Image
                   src="assets/images/gallery/img-1.jpg"
                   className="wow fadeInDown"
                   alt="Fact image"
@@ -456,17 +457,17 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-four_image-box p-r z-1">
-                <img
+                <Image
                   src="assets/images/about/about-6.jpg"
                   className="about-img-one wow fadeInDown"
                   alt="About Image"
                 />
-                <img
+                <Image
                   src="assets/images/about/about-7.jpg"
                   className="about-img-two wow fadeInLeft"
                   alt="About Image"
                 />
-                <img
+                <Image
                   src="assets/images/about/about-8.jpg"
                   className="about-img-three wow fadeInUp"
                   alt="About Image"
@@ -476,7 +477,7 @@ const Index = () => {
                 </div>
                 <div className="shape shape-one animate-float-x">
                   <span>
-                    <img src="assets/images/shape/pattern-bg-2.png" alt="" />
+                    <Image src="assets/images/shape/pattern-bg-2.png" alt="" />
                   </span>
                 </div>
               </div>
@@ -594,7 +595,7 @@ const Index = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-6.jpg"
                   alt="project image"
                 />
@@ -615,7 +616,7 @@ const Index = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-7.jpg"
                   alt="project image"
                 />
@@ -636,7 +637,7 @@ const Index = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-8.jpg"
                   alt="project image"
                 />
@@ -657,7 +658,7 @@ const Index = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-7.jpg"
                   alt="project image"
                 />
@@ -698,7 +699,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -720,7 +721,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-6.jpg"
                     alt="Author Thumb"
                   />
@@ -742,7 +743,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -764,7 +765,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -786,7 +787,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />

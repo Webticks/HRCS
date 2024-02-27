@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import FintexAccordion from "../src/components/FintexAccordion";
 import Layout from "../src/layout/Layout";
-
+import Image from "next/image";
 const CertificationCompliance = () => {
     const faqsData = [
         { title: "Comprehensive Certification Support", answer: "Our team of experts is well-versed in the intricacies of certification processes. We provide end-to-end support, guiding you through each step to ensure a smooth and efficient certification journey." },
@@ -89,7 +89,7 @@ const CertificationCompliance = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/certificationcompliance2.png"
                                     className="optimization-img-one"
                                     alt="optimization image"
