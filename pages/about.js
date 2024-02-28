@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Link from "next/link";
 import Slider from "react-slick";
 import Counter from "../src/components/Counter";
@@ -11,6 +12,29 @@ import {
   testimonialSliderThree,
 } from "../src/sliderProps";
 const About = () => {
+  const [activeTab, setActiveTab] = useState('mission');
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.substring(1);
+      setActiveTab(hash || 'mission');
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+
+    handleHashChange();
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
+  const showContent = (tab, event) => {
+    event.preventDefault();
+    setActiveTab(tab);
+    window.location.hash = `#${tab}`;
+  };
+
   return (
     <Layout>
       <PageBanner pageName={"About Us"} />
@@ -24,23 +48,15 @@ const About = () => {
               <div className="about-content-box content-box-gap mb-50 wow fadeInLeft">
                 <div className="section-title section-title-left">
                   <span className="sub-title">About Company</span>
-                  <h2>Help to Create Great Business Future </h2>
+                  <h2>Elevating Fire and Life Safety Standards</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaque
-                  abillo inventore veritatis quasi architecto beatae
-                </p>
+                  High Rise Compliance Solutions LLC is committed to leading the fire and life safety compliance sector. Focused on expert knowledge, innovation, and client-centricity, we prioritize elevating safety standards in high-rise buildings, with a strategic emphasis on the San Francisco Bay Area.                </p>
                 <ul className="check-style-one mb-30">
-                  <li>Reflection 2022 Desktop Wallpapers Edition</li>
-                  <li>Designing A Better Infinite Scroll</li>
-                  <li>Manage your business account</li>
+                  <li>Comprehensive Solutions</li>
+                  <li>Innovation at Core</li>
+                  <li>Strategic Expansion</li>
                 </ul>
-                <div className="about-button">
-                  <Link legacyBehavior href="/about">
-                    <a className="main-btn filled-btn">Explore More Us</a>
-                  </Link>
-                </div>
               </div>
             </div>
             <div className="col-lg-7">
@@ -48,18 +64,10 @@ const About = () => {
               <div className="about-two_image-box pl-lg-70 mb-50 wow fadeInRight">
                 <div className="about-one-img">
                   <div className="image-overlay" />
-                  <img src="assets/images/about/about-3.jpg" alt="" />
-                  <div className="play-box">
-                    <a
-                      href="https://www.youtube.com/watch?v=TboWOSW7qCI"
-                      className="video-popup"
-                    >
-                      <i className="fas fa-play" />
-                    </a>
-                  </div>
+                  <img src="assets/images/services/about1.png" alt="" />
                 </div>
                 <div className="quote-box-four text-white">
-                  <h3>Effective method for disease detection.</h3>
+                  <h3>Leading High-Rise Safety Solutions</h3>
                 </div>
               </div>
             </div>
@@ -67,56 +75,6 @@ const About = () => {
         </div>
       </section>
       {/*====== End About Section ======*/}
-      {/*====== Start Fact Section ======*/}
-      <section className="fact-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Single Counter Item ===*/}
-              <div className="single-counter-item-two mb-40">
-                <div
-                  className="text d-flex align-items-center wow fadeInUp"
-                  data-wow-delay=".2s"
-                >
-                  <h2 className="number">
-                    <Counter end={358} />+
-                  </h2>
-                  <h5>Projects Completed in Last 5 Years</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Single Counter Item ===*/}
-              <div className="single-counter-item-two mb-40">
-                <div
-                  className="text d-flex align-items-center wow fadeInUp"
-                  data-wow-delay=".25s"
-                >
-                  <h2 className="number">
-                    <Counter end={536} />+
-                  </h2>
-                  <h5>Happy Customers Who Trusted</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Single Counter Item ===*/}
-              <div className="single-counter-item-two mb-40">
-                <div
-                  className="text d-flex align-items-center wow fadeInUp"
-                  data-wow-delay=".3s"
-                >
-                  <h2 className="number">
-                    <Counter end={963} />+
-                  </h2>
-                  <h5>Awards Innning For Success Projects</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Fact Section ======*/}
       {/*====== Start About Section ======*/}
       <section className="about-section pt-90 pb-80">
         <div className="container">
@@ -127,14 +85,14 @@ const About = () => {
                 <div className="row">
                   <div className="col-md-6">
                     <img
-                      src="assets/images/gallery/img-2.jpg"
+                      src="assets/images/gallery/img-2.png"
                       className="about-one-img wow fadeInUp"
                       alt="Mission Image"
                     />
                   </div>
                   <div className="col-md-6">
                     <img
-                      src="assets/images/gallery/img-3.jpg"
+                      src="assets/images/gallery/img-3.png"
                       className="about-two-img wow fadeInDown"
                       alt="Mission Image"
                     />
@@ -157,60 +115,61 @@ const About = () => {
               <div className="about-content-box mb-50">
                 <div className="section-title section-title-left wow fadeInDown">
                   <span className="sub-title">What’s Our Plan</span>
-                  <h2>Best Investment Solutions For Growth </h2>
+                  <h2>Safeguarding High-Rise Legacies</h2>
                 </div>
                 <div className="tab-content-box wow fadeInUp">
                   <ul className="nav nav-tabs mb-20">
                     <li className="nav-item">
                       <a
-                        className="nav-link active"
-                        data-toggle="tab"
                         href="#mission"
+                        className={`nav-link ${activeTab === 'mission' ? 'active' : ''}`}
+                        onClick={(e) => showContent('mission', e)}
                       >
                         Our Mission
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" data-toggle="tab" href="#vision">
+                      <a
+                        href="#vision"
+                        className={`nav-link ${activeTab === 'vision' ? 'active' : ''}`}
+                        onClick={(e) => showContent('vision', e)}
+                      >
                         Our Vision
                       </a>
                     </li>
                   </ul>
+
                   <div className="tab-content mb-30">
-                    <div className="tab-pane fade show active" id="mission">
-                      <div className="content-box">
-                        <p>
-                          On the other hand we denounce with righteous
-                          indignation and dislike men who are so beguiled and
-                          demoralized by the charmso pleasure of the moment so
-                          blinded by desire that they cannesee the pain and
-                          trouble that are bound to ensue{" "}
-                        </p>
-                        <ul className="check-style-two">
-                          <li>Portfolio Diversification</li>
-                          <li>Volatility Protection</li>
-                          <li>Capital Protection</li>
-                          <li>Inflation Protection</li>
-                        </ul>
+                    {activeTab === 'mission' && (
+                      <div className="tab-pane fade show active" id="mission">
+                        <div className="content-box">
+                          <p>
+                            Safeguarding lives, property in high-rises, delivering top-tier risk management. Ensuring compliance, leveraging expertise, technology, dedicated to qualityand our goal is to create secure work environments, trusted partner in building safety.{" "}
+                          </p>
+                          <ul className="check-style-two">
+                            <li>Risk Management Excellence</li>
+                            <li>Compliance Assurance</li>
+                            <li>Secure Work Environments</li>
+                            <li>Trusted Safety Partnership</li>
+                          </ul>
+                        </div>
                       </div>
-                    </div>
-                    <div className="tab-pane fade" id="vision">
-                      <div className="content-box">
-                        <p>
-                          On the other hand we denounce with righteous
-                          indignation and dislike men who are so beguiled and
-                          demoralized by the charmso pleasure of the moment so
-                          blinded by desire that they cannesee the pain and
-                          trouble that are bound to ensue{" "}
-                        </p>
-                        <ul className="check-style-two">
-                          <li>Portfolio Diversification</li>
-                          <li>Volatility Protection</li>
-                          <li>Capital Protection</li>
-                          <li>Inflation Protection</li>
-                        </ul>
+                    )}
+
+                    {activeTab === 'vision' && (
+                      <div className="tab-pane fade show active" id="vision">
+                        <div className="content-box">
+                          <p>
+                            High Rise Compliance Solutions LLC envisions a world where every building is a bastion of safety, fostering a secure environment for all. Our commitment to integrity, transparency, and sustainability drives us to be the foremost leader in fire and life safety compliance solutions.                          </p>
+                          <ul className="check-style-two">
+                            <li>Ensure Compliance</li>
+                            <li>Operational Streamlining</li>
+                            <li>Adapting to Emerging Needs</li>
+                            <li>Investing in People</li>
+                          </ul>
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -219,31 +178,6 @@ const About = () => {
         </div>
       </section>
       {/*====== End About Section ======*/}
-      {/*====== Start CTA Section ======*/}
-      <section
-        className="cta-section bg_cover p-r z-1 pt-70 pb-50"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
-      >
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              {/*=== Common Heading ===*/}
-              <div className="section-title text-white mb-30 wow fadeInLeft">
-                <h2>Get Free Consultations! We’re Ready to Work Together</h2>
-              </div>
-            </div>
-            <div className="col-lg-5">
-              {/*=== Team Button ===*/}
-              <div className="team-button float-lg-right mb-30 wow fadeInRight">
-                <Link legacyBehavior href="/team">
-                  <a className="main-btn btn-white">Get Free Consultations</a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End CTA Section ======*/}
       {/*====== Start History Section ======*/}
       <section className="history-section pt-125 pb-50">
         <div className="container">
@@ -252,7 +186,7 @@ const About = () => {
               {/*=== Common Heading ===*/}
               <div className="section-title text-center mb-60 wow fadeInDown">
                 <span className="sub-title">Company History</span>
-                <h2>Great Company History</h2>
+                <h2>Explore More About Us</h2>
               </div>
             </div>
           </div>
@@ -272,11 +206,10 @@ const About = () => {
                   </div>
                   <div className="history-content">
                     <h4 className="title">
-                      <span className="ribbon">1993</span> We Started
+                      <span className="ribbon"></span> We Started
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis istey natus sit voluptatem
-                      accusa loremque laudantium totam rem apereaque
+                      To meet the rising demand for specialized fire and life safety services in high-rise buildings, driven by the complexities of compliance and safety standards.
                     </p>
                   </div>
                 </div>
@@ -292,11 +225,10 @@ const About = () => {
                   </div>
                   <div className="history-content">
                     <h4 className="title">
-                      <span className="ribbon">1995</span> Opening Office
+                      <span className="ribbon"></span>Leadership Legacy
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis istey natus sit voluptatem
-                      accusa loremque laudantium totam rem apereaque
+                      Guided by a 30-year industry veteran, the company&apos;s CEO brings deep expertise, shaping a commitment to safeguarding safety and security within high-rise buildings.
                     </p>
                   </div>
                 </div>
@@ -312,11 +244,10 @@ const About = () => {
                   </div>
                   <div className="history-content">
                     <h4 className="title">
-                      <span className="ribbon">1997</span> Client Satisfaction
+                      <span className="ribbon"></span>Mission Beyond Safety
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis istey natus sit voluptatem
-                      accusa loremque laudantium totam rem apereaque
+                      The company&apos;s mission extends beyond safety, actively assisting building owners and stakeholders in maintaining impeccable compliance with regulatory standards.
                     </p>
                   </div>
                 </div>
@@ -332,11 +263,10 @@ const About = () => {
                   </div>
                   <div className="history-content">
                     <h4 className="title">
-                      <span className="ribbon">2005</span>Improve Ourselve
+                      <span className="ribbon"></span>Dynamic Vision for Excellence
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis istey natus sit voluptatem
-                      accusa loremque laudantium totam rem apereaque
+                      High Rise Compliance Solutions pursues excellence in fire and life safety, viewing it as a dynamic vision that propels continuous improvement and staying at the forefront of industry standards.
                     </p>
                   </div>
                 </div>
@@ -352,11 +282,10 @@ const About = () => {
                   </div>
                   <div className="history-content">
                     <h4 className="title">
-                      <span className="ribbon">2010</span>Awards Winning
+                      <span className="ribbon"></span>Market Position
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis istey natus sit voluptatem
-                      accusa loremque laudantium totam rem apereaque
+                      We are recognized for in-depth audits, certification support, and tailored risk management strategies, addressing the unique needs of high-rise structures.
                     </p>
                   </div>
                 </div>
@@ -366,291 +295,7 @@ const About = () => {
         </div>
       </section>
       {/*====== Start History Section ======*/}
-      {/*====== Start Partners Section ======*/}
-      <section className="partners-section dark-black-bg pt-60 pb-60">
-        <div className="container">
-          {/*=== Partners Slider ===*/}
-          <Slider {...partnerSliderOne} className="partner-slider-one">
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-1.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-2.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-3.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-4.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-5.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-6.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partners/logo-3.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
-      {/*====== End Partners Section ======*/}
-      {/*====== Start Team Section ======*/}
-      <section className="team-section pt-125 pb-130">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-10">
-              {/*=== Common Heading ===*/}
-              <div className="section-title text-center mb-60 wow fadeInDown">
-                <span className="sub-title">Meet Our Team</span>
-                <h2>Experience Team Members</h2>
-              </div>
-            </div>
-          </div>
-          {/*=== Team Slider ===*/}
-          <Slider {...teamSliderOne} className="team-slider-one">
-            <div className="single-team-item mb-40 wow fadeInUp">
-              <div className="img-holder">
-                <img src="assets/images/team/team-1.jpg" alt="Team Image" />
-                <svg
-                  className="team-shape"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  width="213px"
-                  height="80px"
-                >
-                  <path d="M212.734,79.031 L132.079,12.251 L57.530,49.433 L-0.001,0.042 L-0.001,79.031 L212.734,79.031 Z" />
-                </svg>
-                <span className="share-btn">
-                  <i className="far fa-share-alt" />
-                </span>
-                <ul className="social-link">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text text-center">
-                <h3 className="title">
-                  <Link legacyBehavior href="/team-details">
-                    <a>Robert C. Simmons</a>
-                  </Link>
-                </h3>
-                <p className="position">Business Consultant</p>
-              </div>
-            </div>
-            <div className="single-team-item mb-40 wow fadeInUp">
-              <div className="img-holder">
-                <img src="assets/images/team/team-2.jpg" alt="Team Image" />
-                <svg
-                  className="team-shape"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  width="213px"
-                  height="80px"
-                >
-                  <path d="M212.734,79.031 L132.079,12.251 L57.530,49.433 L-0.001,0.042 L-0.001,79.031 L212.734,79.031 Z" />
-                </svg>
-                <span className="share-btn">
-                  <i className="far fa-share-alt" />
-                </span>
-                <ul className="social-link">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text text-center">
-                <h3 className="title">
-                  <Link legacyBehavior href="/team-details">
-                    <a>Christopher L. Wagners</a>
-                  </Link>
-                </h3>
-                <p className="position">Senior Manager</p>
-              </div>
-            </div>
-            <div className="single-team-item mb-40 wow fadeInUp">
-              <div className="img-holder">
-                <img src="assets/images/team/team-3.jpg" alt="Team Image" />
-                <svg
-                  className="team-shape"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  width="213px"
-                  height="80px"
-                >
-                  <path d="M212.734,79.031 L132.079,12.251 L57.530,49.433 L-0.001,0.042 L-0.001,79.031 L212.734,79.031 Z" />
-                </svg>
-                <span className="share-btn">
-                  <i className="far fa-share-alt" />
-                </span>
-                <ul className="social-link">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text text-center">
-                <h3 className="title">
-                  <Link legacyBehavior href="/team-details">
-                    <a>Lawrence C. Dickerson</a>
-                  </Link>
-                </h3>
-                <p className="position">Financial Consultant</p>
-              </div>
-            </div>
-            <div className="single-team-item mb-40 wow fadeInUp">
-              <div className="img-holder">
-                <img src="assets/images/team/team-2.jpg" alt="Team Image" />
-                <svg
-                  className="team-shape"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  width="213px"
-                  height="80px"
-                >
-                  <path d="M212.734,79.031 L132.079,12.251 L57.530,49.433 L-0.001,0.042 L-0.001,79.031 L212.734,79.031 Z" />
-                </svg>
-                <span className="share-btn">
-                  <i className="far fa-share-alt" />
-                </span>
-                <ul className="social-link">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text text-center">
-                <h3 className="title">
-                  <Link legacyBehavior href="/team-details">
-                    <a>Christopher L. Wagners</a>
-                  </Link>
-                </h3>
-                <p className="position">Senior Manager</p>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
-      {/*====== End Team Section ======*/}
+
       {/*====== Start Feedback Section ======*/}
       <section className="testimonial-section pb-130">
         <div className="container">
@@ -870,8 +515,6 @@ const About = () => {
         </div>
       </section>
       {/*====== End Feedback Section ======*/}
-      {/*====== Start Newsletter Section ======*/}
-      <Newsletter />
     </Layout>
   );
 };

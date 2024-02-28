@@ -3,7 +3,7 @@ const PageBanner = ({ pageTitle, pageName }) => {
   return (
     <section
       className="page-banner bg_cover p-r z-1"
-      style={{ backgroundImage: "url(assets/images/bg/page-bg-1.jpg)" }}
+      style={{ backgroundImage: "url(assets/images/bg/service-bg-1.jpg)" }}
     >
       <div className="container">
         <div className="row justify-content-center">

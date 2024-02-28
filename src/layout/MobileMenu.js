@@ -15,85 +15,10 @@ const MobileMenu = () => {
     <Fragment>
       <nav className="main-menu d-block d-xl-none">
         <ul>
-          <li className="menu-item has-children">
-            <a href="#">Home</a>
-            <ul className="sub-menu" style={activeLi("home")}>
-              <li className="has-children">
-                <a href="#">Multipage</a>
-                <ul className="sub-menu" style={multiMenuActiveLi("multiPage")}>
-                  <li>
-                    <Link legacyBehavior href="/">
-                      Business Consultant
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-2">
-                      Investment Solutions
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-3">
-                      Digital Banking
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-4">
-                      Business Advisor
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-5">
-                      Marketing Agency
-                    </Link>
-                  </li>
-                </ul>
-                <span
-                  className="dd-trigger"
-                  onClick={() => multiMenuSet("multiPage")}
-                >
-                  <i className="far fa-angle-down" />
-                </span>
-              </li>
-              <li className="has-children">
-                <a href="#">One Page</a>
-                <ul className="sub-menu" style={multiMenuActiveLi("onePage")}>
-                  <li>
-                    <Link legacyBehavior href="onepage-index">
-                      Business Consultant
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="onepage-index-2">
-                      Investment Solutions
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="onepage-index-3">
-                      Digital Banking
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="onepage-index-4">
-                      Business Advisor
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="onepage-index-5">
-                      Marketing Agency
-                    </Link>
-                  </li>
-                </ul>
-                <span
-                  className="dd-trigger"
-                  onClick={() => multiMenuSet("onePage")}
-                >
-                  <i className="far fa-angle-down" />
-                </span>
-              </li>
-            </ul>
-            <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
-              <i className="far fa-angle-down" />
-            </span>
+          <li className="menu-item">
+            <Link legacyBehavior href="/">
+              Home
+            </Link>
           </li>
           <li className="menu-item">
             <Link legacyBehavior href="about">
