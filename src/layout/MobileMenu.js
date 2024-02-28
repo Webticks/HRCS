@@ -59,7 +59,7 @@ const MobileMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="Labor Solutions">
+                <Link legacyBehavior href="labor-solutions">
                   Labor Solutions
                 </Link>
               </li>
