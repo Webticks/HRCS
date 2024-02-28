@@ -58,7 +58,12 @@ const Index = () => {
                       data-delay=".8s"
                       style={{ marginTop: '40px' }}
                     >
-                      <Link legacyBehavior href="/services">
+                      {/* <Link legacyBehavior href="/services">
+                        <a className="main-btn filled-btn filled-white">
+                          Our Services
+                        </a>
+                      </Link> */}
+                      <Link legacyBehavior href="/">
                         <a className="main-btn filled-btn filled-white">
                           Our Services
                         </a>
