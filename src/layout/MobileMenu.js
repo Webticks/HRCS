@@ -76,7 +76,8 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </li>
-          <li className="menu-item has-children">
+          
+          {/* <li className="menu-item has-children">
             <a href="#">Team</a>
             <ul className="sub-menu" style={activeLi("team")}>
               <li>
@@ -206,7 +207,7 @@ const MobileMenu = () => {
             <span className="dd-trigger" onClick={() => activeMenuSet("blog")}>
               <i className="far fa-angle-down" />
             </span>
-          </li>
+          </li> */}
           <li className="menu-item">
             <Link legacyBehavior href="contact">
               Contact
