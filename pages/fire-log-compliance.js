@@ -97,7 +97,7 @@ const FireLogCompliance = () => {
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
                                 <img
-                                    src="assets/images/services/logBookRed.png"
+                                    src="assets/images/services/fighterInLogBook.png"
                                     className="optimization-img-one"
                                     alt="optimization image"
                                     style={{ borderRadius: '12px' }}

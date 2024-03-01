@@ -20,7 +20,7 @@ const SafetyDashboard = () => {
         <Layout>
             <section
                 className="page-banner bg_cover p-r z-1"
-                style={{ backgroundImage: "url(assets/images/services/dashboardBanner.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/services/Cybersecurity.jpg)" }}
             >
                 <div className="container">
                     <div className="row justify-content-center">
@@ -90,7 +90,7 @@ const SafetyDashboard = () => {
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
                                 <img
-                                    src="assets/images/services/safetyDashboards.jpg"
+                                    src="assets/images/services/Cybersecurity2.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"
                                     style={{ borderRadius: '12px' }}
