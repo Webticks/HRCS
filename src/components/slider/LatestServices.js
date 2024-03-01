@@ -28,7 +28,7 @@ const LatestServices = () => {
       description: "Delegate safety inspections, stay compliant, focus on core business success.",
     },
     {
-      imgSrc: "assets/images/services/tailoredRiskManagement.jpg",
+      imgSrc: "assets/images/services/safetyDashboards.jpg",
       title: "Tailored Risk Management",
       link: "/risk-management",
       description: "Empowering against fire and safety challenges with tailored resilience solutions.",
