@@ -39,11 +39,11 @@ const Error404 = () => {
                 </p>
                 <div className="error-button">
                   <Link href="/" legacyBehavior>
-                    <a className="main-btn btn-red"> Goto Home</a>
+                    <a className="main-btn btn-red"> Go to Home</a>
                   </Link>
-                  <a href="tel:+180065323" className="call-button">
+                  <a href="tel:(925) 294-0613" className="call-button">
                     <i className="fas fa-headset" />
-                    +180065323
+                    (925) 294-0613
                   </a>
                 </div>
               </div>

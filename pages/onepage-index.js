@@ -238,18 +238,17 @@ const OnePageIndex = () => {
               <div className="fact-img_one-box text-right pr-lg-70 mb-50">
                 <div className="quote-box-three text-left wow fadeInLeft z-1">
                   <h3>
-                    We Have 25 Years Of Experience in Business Consulting
-                    Services
+                    We have 25 years of Safety Compliance Experience in the Industry
                   </h3>
                   <div className="author-thumb-title d-flex align-items-center">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/author-1.jpg"
+                        src="assets/images/services/Phil-Governor.jpeg"
                         alt="Author Image"
                       />
                     </div>
                     <div className="author-title">
-                      <h4 className="title">Joseh G. Coleman</h4>
+                      <h4 className="title">Phil Governor</h4>
                       <p className="position">CEO &amp; Founder</p>
                     </div>
                   </div>

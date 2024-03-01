@@ -222,7 +222,7 @@ const Index = () => {
                       <div className="text">
                         <h3 className="title">
                           <Link legacyBehavior href="/labor-solutions">
-                            <a>Technical labour solution</a>
+                            <a>Technical labor solution</a>
                           </Link>
                         </h3>
                         <p>
@@ -345,18 +345,17 @@ const Index = () => {
               <div className="fact-img_one-box text-right pr-lg-70 mb-50">
                 <div className="quote-box-three text-left wow fadeInLeft z-1">
                   <h3>
-                    We Have 25 Years Of Experience in Business Consulting
-                    Services
+                    We have 25 years of Safety Compliance Experience in the Industry
                   </h3>
                   <div className="author-thumb-title d-flex align-items-center">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/author-1.jpg"
+                        src="assets/images/services/Phil-Governor.jpeg"
                         alt="Author Image"
                       />
                     </div>
                     <div className="author-title">
-                      <h4 className="title">Joseh G. Coleman</h4>
+                      <h4 className="title">Phil Governor</h4>
                       <p className="position">CEO &amp; Founder</p>
                     </div>
                   </div>
@@ -376,7 +375,7 @@ const Index = () => {
                   <h2>Safety Elevated Excellence</h2>
                 </div>
                 <p className="wow fadeInUp">
-                High Rise Compliance Solutions LLC ensures safety through tailored risk management for buildings. Our expertise leads in fire & life safety compliance, empowering stakeholders for a secure work environment. As a trusted partner, we ensure regulatory compliance, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, we prioritize our team&apos;s well-being and professional growth. Through competitive benefits and ongoing training, we deliver exceptional solutions, contributing to a safer world.
+                  High Rise Compliance Solutions LLC ensures safety through tailored risk management for buildings. Our expertise leads in fire & life safety compliance, empowering stakeholders for a secure work environment. As a trusted partner, we ensure regulatory compliance, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, we prioritize our team&apos;s well-being and professional growth. Through competitive benefits and ongoing training, we deliver exceptional solutions, contributing to a safer world.
                 </p>
               </div>
             </div>

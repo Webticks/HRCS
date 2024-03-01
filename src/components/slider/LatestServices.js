@@ -10,7 +10,7 @@ const LatestServices = () => {
       description: "Ensuring high-rise buildings exceed safety codes through strategic regulatory compliance audits.",
     },
     {
-      imgSrc: "assets/images/services/fireLogBook.png",
+      imgSrc: "assets/images/services/Fire-log-compliance.png",
       title: "Fire Log Compliance",
       link: "/fire-log-compliance",
       description: "Ensuring peace of mind for your fire safety records.",
@@ -22,7 +22,7 @@ const LatestServices = () => {
       description: "Guiding you to safety and compliance excellence",
     },
     {
-      imgSrc: "assets/images/services/inspectionServices.jpg",
+      imgSrc: "assets/images/services/Inspection-Services.jpg",
       title: "Inspection Services",
       link: "/inspection-services",
       description: "Delegate safety inspections, stay compliant, focus on core business success.",
@@ -34,19 +34,19 @@ const LatestServices = () => {
       description: "Empowering against fire and safety challenges with tailored resilience solutions.",
     },
     {
-      imgSrc: "assets/images/services/safetyDashboards.jpg",
+      imgSrc: "assets/images/services/safe-dash.jpg",
       title: "Safety Dashboards",
       link: "/safety-dashboard",
       description: "Introducing a cutting-edge solution for enhanced safety and compliance management.",
     },
     {
-      imgSrc: "assets/images/services/laborSolutions.jpg",
+      imgSrc: "assets/images/services/safetyDashboards.jpg",
       title: "Labor Solutions",
       link: "/labor-solutions",
       description: "Empowering High Rises with Specialized Expertise",
     },
     {
-      imgSrc: "assets/images/services/training.jpg",
+      imgSrc: "assets/images/services/grey.png",
       title: "Training and Education",
       link: "/training-education",
       description: "Empowering safety through knowledge by building a culture of preparedness.",

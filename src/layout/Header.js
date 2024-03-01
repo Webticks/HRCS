@@ -61,7 +61,7 @@ const DefaultHeader = ({ singleMenus }) => (
               <span className="text">
                 <i className="far fa-envelope" /> Email Us :{" "}
                 <span>
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
                 </span>
               </span>
               <span className="text">
@@ -74,23 +74,13 @@ const DefaultHeader = ({ singleMenus }) => (
             <div className="top-right float-lg-right">
               <ul className="social-link">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-youtube" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
+                  <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                    <i className="fab fa-linkedin-in" />
                   </a>
                 </li>
               </ul>
@@ -157,7 +147,7 @@ const DefaultHeader = ({ singleMenus }) => (
               <div className="call-button">
                 <span>
                   <i className="fas fa-headset" />
-                  <a href="tel:+180065323">+180065323</a>
+                  <a href="tel:(925) 294-0613">(925) 294-0613</a>
                 </span>
               </div>
               <div className="menu-button">
@@ -189,7 +179,7 @@ const Header2 = ({ singleMenus }) => (
               <span className="text">
                 <i className="far fa-envelope" /> Email Us:{" "}
                 <span>
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
                 </span>
               </span>
               <span className="text">
@@ -202,11 +192,22 @@ const Header2 = ({ singleMenus }) => (
             <div className="top-right float-lg-right d-flex align-items-center">
               <ul className="social-link">
                 <li>
-                  <a href="#">
+                  <a href="tel:(925) 294-0613" className="call-button">
+                    <i className="far fa-headset" style={{ marginRight: '5px' }} />
+                    (925) 294-0613
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
+                  <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                    <i className="fab fa-linkedin-in" />
+                  </a>
+                </li>
+                {/* <li>
                   <a href="#">
                     <i className="fab fa-twitter" />
                   </a>
@@ -220,7 +221,7 @@ const Header2 = ({ singleMenus }) => (
                   <a href="#">
                     <i className="fab fa-instagram" />
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -237,7 +238,7 @@ const Header2 = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo/logo-2.png" alt="Site Logo"/>
+                <img src="assets/images/logo/logo-2.png" alt="Site Logo" />
               </a>
             </Link>
           </div>
@@ -248,7 +249,7 @@ const Header2 = ({ singleMenus }) => (
               <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-2.png" alt="Site Logo"/>
+                    <img src="assets/images/logo/logo-2.png" alt="Site Logo" />
                   </a>
                 </Link>
               </div>

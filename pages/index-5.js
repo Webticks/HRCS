@@ -928,7 +928,7 @@ const Index5 = () => {
                         <input
                           type="email"
                           className="form_control"
-                          placeholder="support@gmail.com"
+                          placeholder="info@teamhrcs.com"
                           name="email"
                           required=""
                         />

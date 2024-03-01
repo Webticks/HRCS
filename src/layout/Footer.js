@@ -56,25 +56,25 @@ const DefaultFooter = () => (
                 </p>
                 <ul className="social-link">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
+                    <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="#">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fab fa-instagram" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -153,7 +153,7 @@ const DefaultFooter = () => (
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:hotline@gmail.com">hotline@gmail.com</a>
+                      <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
                     </p>
                   </div>
                 </div>
@@ -164,47 +164,7 @@ const DefaultFooter = () => (
         </div>
       </div>
       {/*=== Footer Copyright ===*/}
-      <div className="footer-copyright border-top-white-op-1">
-        <div className="row">
-          <div className="col-lg-8">
-            <div className="footer-nav wow fadeInLeft">
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Team</a>
-                </li>
-                <li>
-                  <a href="#">Pages</a>
-                </li>
-                <li>
-                  <a href="#">News</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="footer-text float-lg-right wow fadeInRight">
-              <p>
-                <span className="number">
-                  <span className="count">256378</span>+
-                </span>{" "}
-                Global Partners
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </div>
   </footer>
 );
@@ -247,25 +207,25 @@ const Footer2 = () => (
                 </p>
                 <ul className="social-link">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
+                    <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="#">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fab fa-instagram" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -365,30 +325,7 @@ const Footer3 = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
-            <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
-              <h4 className="widget-title">Product</h4>
-              <div className="footer-content">
-                <ul className="widget-nav">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">How it works</a>
-                  </li>
-                  <li>
-                    <a href="#">Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Download</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+         
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
               <h4 className="widget-title">Resources</h4>
@@ -433,7 +370,7 @@ const Footer3 = () => (
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
                     </p>
                   </div>
                 </div>
@@ -464,25 +401,25 @@ const Footer3 = () => (
             <div className="footer-social-box text-center float-lg-right">
               <ul className="social-link">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
+                    <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </li>
+                {/* <li>
                   <a href="#">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fab fa-linkedin-in" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
                     <i className="fab fa-instagram" />
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -517,49 +454,25 @@ const Footer4 = () => (
                 </p>
                 <ul className="social-link">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
+                    <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="#">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fab fa-instagram" />
                     </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-6 col-sm-12">
-            <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
-              <h4 className="widget-title">Product</h4>
-              <div className="footer-content">
-                <ul className="widget-nav">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">How it works</a>
-                  </li>
-                  <li>
-                    <a href="#">Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Download</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -626,7 +539,7 @@ const Footer4 = () => (
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
                     </p>
                   </div>
                 </div>
@@ -686,49 +599,25 @@ const Footer5 = () => (
                 </p>
                 <ul className="social-link">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
+                    <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="#">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fab fa-instagram" />
                     </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-6 col-sm-12">
-            <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
-              <h4 className="widget-title">Product</h4>
-              <div className="footer-content">
-                <ul className="widget-nav">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">How it works</a>
-                  </li>
-                  <li>
-                    <a href="#">Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Download</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -795,7 +684,7 @@ const Footer5 = () => (
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
                     </p>
                   </div>
                 </div>

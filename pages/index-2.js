@@ -262,7 +262,7 @@ const Index = () => {
                       <div className="text">
                         <h3 className="title">
                           <Link legacyBehavior href="/service-details">
-                            <a>Technical labour solution</a>
+                            <a>Technical labor solution</a>
                           </Link>
                         </h3>
                         <p>
@@ -391,12 +391,12 @@ const Index = () => {
                   <div className="author-thumb-title d-flex align-items-center">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/author-1.jpg"
+                        src="assets/images/services/Phil-Governor.jpeg"
                         alt="Author Image"
                       />
                     </div>
                     <div className="author-title">
-                      <h4 className="title">Joseh G. Coleman</h4>
+                      <h4 className="title">Phil Governor</h4>
                       <p className="position">CEO &amp; Founder</p>
                     </div>
                   </div>
