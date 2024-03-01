@@ -22,7 +22,7 @@ const LatestServices = () => {
       description: "Guiding you to safety and compliance excellence",
     },
     {
-      imgSrc: "assets/images/services/Inspection-Services.jpg",
+      imgSrc: "assets/images/services/fire-ext-inspection.jpg",
       title: "Inspection Services",
       link: "/inspection-services",
       description: "Delegate safety inspections, stay compliant, focus on core business success.",
