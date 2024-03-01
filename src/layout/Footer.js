@@ -103,7 +103,7 @@ const DefaultFooter = () => (
                     <a href="safety-dashboard">Safety Dashboards</a>
                   </li>
                   <li>
-                    <a href="Labor Solutions">Labor Solutions</a>
+                    <a href="labor-solutions">Labor Solutions</a>
                   </li>
                   <li>
                     <a href="training-education">Training and Education</a>
