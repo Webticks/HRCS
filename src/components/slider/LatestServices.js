@@ -4,7 +4,7 @@ import Image from "next/image";
 const LatestServices = () => {
   const services = [
     {
-      imgSrc: "assets/images/services/complianceAudits.jpg",
+      imgSrc: "assets/images/services/quality.jpg",
       title: "Compliance Audits",
       link: "/compliance-audits",
       description: "Ensuring high-rise buildings exceed safety codes through strategic regulatory compliance audits.",
@@ -28,13 +28,13 @@ const LatestServices = () => {
       description: "Delegate safety inspections, stay compliant, focus on core business success.",
     },
     {
-      imgSrc: "assets/images/services/safetyDashboards.jpg",
+      imgSrc: "assets/images/services/risk-manage.jpg",
       title: "Tailored Risk Management",
       link: "/risk-management",
       description: "Empowering against fire and safety challenges with tailored resilience solutions.",
     },
     {
-      imgSrc: "assets/images/services/safe-dash.jpg",
+      imgSrc: "assets/images/services/sec.jpg",
       title: "Safety Dashboards",
       link: "/safety-dashboard",
       description: "Introducing a cutting-edge solution for enhanced safety and compliance management.",
