@@ -201,14 +201,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/certification-compliance">
+                          <Link legacyBehavior href="/compliance-audits">
                             <a>Consulting Services</a>
                           </Link>
                         </h3>
                         <p>
                           Comprehensive consulting for high-rise building compliance.
                         </p>
-                        <Link legacyBehavior href="/certification-compliance">
+                        <Link legacyBehavior href="/compliance-audits">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>
@@ -291,14 +291,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/compliance-audits">
-                            <a>Compliance audits</a>
+                          <Link legacyBehavior href="/inspection-services">
+                            <a>Inspection Services</a>
                           </Link>
                         </h3>
                         <p>
-                          Expertise in conducting compliance audits for high-rise structures.
+                          Outsource safety inspections, ensure compliance, and drive core success.
                         </p>
-                        <Link legacyBehavior href="/compliance-audits">
+                        <Link legacyBehavior href="/inspection-services">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>

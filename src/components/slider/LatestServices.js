@@ -19,7 +19,7 @@ const LatestServices = () => {
       imgSrc: "assets/images/services/certificationCompliance.jpg",
       title: "Certification Compliance",
       link: "/certification-compliance",
-      description: "Guiding you to safety and compliance excellence",
+      description: "Guiding you to safety and compliance excellence.",
     },
     {
       imgSrc: "assets/images/services/fire-ext-inspection.jpg",
@@ -43,7 +43,7 @@ const LatestServices = () => {
       imgSrc: "assets/images/services/safetyDashboards.jpg",
       title: "Labor Solutions",
       link: "/labor-solutions",
-      description: "Empowering High Rises with Specialized Expertise",
+      description: "Empowering High Rises with Specialized Expertise.",
     },
     {
       imgSrc: "assets/images/services/grey.png",
