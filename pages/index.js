@@ -221,14 +221,14 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h3 className="title">
-                          <Link legacyBehavior href="/labor-solutions">
-                            <a>Technical labor solution</a>
+                          <Link legacyBehavior href="/sop">
+                            <a>Standard Operating Procedures (SOPS)</a>
                           </Link>
                         </h3>
                         <p>
-                          Technical labor solutions catering to the unique needs of high-rise buildings.
+                        Experts in SOPs for regulatory compliance, efficiency, and safety in buildings.
                         </p>
-                        <Link legacyBehavior href="/labor-solutions">
+                        <Link legacyBehavior href="/sop">
                           <a className="btn-link">Read More</a>
                         </Link>
                       </div>

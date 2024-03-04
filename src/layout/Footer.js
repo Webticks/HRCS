@@ -103,10 +103,7 @@ const DefaultFooter = () => (
                     <a href="safety-dashboard">Safety Dashboards</a>
                   </li>
                   <li>
-                    <a href="labor-solutions">Labor Solutions</a>
-                  </li>
-                  <li>
-                    <a href="training-education">Training and Education</a>
+                    <a href="sop">SOPs</a>
                   </li>
                 </ul>
               </div>
@@ -164,7 +161,7 @@ const DefaultFooter = () => (
         </div>
       </div>
       {/*=== Footer Copyright ===*/}
-     
+
     </div>
   </footer>
 );
@@ -254,10 +251,7 @@ const Footer2 = () => (
                     <a href="safety-dashboard">Safety Dashboards</a>
                   </li>
                   <li>
-                    <a href="Labor Solutions">Labor Solutions</a>
-                  </li>
-                  <li>
-                    <a href="training-education">Training and Education</a>
+                    <a href="sop">SOPs</a>
                   </li>
                 </ul>
               </div>
@@ -325,7 +319,7 @@ const Footer3 = () => (
               </div>
             </div>
           </div>
-         
+
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
               <h4 className="widget-title">Resources</h4>
@@ -406,10 +400,10 @@ const Footer3 = () => (
                   </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
+                  <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
+                    <i className="fab fa-linkedin-in" />
+                  </a>
+                </li>
                 {/* <li>
                   <a href="#">
                     <i className="fab fa-twitter" />

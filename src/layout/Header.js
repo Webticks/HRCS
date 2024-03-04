@@ -585,13 +585,8 @@ const Menus = () => (
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="labor-solutions">
-                Labor Solutions
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="training-education">
-                Training and Education
+              <Link legacyBehavior href="sop">
+                SOPs
               </Link>
             </li>
           </ul>

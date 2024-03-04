@@ -59,13 +59,8 @@ const MobileMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="labor-solutions">
-                  Labor Solutions
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="training-education">
-                  Training and Education
+                <Link legacyBehavior href="sop">
+                  SOPs
                 </Link>
               </li>
             </ul>
@@ -76,7 +71,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </li>
-          
+
           {/* <li className="menu-item has-children">
             <a href="#">Team</a>
             <ul className="sub-menu" style={activeLi("team")}>

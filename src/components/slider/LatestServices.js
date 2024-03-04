@@ -40,23 +40,17 @@ const LatestServices = () => {
       description: "Introducing a cutting-edge solution for enhanced safety and compliance management.",
     },
     {
-      imgSrc: "assets/images/services/safetyDashboards.jpg",
-      title: "Labor Solutions",
-      link: "/labor-solutions",
-      description: "Empowering High Rises with Specialized Expertise.",
-    },
-    {
-      imgSrc: "assets/images/services/grey.png",
-      title: "Training and Education",
-      link: "/training-education",
-      description: "Empowering safety through knowledge by building a culture of preparedness.",
+      imgSrc: "assets/images/services/SOPs.jpg",
+      title: "Standard Operating Procedures",
+      link: "/sop",
+      description: "High Rise Compliance: Experts in SOPs for regulatory compliance and safety.",
     },
 
   ];
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row justify-content-center">
         {services.map((service, index) => (
           <ServiceItem key={index} {...service} />
         ))}
