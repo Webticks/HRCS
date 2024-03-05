@@ -29,13 +29,13 @@ const LatestServices = () => {
     },
     {
       imgSrc: "assets/images/services/risk-manage.jpg",
-      title: "Tailored Risk Management",
+      title: "Tailored Risk Management Solutions",
       link: "/risk-management",
       description: "Empowering against fire and safety challenges with tailored resilience solutions.",
     },
     {
       imgSrc: "assets/images/services/sec.jpg",
-      title: "Safety Dashboards",
+      title: "Fire & Life Safety Dashboard",
       link: "/safety-dashboard",
       description: "Introducing a cutting-edge solution for enhanced safety and compliance management.",
     },

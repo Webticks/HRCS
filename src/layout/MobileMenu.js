@@ -55,7 +55,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <Link legacyBehavior href="safety-dashboard">
-                  Safety Dashboards
+                Safety Dashboard
                 </Link>
               </li>
               <li>

@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <h3 className="title">Loaction</h3>
-                    <p>509 Main Street, 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811.</p>
                   </div>
                 </div>
                 <div className="single-info-item animate-hover-icon d-flex mb-20 wow fadeInUp">
@@ -68,7 +68,7 @@ const Contact = () => {
       <section className="contact-page-map wow fadeInUp">
         {/*=== Map Box ===*/}
         <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+          <iframe src="https://maps.google.com/maps?q=san%20francisco%20greater%20bay%20area&t=&z=13&ie=UTF8&iwloc=&output=embed" />
         </div>
       </section>
       {/*====== End Contact Map Section ======*/}
@@ -81,44 +81,22 @@ const Contact = () => {
               <div className="contact-one_content-box mb-50 wow fadeInLeft">
                 <div className="section-title section-title-left                                                                                                    ">
                   <span className="sub-title">Contact Us</span>
-                  <h2>Have any Question On Mind! Say Hi</h2>
+                  <h2>Have any Question In Mind! Say Hi</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptate
-                  accusantium doloremque laudantium totam rem aperiames abillo
-                  inventore veritatis quasi architecto beatae
+                  A representative from our business services group is available to assist you with any questions or concerns you may have. Please feel free to reach out for support.
                 </p>
                 <div className="social-box">
                   <h3 className="title">Follow Us</h3>
                   <ul className="social-link">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=61555069300475&mibextid=cr9u03">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/company/high-rise-compliance-solutions-llc/">
                         <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-behance" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-dribbble" />
                       </a>
                     </li>
                   </ul>

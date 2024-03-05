@@ -8,11 +8,11 @@ const SafetyDashboard = () => {
     const faqsData = [
         { title: "Comprehensive Compliance Overview", answer: "Our dashboard provides an instant and comprehensive overview of your building's compliance status, allowing you to quickly identify any areas that require attention. It consolidates data from fire prevention, detection, and suppression systems, as well as regulatory requirements, enabling you to stay informed and take prompt action." },
         { title: "Real-Time Monitoring and Alerts", answer: "Stay one step ahead of potential risks with our real-time monitoring and alert system. The dashboard continuously tracks critical fire and life safety parameters, triggering immediate alerts for any anomalies or issues that need immediate attention, ensuring swift response to potential hazards." },
-        { title: "Centralized Data Management", answer: "Say goodbye to scattered spreadsheets and manual record-keeping. Our FLSSC Dashboard centralizes all your safety-related data, simplifying data management and reducing administrative burdens. With easy-to-navigate interfaces, you can access historical records and generate insightful reports at your fingertips." },
+        { title: "Centralized Data Management", answer: "Say goodbye to scattered spreadsheets and manual record-keeping. Our FLS Dashboard centralizes all your safety-related data, simplifying data management and reducing administrative burdens. With easy-to-navigate interfaces, you can access historical records and generate insightful reports at your fingertips." },
         { title: "Customized Risk Assessments", answer: " Our platform allows you to perform customized risk assessments tailored to your building's unique attributes and occupancy characteristics. It helps you prioritize safety measures, allocate resources efficiently, and ensure the most effective risk mitigation strategies." },
-        { title: "Compliance Tracking and Reporting", answer: "g Meet regulatory requirements with ease through our compliance tracking and reporting capabilities. The FLSSC Dashboard generates comprehensive compliance reports, simplifying audits and enabling smooth interactions with regulatory authorities." },
+        { title: "Compliance Tracking and Reporting", answer: "Meet regulatory requirements with ease through our compliance tracking and reporting capabilities. The FLS Dashboard generates comprehensive compliance reports, simplifying audits and enabling smooth interactions with regulatory authorities." },
         { title: "Interactive Training Resources", answer: " Educate building staff and occupants on fire and life safety best practices with our interactive training resources. Access engaging educational materials, videos, and quizzes directly through the dashboard, promoting a culture of safety and preparedness." },
-        { title: "Scalable and Secure", answer: "Whether you manage a single high-rise building or an entire portfolio, our FLSSC Dashboard is scalable to accommodate your needs." },
+        { title: "Scalable and Secure", answer: "Whether you manage a single high-rise building or an entire portfolio, our FLS Dashboard is scalable to accommodate your needs." },
         { title: "Secure & Reliable Hosting on AWS", answer: "Trust in the industry-leading security of Amazon Web Services (AWS). Our Compliance Dashboard is hosted on AWS, ensuring the highest levels of data protection, web giving you peace of mind knowing your data is secure and available when you need it. Discover the power of our Compliance Dashboard and embark on a safer and more compliant future for your high-rise building today." },
     ];
     const [active, setActive] = useState(`event-0`);
@@ -33,7 +33,7 @@ const SafetyDashboard = () => {
                                             <a>Home</a>
                                         </Link>
                                     </li>
-                                    <li className="active">Safety Dashboard</li>
+                                    <li className="active">Fire & Life Safety Dashboard</li>
                                 </ul>
                             </div>
                         </div>
@@ -49,12 +49,12 @@ const SafetyDashboard = () => {
                             {/*=== Management content box ===*/}
                             <div className="management-one_content-box content-box-gap mb-50 ml-lg-40 wow fadeInRight">
                                 <div className="section-title section-title-left mb-25">
-                                    <span className="sub-title">Safety Dashboard</span>
+                                    <span className="sub-title">Fire & Life Safety Dashboard</span>
                                     <h3>Introducing a cutting-edge solution for enhanced safety and compliance management.</h3>
                                 </div>
                                 <p>
                                     We are committed to revolutionizing the way high-rise building owners and stakeholders manage fire and
-                                    life safety compliance. Our innovative FLSSC Dashboard is a powerful, user-friendly, and centralized
+                                    life safety compliance. Our innovative FLS Dashboard is a powerful, user-friendly, and centralized
                                     platform designed to streamline safety assessments, audits, and risk management processes,
                                     empowering you to proactively ensure the safety and security of your building and its occupants.
                                 </p>

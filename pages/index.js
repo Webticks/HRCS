@@ -226,7 +226,7 @@ const Index = () => {
                           </Link>
                         </h3>
                         <p>
-                        Experts in SOPs for regulatory compliance, efficiency, and safety in buildings.
+                          Experts in SOPs for regulatory compliance, efficiency, and safety in buildings.
                         </p>
                         <Link legacyBehavior href="/sop">
                           <a className="btn-link">Read More</a>
@@ -344,9 +344,9 @@ const Index = () => {
               {/*=== Fact image box ===*/}
               <div className="fact-img_one-box text-right pr-lg-70 mb-50">
                 <div className="quote-box-three text-left wow fadeInLeft z-1">
-                  <h3>
-                    We have 25 years of Safety Compliance Experience in the Industry
-                  </h3>
+                  <h5>
+                    With over 50 years of combined experience in safety compliance across diverse industries, we bring a wealth of expertise to ensure the utmost safety and regulatory adherence for our clients.
+                  </h5>
                   <div className="author-thumb-title d-flex align-items-center">
                     <div className="author-thumb">
                       <img
@@ -375,7 +375,7 @@ const Index = () => {
                   <h2>Safety Elevated Excellence</h2>
                 </div>
                 <p className="wow fadeInUp">
-                  High Rise Compliance Solutions LLC ensures safety through tailored risk management for buildings. Our expertise leads in fire & life safety compliance, empowering stakeholders for a secure work environment. As a trusted partner, we ensure regulatory compliance, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, we prioritize our team&apos;s well-being and professional growth. Through competitive benefits and ongoing training, we deliver exceptional solutions, contributing to a safer world.
+                  High Rise Compliance Solutions LLC ensures safety through Tailored Risk Management Solutions for buildings. Our expertise leads in fire & life safety compliance, empowering stakeholders for a secure work environment. As a trusted partner, we ensure regulatory compliance, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, we prioritize our team&apos;s well-being and professional growth. Through competitive benefits and ongoing training, we deliver exceptional solutions, contributing to a safer world.
                 </p>
               </div>
             </div>
@@ -654,7 +654,7 @@ const Index = () => {
                   <h2>Request for Proposal</h2>
                 </div>
                 <div className="map-box">
-                  <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+                  <iframe src="https://maps.google.com/maps?q=san%20francisco%20greater%20bay%20area&t=&z=13&ie=UTF8&iwloc=&output=embed" />
                 </div>
               </div>
             </div>

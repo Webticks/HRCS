@@ -100,7 +100,7 @@ const DefaultFooter = () => (
                     <a href="risk-management">Risk Management</a>
                   </li>
                   <li>
-                    <a href="safety-dashboard">Safety Dashboards</a>
+                    <a href="safety-dashboard">Fire & Life Safety Dashboard</a>
                   </li>
                   <li>
                     <a href="sop">SOPs</a>
@@ -118,7 +118,7 @@ const DefaultFooter = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
                 <h5 className="title">Branch Office</h5>
@@ -127,7 +127,7 @@ const DefaultFooter = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
               </div>
@@ -248,7 +248,7 @@ const Footer2 = () => (
                     <a href="risk-management">Risk Management</a>
                   </li>
                   <li>
-                    <a href="safety-dashboard">Safety Dashboards</a>
+                    <a href="safety-dashboard">Fire & Life Safety Dashboard</a>
                   </li>
                   <li>
                     <a href="sop">SOPs</a>
@@ -266,7 +266,7 @@ const Footer2 = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
                 <h5 className="title">Branch Office</h5>
@@ -275,7 +275,7 @@ const Footer2 = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
               </div>
@@ -355,7 +355,7 @@ const Footer3 = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
                 <div className="contact-info-box d-flex mb-10">
@@ -524,7 +524,7 @@ const Footer4 = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
                 <div className="contact-info-box d-flex mb-10">
@@ -669,7 +669,7 @@ const Footer5 = () => (
                     <i className="far fa-map-marker-alt" />
                   </div>
                   <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
+                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
                 <div className="contact-info-box d-flex mb-10">

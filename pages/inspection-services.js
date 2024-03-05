@@ -10,7 +10,7 @@ const InspectionServices = () => {
         { title: "Thorough Assessments", answer: "Rest assured that our inspectors will leave no stone unturned during the assessments. They will meticulously examine all regulatory safety systems, including fire prevention, detection, and suppression systems, ensuring that every component is in optimal working condition." },
         { title: "Customized Inspection Plans", answer: "We tailor our Inspection Services to fit the unique needs of your building. Whether you have a single high-rise property or a diverse portfolio, we can create a customized plan that aligns with your specific requirements." },
         { title: "Regular Inspection Reminders", answer: "Say goodbye to missed deadlines and potential compliance lapses. We will provide you with timely reminders for upcoming inspections, allowing you to plan and prepare in advance." },
-        { title: "Compliance Reporting", answer: "g Receive detailed reports after each inspection, outlining the findings and recommendations. Our clear and concise reports will empower you to address any issues promptly, ensuring continuous compliance." },
+        { title: "Compliance Reporting", answer: "Receive detailed reports after each inspection, outlining the findings and recommendations. Our clear and concise reports will empower you to address any issues promptly, ensuring continuous compliance." },
         { title: "Dedicated Compliance Support", answer: "Our team will be there every step of the way to address any compliance-related questions or concerns you may have. We pride ourselves on delivering exceptional customer support and being a reliable partner in your safety journey." },
         { title: "Unlock the Full Potential of Safety and Compliance", answer: "Unlock the Full Potential of Safety and Compliance with our inspection services, you can rest easy knowing that your high-rise building's fire and life safety systems are in the hands of seasoned experts. Let us take care of the regulatory inspection schedule." },
     ];
@@ -89,10 +89,10 @@ const InspectionServices = () => {
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
                                 <img
-                                    src="assets/images/services/inspectionServices.jpg"
+                                    src="assets/images/services/Inspect-Services.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"
-                                    style={{ borderRadius: '12px' }}
+                                    style={{ borderRadius: '12px', height: '500px' }}
                                 />
                             </div>
                         </div>

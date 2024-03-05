@@ -37,7 +37,7 @@ const About = () => {
 
   return (
     <Layout>
-      <PageBanner pageName={"About Us"} />
+      <PageBanner pageName={"About Our Company"} />
       {/*====== End Breadcrumb Section ======*/}
       {/*====== Start About Section  ======*/}
       <section className="about-section-three pt-130 pb-80">
@@ -285,7 +285,7 @@ const About = () => {
                       <span className="ribbon"></span>Market Position
                     </h4>
                     <p>
-                      We are recognized for in-depth audits, certification support, and tailored risk management strategies, addressing the unique needs of high-rise structures.
+                      We are recognized for in-depth audits, certification support, and Tailored Risk Management Solutions strategies, addressing the unique needs of high-rise structures.
                     </p>
                   </div>
                 </div>

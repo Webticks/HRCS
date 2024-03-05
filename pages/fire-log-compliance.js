@@ -11,7 +11,7 @@ const FireLogCompliance = () => {
         { title: "Compliance Assurance", answer: "We stay updated with the latest fire safety regulations, codes, and standards. Our service ensures that your Fire Safety Log Book remains fully compliant, reducing the risk of violations and penalties." },
         { title: "Documentation Management", answer: "We meticulously manage your Fire Safety Log Book, including entries, maintenance records, testing schedules, and compliance documentation. This ensures that your records are organized, complete, and easy to access during inspections." },
         { title: "Regular Audits", answer: ": Our service includes periodic audits to verify the accuracy and completeness of your Fire Safety Log Book. This proactive approach helps identify and rectify any issues before they become compliance concerns." },
-        { title: "Emergency Response Planning", answer: "We assist in developing and maintaining emergency response plans tailored to your facility's unique needs, keeping your team prepared for any fire-related incidents." },
+        { title: "Facility Emergency Planning", answer: "We assist in developing and maintaining emergency response plans tailored to your facility's unique needs, keeping your team prepared for any fire-related incidents." },
         { title: "Notification of Updates", answer: "We keep you informed about any changes in fire safety regulations that may impact your facility. This proactive approach ensures that your Fire Safety Log Book is always current." },
         { title: "Peace of Mind", answer: "Our service ensures that your fire safety records are in order, reducing the stress of compliance management and potential legal liabilities." },
         { title: "Time Savings", answer: "You can focus on your core operations while we handle the intricate details of Fire Safety Log Book management." },
@@ -83,7 +83,7 @@ const FireLogCompliance = () => {
                                     <li>Compliance Assurance</li>
                                     <li>Documentation Management</li>
                                     <li>Regular Audits</li>
-                                    <li>Emergency Response Planning</li>
+                                    <li>Facility Emergency Planning</li>
                                     <li>Notification of Updates</li>
                                     <li>Peace of Mind</li>
                                     <li>Time Savings</li>
