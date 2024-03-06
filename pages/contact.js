@@ -23,7 +23,7 @@ const Contact = () => {
               <div className="information-one_content-box ml-lg-40">
                 <div className="section-title section-title-left mb-50 wow fadeInDown">
                   <span className="sub-title">Get In Touch</span>
-                  <h2>Ready to Work Together! Join With HRCS</h2>
+                  <h2>Ready to Work Together! Partner with HRCS</h2>
                 </div>
                 <div className="single-info-item animate-hover-icon d-flex mb-20 wow fadeInUp">
                   <div className="icon">
@@ -68,7 +68,7 @@ const Contact = () => {
       <section className="contact-page-map wow fadeInUp">
         {/*=== Map Box ===*/}
         <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=san%20francisco%20greater%20bay%20area&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+          <iframe src="https://maps.google.com/maps?q=san%20francisco%20greater%20bay%20area&t=&z=11&ie=UTF8&iwloc=&output=embed" />
         </div>
       </section>
       {/*====== End Contact Map Section ======*/}
@@ -81,7 +81,7 @@ const Contact = () => {
               <div className="contact-one_content-box mb-50 wow fadeInLeft">
                 <div className="section-title section-title-left                                                                                                    ">
                   <span className="sub-title">Contact Us</span>
-                  <h2>Have any Question In Mind! Say Hi</h2>
+                  <h2>We look forward to addressing your inquiries</h2>
                 </div>
                 <p>
                   A representative from our business services group is available to assist you with any questions or concerns you may have. Please feel free to reach out for support.
@@ -150,9 +150,12 @@ const Contact = () => {
                     <div className="col-lg-6">
                       <div className="form_group">
                         <select className="wide">
-                          <option data-display="Subject">Subject</option>
-                          <option value={1}>Customer Support</option>
-                          <option value={2}>Customer Support</option>
+                          <option data-display="Subject" disabled>Subject</option>
+                          <option value={1}>Business Capabilities</option>
+                          <option value={2}>Request for Proposal</option>
+                          <option value={3}>Career Information</option>
+                          <option value={4}>Customer Support</option>
+                          <option value={5}>General Inquiries</option>
                         </select>
                         <i className="far fa-question" />
                       </div>

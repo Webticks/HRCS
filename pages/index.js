@@ -272,7 +272,7 @@ const Index = () => {
                       <div className="text">
                         <h3 className="title">
                           <Link legacyBehavior href="/fire-log-compliance">
-                            <a>Fire safety log management</a>
+                            <a>Fire Safety Log Management</a>
                           </Link>
                         </h3>
                         <p>

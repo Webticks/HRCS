@@ -47,12 +47,10 @@ const DefaultFooter = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
-              <h4 className="widget-title">About Company</h4>
+              <h4 className="widget-title">Our Company</h4>
               <div className="footer-content">
                 <p>
-                  Sed ut perspiciatis unde omnis natus error sit voluptate
-                  santium dolorem dantium totam reaperia eaque ipsa quae abillo
-                  inventore veritatis et quasi architecto
+                  We are your dedicated partner in achieving fire and life safety compliance for high-rise buildings and smaller commercial or residential properties. Our mission is to transform the realm of safety and compliance in high-rise structures, ensuring a safer environment for all.
                 </p>
                 <ul className="social-link">
                   <li>
@@ -113,15 +111,6 @@ const DefaultFooter = () => (
             <div className="footer-widget contact-info-widget mb-40 wow fadeInUp">
               <div className="footer-content">
                 <h5 className="title">Main Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt" />
-                  </div>
-                  <div className="text">
-                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
-                  </div>
-                </div>
-                <h5 className="title">Branch Office</h5>
                 <div className="contact-info-box d-flex mb-40">
                   <div className="icon">
                     <i className="far fa-map-marker-alt" />

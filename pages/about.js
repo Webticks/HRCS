@@ -47,7 +47,7 @@ const About = () => {
               {/*=== About Content Box ===*/}
               <div className="about-content-box content-box-gap mb-50 wow fadeInLeft">
                 <div className="section-title section-title-left">
-                  <span className="sub-title">About Company</span>
+                  <span className="sub-title">About Our Team</span>
                   <h2>Elevating Fire and Life Safety Standards</h2>
                 </div>
                 <p>
@@ -114,7 +114,7 @@ const About = () => {
               {/*=== About Content Box ===*/}
               <div className="about-content-box mb-50">
                 <div className="section-title section-title-left wow fadeInDown">
-                  <span className="sub-title">What’s Our Plan</span>
+                  <span className="sub-title">Strategic Planning</span>
                   <h2>Safeguarding High-Rise Legacies</h2>
                 </div>
                 <div className="tab-content-box wow fadeInUp">
@@ -304,8 +304,8 @@ const About = () => {
               <div className="col-lg-12">
                 {/*=== Common Heading ===*/}
                 <div className="section-title section-title-left border-bottom-1 mb-40 pb-20">
-                  <span className="sub-title">Clients Testtimonials</span>
-                  <h2>What’s Our Customer Say</h2>
+                  <span className="sub-title">Client Testimonials</span>
+                  <h2>What Our Customers Say</h2>
                 </div>
               </div>
             </div>
