@@ -258,15 +258,6 @@ const Footer2 = () => (
                     <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
-                <h5 className="title">Branch Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt" />
-                  </div>
-                  <div className="text">
-                    <p>1401 21st Street Suite R Sacramento, CA 95811</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -26,7 +26,7 @@ const SafetyDashboard = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="page-banner-content text-center">
-                                <h1 className="page-title">Custom Fire and Life Safety Systems Compliance Dashboards</h1>
+                                <h1 className="page-title">Custom Fire and Life Safety Compliance Dashboards</h1>
                                 <ul className="breadcrumb-link">
                                     <li>
                                         <Link legacyBehavior href="/">

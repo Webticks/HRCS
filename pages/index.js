@@ -418,7 +418,7 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="about-content-box content-box-gap pl-lg-50 wow fadeInRight">
                 <div className="section-title section-title-left">
-                  <span className="sub-title">About Company</span>
+                  <span className="sub-title">Our Company</span>
                   <h2>Elevated Safety Solutions</h2>
                 </div>
                 <p>
