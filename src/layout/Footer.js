@@ -132,7 +132,7 @@ const DefaultFooter = () => (
                     </a>
                   </Link>
                 </div>
-                <h5 className="title">Email Addrss</h5>
+                <h5 className="title">Email Address</h5>
                 <div className="contact-info-box d-flex mb-20">
                   <div className="icon">
                     <i className="far fa-envelope" />

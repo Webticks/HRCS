@@ -10,12 +10,12 @@ const FireLogCompliance = () => {
     const faqsData = [
         { title: "Compliance Assurance", answer: "We stay updated with the latest fire safety regulations, codes, and standards. Our service ensures that your Fire Safety Log Book remains fully compliant, reducing the risk of violations and penalties." },
         { title: "Documentation Management", answer: "We meticulously manage your Fire Safety Log Book, including entries, maintenance records, testing schedules, and compliance documentation. This ensures that your records are organized, complete, and easy to access during inspections." },
-        { title: "Regular Audits", answer: ": Our service includes periodic audits to verify the accuracy and completeness of your Fire Safety Log Book. This proactive approach helps identify and rectify any issues before they become compliance concerns." },
+        { title: "Regular Audits", answer: "Our service includes periodic audits to verify the accuracy and completeness of your Fire Safety Log Book. This proactive approach helps identify and rectify any issues before they become compliance concerns." },
         { title: "Facility Emergency Planning", answer: "Our service specializes in developing and updating Facility Emergency Plans for High Rise buildings. We understand the critical importance of these plans in ensuring the safety and security of occupants during emergencies" },
         { title: "Notification of Updates", answer: "We keep you informed about any changes in fire safety regulations that may impact your facility. This proactive approach ensures that your Fire Safety Log Book is always current." },
         { title: "Peace of Mind", answer: "Our service ensures that your fire safety records are in order, reducing the stress of compliance management and potential legal liabilities." },
         { title: "Time Savings", answer: "You can focus on your core operations while we handle the intricate details of Fire Safety Log Book management." },
-        { title: "Enhanced Safety", answer: "inspections and compliance checks improve the overall safety of your facility, reducing fire risks and protecting occupants." },
+        { title: "Enhanced Safety", answer: "Maintaining regular inspections and testing of your building's Fire & Life Safety Systems ensures the overall safety of your facility and its occupants." },
         { title: "Cost-Efficiency", answer: "By preventing violations and penalties, our service can save you money in the long run." },
         { title: "Comprehensive Reporting", answer: "You'll receive detailed reports on the status of your Fire Safety Log Book, making it easy to demonstrate compliance to regulatory authorities." },
     ];
