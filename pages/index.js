@@ -724,9 +724,13 @@ const Index = () => {
                     </div>
                     <div className="col-lg-12">
                       <select id="check1" name="serviceSelection" className="custom-select">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="Compliance Audits">Compliance Audits</option>
+                        <option value="Fire Log Management">Fire Log Management</option>
+                        <option value="Certification Compliance">Certification Compliance</option>
+                        <option value="nspection Services ">nspection Services </option>
+                        <option value="Risk Management ">Risk Management </option>
+                        <option value="Fire & Life Safety Dashboard ">Fire & Life Safety Dashboard </option>
+                        <option value="SOPs">SOPs</option>
                         {/* Add more options as needed */}
                       </select>
                     </div>
@@ -740,9 +744,11 @@ const Index = () => {
                     </div>
                     <div className="col-lg-12">
                       <select id="check1" name="serviceSelection" className="custom-select">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="Web Search">Web Search</option>
+                        <option value="Client Referral">Client Referral</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Other">Other</option>
                         {/* Add more options as needed */}
                       </select>
                     </div>
@@ -775,7 +781,7 @@ const Index = () => {
                     <div className="col-lg-12">
                       <div className="form_group">
                         <button className="main-btn btn-red">
-                          Get Consultation
+                          Request Consultation
                         </button>
                       </div>
                     </div>

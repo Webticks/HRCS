@@ -441,7 +441,7 @@ const ServiceDetails = () => {
                     <div className="col-lg-12">
                       <div className="form_group">
                         <button className="main-btn btn-red">
-                          Get Consultation
+                          Request Consultation
                         </button>
                       </div>
                     </div>

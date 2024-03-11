@@ -138,7 +138,7 @@ const DefaultHeader = ({ singleMenus }) => (
               {/*=== Navbar Menu Button ===*/}
               <div className="menu-button pt-30">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-red">Get Consultation</a>
+                  <a className="main-btn btn-red">Request Consultation</a>
                 </Link>
               </div>
             </div>
@@ -152,7 +152,7 @@ const DefaultHeader = ({ singleMenus }) => (
               </div>
               <div className="menu-button">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-red">Get Consultation</a>
+                  <a className="main-btn btn-red">Request Consultation</a>
                 </Link>
               </div>
               <div className="navbar-toggler">
@@ -454,7 +454,7 @@ const Header5 = ({ singleMenus }) => (
             <div className="nav-right-item d-flex align-items-center">
               <div className="menu-button">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-orange">Get Consultation</a>
+                  <a className="main-btn btn-orange">Request Consultation</a>
                 </Link>
               </div>
               <div className="navbar-toggler">
