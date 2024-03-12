@@ -773,7 +773,14 @@ const Index = () => {
                     </div>
                     <div className="col-lg-12" style={{ marginTop: '10px' }}>
                       <div className="form_checkbox">
-                        <input type="checkbox" name="checkbox" id="check1" />
+                        <input
+                          type="checkbox"
+                          name="checkbox"
+                          id="check1"
+                          onChange={(e) => {
+                            console.log('Checkbox checked:', e.target.checked);
+                          }}
+                        />
                         <label htmlFo r="check1">
                           <span>
                             I Agree with the service and terms and conditions
