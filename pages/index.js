@@ -771,22 +771,21 @@ const Index = () => {
                         {/* Add more options as needed */}
                       </select>
                     </div>
-                    <div className="col-lg-12" style={{ marginTop: '10px' }}>
-                      <div className="form_checkbox">
-                        <input
-                          type="checkbox"
-                          name="checkbox"
-                          id="check1"
-                          onChange={(e) => {
-                            console.log('Checkbox checked:', e.target.checked);
-                          }}
-                        />
-                        <label htmlFo r="check1">
-                          <span>
-                            I Agree with the service and terms and conditions
-                          </span>
-                        </label>
-                      </div>
+                    <div className="col-lg-12" style={{ display: 'flex', alignItems: 'center', margin: '10px 0px' }}>
+                      <input
+                        type="checkbox"
+                        name="checkbox"
+                        id="check1"
+                        onChange={(e) => {
+                          console.log('Checkbox checked:', e.target.checked);
+                        }}
+                        style={{ marginRight: '8px', cursor: "pointer", transform: 'scale(1.5)' }}
+                      />
+                      <label htmlFor="check1">
+                        <span>
+                          I Agree with the service and terms and conditions
+                        </span>
+                      </label>
                     </div>
                     <div className="col-lg-12">
                       <div className="form_group">
