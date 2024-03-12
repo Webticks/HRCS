@@ -297,12 +297,11 @@ const About = () => {
       {/*====== Start History Section ======*/}
 
       {/*====== Start Feedback Section ======*/}
-      <section className="testimonial-section pb-130">
+      {/* <section className="testimonial-section pb-130">
         <div className="container">
           <div className="testimonial-wrapper-two light-gray-bg wow fadeInUp">
             <div className="row">
               <div className="col-lg-12">
-                {/*=== Common Heading ===*/}
                 <div className="section-title section-title-left border-bottom-1 mb-40 pb-20">
                   <span className="sub-title">Client Testimonials</span>
                   <h2>What Our Customers Say</h2>
@@ -311,7 +310,6 @@ const About = () => {
             </div>
             <div className="row">
               <div className="col-lg-10">
-                {/*=== Testimonial Slider ===*/}
                 <Slider
                   {...testimonialSliderThree}
                   className="testimonial-slider-three"
@@ -507,13 +505,12 @@ const About = () => {
                 </Slider>
               </div>
               <div className="col-lg-2">
-                {/*=== Testimonial Dots ===*/}
                 <div className="testimonial-dots" />
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Feedback Section ======*/}
     </Layout>
   );

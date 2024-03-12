@@ -513,7 +513,7 @@ const Index = () => {
       {/*====== Start Advantage Section ======*/}
 
       {/*====== Start Feedback Section ======*/}
-      <section className="testimonial-section-variable-width pt-120">
+      {/* <section className="testimonial-section-variable-width pt-120">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-6">
@@ -639,7 +639,7 @@ const Index = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/*====== End Feedback Section ======*/}
 
       {/*====== Start Contact Section ======*/}
@@ -762,13 +762,16 @@ const Index = () => {
                     </div>
                     <div className="col-lg-12">
                       <select id="check1" name="serviceSelection" className="custom-select">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="AZ">AZ</option>
+                        <option value="CA">CA</option>
+                        <option value="NV">NV</option>
+                        <option value="OR">OR</option>
+                        <option value="TX">TX</option>
+                        <option value="WA">WA</option>
                         {/* Add more options as needed */}
                       </select>
                     </div>
-                    <div className="col-lg-12">
+                    <div className="col-lg-12" style={{ marginTop: '10px' }}>
                       <div className="form_checkbox">
                         <input type="checkbox" name="checkbox" id="check1" />
                         <label htmlFo r="check1">
@@ -794,17 +797,15 @@ const Index = () => {
       </section>
       {/*====== End Contact Section ======*/}
       {/*====== Start Newsletter Section ======*/}
-      <section className="newsletter-section bg-color-two pt-50 pb-45">
+      {/* <section className="newsletter-section bg-color-two pt-50 pb-45">
         <div className="container">
           <div className="row">
             <div className="col-xl-5 col-lg-12">
-              {/*=== Common Heading ===*/}
               <div className="section-title section-title-white wow fadeInLeft">
                 <h2>Subscribe Our Newsletter to Get More Updates</h2>
               </div>
             </div>
             <div className="col-xl-7 col-lg-12">
-              {/*=== Newsletter Form ===*/}
               <div className="newsletter-from wow fadeInRight">
                 <form onSubmit={(e) => e.preventDefault()}>
                   <div className="row align-items-center">
@@ -845,7 +846,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout >
   );
 };
