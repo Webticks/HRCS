@@ -10,7 +10,7 @@ const LatestServices = () => {
       description: "Ensuring high-rise buildings exceed safety codes through strategic regulatory compliance audits.",
     },
     {
-      imgSrc: "assets/images/services/Fire-log-compliance.png",
+      imgSrc: "assets/images/services/fireLogBook.png",
       title: "Fire Log Compliance",
       link: "/fire-log-compliance",
       description: "Ensuring peace of mind for your fire safety records.",
@@ -28,13 +28,13 @@ const LatestServices = () => {
       description: "Delegate safety inspections, stay compliant, focus on core business success.",
     },
     {
-      imgSrc: "assets/images/services/risk-manage.jpg",
+      imgSrc: "assets/images/services/risk-man-home.jpg",
       title: "Tailored Risk Management Solutions",
       link: "/risk-management",
       description: "Empowering against fire and safety challenges with tailored resilience solutions.",
     },
     {
-      imgSrc: "assets/images/services/sec.jpg",
+      imgSrc: "assets/images/services/Cybersecurity2.jpg",
       title: "Fire & Life Safety Dashboard",
       link: "/safety-dashboard",
       description: "Introducing a cutting-edge solution for enhanced safety and compliance management.",

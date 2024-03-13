@@ -727,7 +727,7 @@ const Index = () => {
                         <option value="Compliance Audits">Compliance Audits</option>
                         <option value="Fire Log Management">Fire Log Management</option>
                         <option value="Certification Compliance">Certification Compliance</option>
-                        <option value="nspection Services ">nspection Services </option>
+                        <option value="Inspection Services ">Inspection Services </option>
                         <option value="Risk Management ">Risk Management </option>
                         <option value="Fire & Life Safety Dashboard ">Fire & Life Safety Dashboard </option>
                         <option value="SOPs">SOPs</option>
@@ -762,8 +762,8 @@ const Index = () => {
                     </div>
                     <div className="col-lg-12">
                       <select id="check1" name="serviceSelection" className="custom-select">
-                        <option value="AZ">AZ</option>
-                        <option value="CA">CA</option>
+                        <option value="AZ">CA</option>
+                        <option value="CA">AZ</option>
                         <option value="NV">NV</option>
                         <option value="OR">OR</option>
                         <option value="TX">TX</option>
