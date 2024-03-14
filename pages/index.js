@@ -98,7 +98,7 @@ const Index = () => {
                       data-animation="fadeInUp"
                       data-delay=".4s"
                     >
-                      High Rise Compliance Solutions
+                      High Rise Compliance Solutions LLC
                     </span>
                     <h1>
                       <b>Compliance</b>
@@ -106,7 +106,7 @@ const Index = () => {
                       <span style={{ color: 'transparent', WebkitTextStroke: '2px white' }}>Unleashed</span>
                     </h1>
                     <h2>Safeguarding High-Rise Legacies</h2>
-                    <div
+                    {/* <div
                       className="hero-button"
                       data-animation="fadeInUp"
                       data-delay=".8s"
@@ -117,7 +117,7 @@ const Index = () => {
                           Our Services
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
