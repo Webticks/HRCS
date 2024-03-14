@@ -44,7 +44,7 @@ const Index = () => {
                       data-animation="fadeInUp"
                       data-delay=".4s"
                     >
-                      High Rise Compliance Solutions
+                      High Rise Compliance Solutions LLC
                     </span>
                     <h1>
                       <b>Compliance</b>
@@ -63,11 +63,11 @@ const Index = () => {
                           Our Services
                         </a>
                       </Link> */}
-                      <Link legacyBehavior href="/">
+                      {/* <Link legacyBehavior href="/">
                         <a className="main-btn filled-btn filled-white">
                           Our Services
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

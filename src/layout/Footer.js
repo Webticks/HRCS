@@ -187,9 +187,10 @@ const Footer2 = () => (
                   </Link>
                 </div>
                 <p>
-                  On the other hand we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire
+                  High Rise Compliance Solutions LLC is committed to leading the fire and life safety compliance sector.
+                  Focused on expert knowledge, innovation, and client-centricity,
+                  we prioritize elevating safety standards in high-rise buildings,
+                  with a strategic emphasis on the San Francisco Bay Area.
                 </p>
                 <ul className="social-link">
                   <li>
