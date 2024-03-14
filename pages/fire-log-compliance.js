@@ -59,7 +59,7 @@ const FireLogCompliance = () => {
                                 <p>
                                     Maintaining a comprehensive and up-to-date Fire Safety Log Book is crucial for the safety and compliance
                                     of any facility. However, the task can be complex and time-consuming, often requiring meticulous
-                                    record-keeping and in-depth knowledge of fire safety regulations. Our Fire Safety Log Book Compliance
+                                    record-keeping and in-depth knowledge of fire safety regulations. Our Fire Safety Log Book
                                     Management Service is designed to relieve you of this burden, ensuring that your facility&apos;s fire safety
                                     records are always in compliance with the latest regulations and readily accessible when needed.
                                 </p>
