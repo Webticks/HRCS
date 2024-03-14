@@ -10,7 +10,8 @@ const LatestServices = () => {
       description: "Ensuring high-rise buildings exceed safety codes through strategic regulatory compliance audits.",
     },
     {
-      imgSrc: "assets/images/services/fireLogBook.png",
+      // imgSrc: "assets/images/services/fireLogBook.png",
+      imgSrc: "assets/images/services/fireLogBook2.jpeg",
       title: "Fire Log Compliance",
       link: "/fire-log-compliance",
       description: "Ensuring peace of mind for your fire safety records.",

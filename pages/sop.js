@@ -13,7 +13,7 @@ const Sop = () => {
         { title: "Risk Mitigation", answer: "SOPs play a crucial role in identifying and mitigating risks in high-rise buildings. Our consultants help you develop SOPs that address potential risks and ensure the safety of occupants and assets." },
         { title: "Training and Implementation", answer: "We provide training and support to help your team understand and implement the SOPs effectively. This ensures that the SOPs are followed consistently and correctly." },
         { title: "Continuous Improvement", answer: "SOPs should be dynamic documents that evolve with your high-rise building's needs and changes in regulations. Our consultants help you establish processes for reviewing, updating, and improving your SOPs over time." },
-        { title: "Peace of Mind", answer: "By entrusting the development of your SOPs to HIGH-RISE Compliance Solutions, you can have peace of mind knowing that your high-rise building is operating safely, efficiently, and in compliance with all relevant regulations." },
+        { title: "Peace of Mind", answer: "By entrusting the development of your SOPs to High Rise Compliance Solutions, you can have peace of mind knowing that your high-rise building is operating safely, efficiently, and in compliance with all relevant regulations." },
     ];
     const [active, setActive] = useState(`event-0`);
     return (
