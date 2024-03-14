@@ -375,7 +375,7 @@ const Index = () => {
                   <h2>Safety Elevated Excellence</h2>
                 </div>
                 <p className="wow fadeInUp">
-                  High Rise Compliance Solutions LLC ensures safety through Tailored Risk Management Solutions for buildings. Our expertise leads in fire & life safety compliance, empowering stakeholders for a secure work environment. As a trusted partner, we ensure regulatory compliance, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, we prioritize our team&apos;s well-being and professional growth. Through competitive benefits and ongoing training, we deliver exceptional solutions, contributing to a safer world.
+                High Rise Compliance Solutions LLC specializes in Tailored Risk Management Solutions for buildings, ensuring fire & life safety compliance. They empower stakeholders for a secure work environment, streamline operations, and address emerging fire & life safety needs. Upholding integrity, transparency, and sustainability, they prioritize their team’s well-being and professional development. Through competitive benefits and ongoing training, they deliver exceptional solutions, contributing to a safer world.
                 </p>
               </div>
             </div>
