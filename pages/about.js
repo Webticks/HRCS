@@ -64,7 +64,7 @@ const About = () => {
               <div className="about-two_image-box pl-lg-70 mb-50 wow fadeInRight">
                 <div className="about-one-img">
                   <div className="image-overlay" />
-                  <Image src="assets/images/services/about1.png" alt="" />
+                  <img src="assets/images/services/about1.png" alt="" />
                 </div>
                 <div className="quote-box-four text-white">
                   <h3>Leading High-Rise Safety Solutions</h3>
@@ -84,14 +84,14 @@ const About = () => {
               <div className="about-three_image-box p-r mb-50">
                 <div className="row">
                   <div className="col-md-6">
-                    <Image
+                    <img
                       src="assets/images/gallery/img-2.png"
                       className="about-one-img wow fadeInUp"
                       alt="Mission Image"
                     />
                   </div>
                   <div className="col-md-6">
-                    <Image
+                    <img
                       src="assets/images/gallery/img-3.png"
                       className="about-two-img wow fadeInDown"
                       alt="Mission Image"
@@ -101,7 +101,7 @@ const About = () => {
                 <div className="big-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <Image
+                      <img
                         src="assets/images/logo/big-logo-1.png"
                         alt="Site logo"
                       />
@@ -199,7 +199,7 @@ const About = () => {
                   data-wow-delay=".2s"
                 >
                   <div className="history-img">
-                    <Image
+                    <img
                       src="assets/images/gallery/history-1.jpg"
                       alt="history image"
                     />
@@ -218,7 +218,7 @@ const About = () => {
                   data-wow-delay=".3s"
                 >
                   <div className="history-img">
-                    <Image
+                    <img
                       src="assets/images/gallery/history-2.jpg"
                       alt="history image"
                     />
@@ -237,7 +237,7 @@ const About = () => {
                   data-wow-delay=".4s"
                 >
                   <div className="history-img">
-                    <Image
+                    <img
                       src="assets/images/gallery/history-3.jpg"
                       alt="history image"
                     />
@@ -256,7 +256,7 @@ const About = () => {
                   data-wow-delay=".5s"
                 >
                   <div className="history-img">
-                    <Image
+                    <img
                       src="assets/images/gallery/history-4.jpg"
                       alt="history image"
                     />
@@ -275,7 +275,7 @@ const About = () => {
                   data-wow-delay=".6s"
                 >
                   <div className="history-img">
-                    <Image
+                    <img
                       src="assets/images/gallery/history-5.jpg"
                       alt="history image"
                     />
@@ -349,7 +349,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <Image
+                          <img
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -396,7 +396,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <Image
+                          <img
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -443,7 +443,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <Image
+                          <img
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -490,7 +490,7 @@ const About = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <Image
+                          <img
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
