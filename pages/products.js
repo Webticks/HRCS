@@ -125,7 +125,7 @@ const Products = () => {
                   <ul className="product-list">
                     <li className="product-item d-flex align-items-center">
                       <div className="thumb">
-                        <img src="assets/images/product/thumb-1.png" alt="" />
+                        <Image src="assets/images/product/thumb-1.png" alt="" />
                       </div>
                       <div className="info">
                         <ul className="ratings">
@@ -157,7 +157,7 @@ const Products = () => {
                     </li>
                     <li className="product-item d-flex align-items-center">
                       <div className="thumb">
-                        <img src="assets/images/product/thumb-2.png" alt="" />
+                        <Image src="assets/images/product/thumb-2.png" alt="" />
                       </div>
                       <div className="info">
                         <ul className="ratings">
@@ -189,7 +189,7 @@ const Products = () => {
                     </li>
                     <li className="product-item d-flex align-items-center">
                       <div className="thumb">
-                        <img src="assets/images/product/thumb-3.png" alt="" />
+                        <Image src="assets/images/product/thumb-3.png" alt="" />
                       </div>
                       <div className="info">
                         <ul className="ratings">
@@ -257,7 +257,7 @@ const Products = () => {
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <span className="status">New</span>
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-1.png"
                           alt="product image"
                         />
@@ -303,7 +303,7 @@ const Products = () => {
                     {/*=== Single Product Item ===*/}
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-2.png"
                           alt="product image"
                         />
@@ -344,7 +344,7 @@ const Products = () => {
                     {/*=== Single Product Item ===*/}
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-3.png"
                           alt="product image"
                         />
@@ -388,7 +388,7 @@ const Products = () => {
                     {/*=== Single Product Item ===*/}
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-4.png"
                           alt="product image"
                         />
@@ -432,7 +432,7 @@ const Products = () => {
                     {/*=== Single Product Item ===*/}
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-5.png"
                           alt="product image"
                         />
@@ -474,7 +474,7 @@ const Products = () => {
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <span className="status">New</span>
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-6.png"
                           alt="product image"
                         />
@@ -518,7 +518,7 @@ const Products = () => {
                     {/*=== Single Product Item ===*/}
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-7.png"
                           alt="product image"
                         />
@@ -563,7 +563,7 @@ const Products = () => {
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <span className="status">New</span>
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-8.png"
                           alt="product image"
                         />
@@ -604,7 +604,7 @@ const Products = () => {
                     {/*=== Single Product Item ===*/}
                     <div className="single-product-item mb-30 text-center wow fadeInUp">
                       <div className="product-img">
-                        <img
+                        <Image
                           src="assets/images/product/img-9.png"
                           alt="product image"
                         />

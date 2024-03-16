@@ -279,14 +279,14 @@ const OnePageIndex2 = () => {
               <div className="about-five_image-box mb-30">
                 <div className="row">
                   <div className="col-md-6">
-                    <img
+                    <Image
                       src="assets/images/about/about-4.jpg"
                       className="about-img-one mb-20 wow fadeInUp"
                       alt=""
                     />
                   </div>
                   <div className="col-md-6">
-                    <img
+                    <Image
                       src="assets/images/about/about-5.jpg"
                       className="about-img-two mb-20 wow fadeInDown"
                       alt=""
@@ -296,7 +296,7 @@ const OnePageIndex2 = () => {
                 <div className="big-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img src="assets/images/logo/big-logo-3.jpg" alt="" />
+                      <Image src="assets/images/logo/big-logo-3.jpg" alt="" />
                     </a>
                   </Link>
                 </div>
@@ -323,10 +323,10 @@ const OnePageIndex2 = () => {
                 </ul>
                 <div className="avatar-box d-flex">
                   <div className="thumb">
-                    <img src="assets/images/about/avatar-1.jpg" alt="" />
+                    <Image src="assets/images/about/avatar-1.jpg" alt="" />
                   </div>
                   <div className="text">
-                    <img src="assets/images/about/sign.png" alt="" />
+                    <Image src="assets/images/about/sign.png" alt="" />
                     <h6>CEO &amp; Founder</h6>
                   </div>
                 </div>
@@ -499,7 +499,7 @@ const OnePageIndex2 = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-6.jpg"
                   alt="project image"
                 />
@@ -520,7 +520,7 @@ const OnePageIndex2 = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-7.jpg"
                   alt="project image"
                 />
@@ -541,7 +541,7 @@ const OnePageIndex2 = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-8.jpg"
                   alt="project image"
                 />
@@ -562,7 +562,7 @@ const OnePageIndex2 = () => {
             {/*=== Project Item ===*/}
             <div className="project-item-two mb-50 wow fadeInUp">
               <div className="img-holder">
-                <img
+                <Image
                   src="assets/images/project/img-7.jpg"
                   alt="project image"
                 />
@@ -604,7 +604,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".2s"
               >
                 <div className="img-holder">
-                  <img src="assets/images/team/team-4.jpg" alt="Team Image" />
+                  <Image src="assets/images/team/team-4.jpg" alt="Team Image" />
                 </div>
                 <div className="text">
                   <h3 className="title">
@@ -623,7 +623,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".3s"
               >
                 <div className="img-holder">
-                  <img src="assets/images/team/team-5.jpg" alt="Team Image" />
+                  <Image src="assets/images/team/team-5.jpg" alt="Team Image" />
                 </div>
                 <div className="text">
                   <h3 className="title">
@@ -642,7 +642,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".4s"
               >
                 <div className="img-holder">
-                  <img src="assets/images/team/team-6.jpg" alt="Team Image" />
+                  <Image src="assets/images/team/team-6.jpg" alt="Team Image" />
                 </div>
                 <div className="text">
                   <h3 className="title">
@@ -661,7 +661,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".5s"
               >
                 <div className="img-holder">
-                  <img src="assets/images/team/team-7.jpg" alt="Team Image" />
+                  <Image src="assets/images/team/team-7.jpg" alt="Team Image" />
                 </div>
                 <div className="text">
                   <h3 className="title">
@@ -731,7 +731,7 @@ const OnePageIndex2 = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-2.jpg"
                             alt="Author Image"
                           />
@@ -778,7 +778,7 @@ const OnePageIndex2 = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-3.jpg"
                             alt="Author Image"
                           />
@@ -825,7 +825,7 @@ const OnePageIndex2 = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -872,7 +872,7 @@ const OnePageIndex2 = () => {
                       </p>
                       <div className="author-thumb-title d-flex">
                         <div className="author-thumb">
-                          <img
+                          <Image
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
                           />
@@ -914,7 +914,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".2s"
               >
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-1.jpg" alt="Blog Image" />
+                  <Image src="assets/images/blog/img-1.jpg" alt="Blog Image" />
                   <span className="post-date">
                     <a href="#">
                       25<span>Mar</span>
@@ -958,7 +958,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".3s"
               >
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-2.jpg" alt="Blog Image" />
+                  <Image src="assets/images/blog/img-2.jpg" alt="Blog Image" />
                   <span className="post-date">
                     <a href="#">
                       25<span>Mar</span>
@@ -1002,7 +1002,7 @@ const OnePageIndex2 = () => {
                 data-wow-delay=".4s"
               >
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-3.jpg" alt="Blog Image" />
+                  <Image src="assets/images/blog/img-3.jpg" alt="Blog Image" />
                   <span className="post-date">
                     <a href="#">
                       25<span>Mar</span>

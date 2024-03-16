@@ -99,12 +99,12 @@ const DefaultHeader = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo default-logo">
-                <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
+                <Image src="assets/images/logo/logo-1.png" alt="Site Logo" />
               </a>
             </Link>
             <Link legacyBehavior href="/">
               <a className="brand-logo default-sticky-logo">
-                <img
+                <Image
                   src="assets/images/logo/default-sticky-logo.png"
                   alt="Site Logo"
                 />
@@ -118,7 +118,7 @@ const DefaultHeader = ({ singleMenus }) => (
               <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img
+                    <Image
                       src="assets/images/logo/default-sticky-logo.png"
                       alt="Site Logo"
                     />
@@ -238,7 +238,7 @@ const Header2 = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo/logo-2.png" alt="Site Logo" />
+                <Image src="assets/images/logo/logo-2.png" alt="Site Logo" />
               </a>
             </Link>
           </div>
@@ -249,7 +249,7 @@ const Header2 = ({ singleMenus }) => (
               <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-2.png" alt="Site Logo" />
+                    <Image src="assets/images/logo/logo-2.png" alt="Site Logo" />
                   </a>
                 </Link>
               </div>
@@ -299,7 +299,7 @@ const Header3 = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo/logo-3.png" alt="Site Logo" />
+                <Image src="assets/images/logo/logo-3.png" alt="Site Logo" />
               </a>
             </Link>
           </div>
@@ -310,7 +310,7 @@ const Header3 = ({ singleMenus }) => (
               <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-5.png" alt="Site Logo" />
+                    <Image src="assets/images/logo/logo-5.png" alt="Site Logo" />
                   </a>
                 </Link>
               </div>
@@ -365,7 +365,7 @@ const Header4 = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo/logo-4.png" alt="Site Logo" />
+                <Image src="assets/images/logo/logo-4.png" alt="Site Logo" />
               </a>
             </Link>
           </div>
@@ -375,7 +375,7 @@ const Header4 = ({ singleMenus }) => (
             <div className="mobile-logo mb-30 d-block d-xl-none text-center">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-4.png" alt="Site Logo" />
+                  <Image src="assets/images/logo/logo-4.png" alt="Site Logo" />
                 </a>
               </Link>
             </div>
@@ -418,7 +418,7 @@ const Header5 = ({ singleMenus }) => (
           <div className="site-branding d-flex align-items-center">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo/logo-4.png" alt="Site Logo" />
+                <Image src="assets/images/logo/logo-4.png" alt="Site Logo" />
               </a>
             </Link>
             <a href="tel:+000(123)45688" className="call-button">
@@ -433,7 +433,7 @@ const Header5 = ({ singleMenus }) => (
               <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img
+                    <Image
                       src="assets/images/logo/default-sticky-logo.png"
                       alt="Site Logo"
                     />

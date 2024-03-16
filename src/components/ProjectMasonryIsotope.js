@@ -100,7 +100,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-28.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-28.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -125,7 +125,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-18.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-18.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -150,7 +150,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-19.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-19.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -175,7 +175,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-20.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-20.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -200,7 +200,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-21.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-21.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -225,7 +225,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-22.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-22.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -250,7 +250,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-23.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-23.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -275,7 +275,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-24.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-24.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -300,7 +300,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-25.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-25.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -325,7 +325,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-26.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-26.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">
@@ -350,7 +350,7 @@ const ProjectMasonryIsotope = () => {
           {/*=== Project Item ===*/}
           <div className="project-item-four mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/project/img-27.jpg" alt="Project image" />
+              <Image src="assets/images/project/img-27.jpg" alt="Project image" />
               <div className="project-hover">
                 <div className="hover-content">
                   <h3 className="title">

@@ -88,7 +88,7 @@ const RiskManagement = () => {
                         <div className="col-xl-7 col-lg-6">
                             {/*=== Optimization Image Box ===*/}
                             <div className="optimization-one_image-box text-lg-right mb-50 wow fadeInRight">
-                                <img
+                                <Image
                                     src="assets/images/services/paperwork.jpg"
                                     className="optimization-img-one"
                                     alt="optimization image"

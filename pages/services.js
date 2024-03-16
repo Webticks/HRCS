@@ -122,7 +122,7 @@ const Services = () => {
               {/*=== Faq Image Box ===*/}
               <div className="faq-one_image-box ml-lg-70 p-r mb-50 wow fadeInRight">
                 <div className="image-overlay" />
-                <img src="assets/images/gallery/faq-1.jpg" alt="Faq Image" />
+                <Image src="assets/images/gallery/faq-1.jpg" alt="Faq Image" />
                 <div className="play-content text-center">
                   <a
                     href="https://www.youtube.com/watch?v=TboWOSW7qCI"
