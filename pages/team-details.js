@@ -14,7 +14,7 @@ const TeamDetails = () => {
             <div className="col-lg-6">
               {/*=== Team Image Box ===*/}
               <div className="team-one_image-box ml-lg-3 mb-50 wow fadeInLeft">
-                <img
+                <Image
                   src="assets/images/team/team-single-1.jpg"
                   alt="Team Image"
                 />
@@ -86,7 +86,7 @@ const TeamDetails = () => {
               {/*=== Faq image box ===*/}
               <div className="faq-one_image-box ml-lg-70 p-r mb-50">
                 <div className="image-overlay" />
-                <img src="assets/images/gallery/faq-5.jpg" alt="Faq Image" />
+                <Image src="assets/images/gallery/faq-5.jpg" alt="Faq Image" />
                 <div className="play-content text-center">
                   <a
                     href="https://www.youtube.com/watch?v=TboWOSW7qCI"

@@ -10,22 +10,22 @@ const Index3 = () => {
       <section className="banner-three p-r z-1">
         <div className="shape shape-one animate-float-x">
           <span>
-            <img src="assets/images/shape/shape-5.png" alt="shape" />
+            <Image src="assets/images/shape/shape-5.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-two animate-float-y">
           <span>
-            <img src="assets/images/shape/shape-6.png" alt="shape" />
+            <Image src="assets/images/shape/shape-6.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-three animate-float-y">
           <span>
-            <img src="assets/images/shape/shape-7.png" alt="shape" />
+            <Image src="assets/images/shape/shape-7.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-four animate-float-y">
           <span>
-            <img src="assets/images/shape/shape-8.png" alt="shape" />
+            <Image src="assets/images/shape/shape-8.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-five">
@@ -33,7 +33,7 @@ const Index3 = () => {
         </div>
         <div className="shape shape-six">
           <span>
-            <img src="assets/images/shape/shape-9.png" alt="" />
+            <Image src="assets/images/shape/shape-9.png" alt="" />
           </span>
         </div>
         <div className="container">
@@ -62,7 +62,7 @@ const Index3 = () => {
                 className="hero-img-box wow fadeInRight"
                 data-wow-delay=".10s"
               >
-                <img
+                <Image
                   src="assets/images/hero/hero-three-one.png"
                   className="hero-img"
                   alt=""
@@ -102,7 +102,7 @@ const Index3 = () => {
                 <h5>Manage Your Banking With Fintex Us</h5>
                 <div className="author-thumb-title d-flex align-items-center">
                   <div className="author-thumb">
-                    <img
+                    <Image
                       src="assets/images/testimonial/thumb-4.jpg"
                       alt="Author Image"
                     />
@@ -164,12 +164,12 @@ const Index3 = () => {
                 <div className="shape shape-one">
                   <span />
                 </div>
-                <img
+                <Image
                   src="assets/images/gallery/card-1.png"
                   className="about-img-one"
                   alt=""
                 />
-                <img
+                <Image
                   src="assets/images/gallery/card-price.png"
                   className="about-img-two animate-float-y"
                   alt=""
@@ -225,7 +225,7 @@ const Index3 = () => {
                 <div className="shape shape-one">
                   <span />
                 </div>
-                <img src="assets/images/gallery/card-2.png" alt="" />
+                <Image src="assets/images/gallery/card-2.png" alt="" />
               </div>
             </div>
           </div>
@@ -384,7 +384,7 @@ const Index3 = () => {
                   <div className="shape shape-one">
                     <span />
                   </div>
-                  <img
+                  <Image
                     src="assets/images/gallery/card-3.png"
                     alt="Mobile Mockup"
                   />
@@ -464,7 +464,7 @@ const Index3 = () => {
                       <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
                           <div className="author-thumb">
-                            <img
+                            <Image
                               src="assets/images/testimonial/thumb-1.jpg"
                               alt="Author Image"
                             />
@@ -508,7 +508,7 @@ const Index3 = () => {
                       <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
                           <div className="author-thumb">
-                            <img
+                            <Image
                               src="assets/images/testimonial/thumb-2.jpg"
                               alt="Author Image"
                             />
@@ -552,7 +552,7 @@ const Index3 = () => {
                       <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
                           <div className="author-thumb">
-                            <img
+                            <Image
                               src="assets/images/testimonial/thumb-1.jpg"
                               alt="Author Image"
                             />
@@ -591,9 +591,9 @@ const Index3 = () => {
             </div>
             <div className="col-lg-6">
               <div className="map-img-box p-r z-1 mb-50 wow fadeInRight">
-                <img src="assets/images/gallery/map-2.png" alt="" />
+                <Image src="assets/images/gallery/map-2.png" alt="" />
                 <div className="thumb-marker">
-                  <img
+                  <Image
                     src="assets/images/testimonial/marker-thumb.jpg"
                     alt=""
                   />

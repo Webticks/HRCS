@@ -239,7 +239,7 @@ const Index = () => {
             </div>
             <div className="col-xl-6 col-lg-12">
               <div className="service-one_image-box text-center mb-20 p-r z-1 wow fadeInDown">
-                <img
+                <Image
                   src="assets/images/service/logbook.png"
                   className="service-one-img"
                   alt="Service Image"
@@ -349,7 +349,7 @@ const Index = () => {
                   </h5>
                   <div className="author-thumb-title d-flex align-items-center">
                     <div className="author-thumb">
-                      <img
+                      <Image
                         src="assets/images/services/Phil-Governor.jpeg"
                         alt="Author Image"
                       />
@@ -360,7 +360,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <img
+                <Image
                   src="assets/images/services/missionImg.png"
                   className="wow fadeInDown"
                   alt="Fact image"
@@ -390,17 +390,17 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-four_image-box p-r z-1">
-                <img
+                <Image
                   src="assets/images/about/about3.png"
                   className="about-img-one wow fadeInDown"
                   alt="About Image"
                 />
-                <img
+                <Image
                   src="assets/images/about/about1.png"
                   className="about-img-two wow fadeInLeft"
                   alt="About Image"
                 />
-                <img
+                <Image
                   src="assets/images/about/about2.png"
                   className="about-img-three wow fadeInUp"
                   alt="About Image"
@@ -410,7 +410,7 @@ const Index = () => {
                 </div>
                 <div className="shape shape-one animate-float-x">
                   <span>
-                    <img src="assets/images/shape/pattern-bg-2.png" alt="" />
+                    <Image src="assets/images/shape/pattern-bg-2.png" alt="" />
                   </span>
                 </div>
               </div>
@@ -530,7 +530,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -552,7 +552,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-6.jpg"
                     alt="Author Thumb"
                   />
@@ -574,7 +574,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -596,7 +596,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
@@ -618,7 +618,7 @@ const Index = () => {
             <div className="testimonial-item-four">
               <div className="testimonial-inner-content">
                 <div className="author-thumb">
-                  <img
+                  <Image
                     src="assets/images/testimonial/thumb-5.jpg"
                     alt="Author Thumb"
                   />
