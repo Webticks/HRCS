@@ -22,7 +22,7 @@ const ComplianceAudits = () => {
         <Layout>
             <section
                 className="page-banner bg_cover p-r z-1"
-                style={{ backgroundImage: "url(assets/images/services/complianceAudits.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/services/quality.jpg)" }}
             >
                 <div className="container">
                     <div className="row justify-content-center">

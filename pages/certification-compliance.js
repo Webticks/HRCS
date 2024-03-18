@@ -19,7 +19,7 @@ const CertificationCompliance = () => {
         <Layout>
             <section
                 className="page-banner bg_cover p-r z-1"
-                style={{ backgroundImage: "url(assets/images/services/complianceBanner.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/services/certificationCompliance.jpg)" }}
             >
                 <div className="container">
                     <div className="row justify-content-center">

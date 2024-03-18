@@ -20,7 +20,7 @@ const RiskManagement = () => {
         <Layout>
             <section
                 className="page-banner bg_cover p-r z-1"
-                style={{ backgroundImage: "url(assets/images/services/tailoredRiskManagement.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/services/risk-man-home.jpg)" }}
             >
                 <div className="container">
                     <div className="row justify-content-center">

@@ -76,10 +76,10 @@ const About = () => {
       </section>
       {/*====== End About Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-section pt-90 pb-80">
+      <section className="about-section pt-md-90 pb-md-80 pt-0 pb-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 d-none d-md-block">
               {/*=== About Image Box ===*/}
               <div className="about-three_image-box p-r mb-50">
                 <div className="row">

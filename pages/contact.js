@@ -30,7 +30,7 @@ const Contact = () => {
                     <img src="assets/images/icon/icon-1.png" alt="Icon" />
                   </div>
                   <div className="info">
-                    <h3 className="title">Loaction</h3>
+                    <h3 className="title">Location</h3>
                     <p>1401 21st Street Suite R Sacramento, CA 95811.</p>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ const Contact = () => {
       </section>
       {/*====== End Contact Section ======*/}
       {/*====== Start Newsletter Section ======*/}
-      <Newsletter />
+      {/* <Newsletter /> */}
     </Layout>
   );
 };
