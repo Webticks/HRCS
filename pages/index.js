@@ -31,7 +31,7 @@ const Index = () => {
             />
             <div className="container">
               <div className="row">
-                <div className="col-xl-10 col-lg-10">
+                <div className="col-xl-11 col-lg-11">
                   {/*=== Hero Content ===*/}
                   <div className="hero-content text-white">
                     {/* <span
@@ -49,7 +49,7 @@ const Index = () => {
                     <h1>
                       <b>Compliance</b>
                       &nbsp;
-                      <span style={{ color: 'transparent', WebkitTextStroke: '2px white', fontFamily: 'sans-serif', fontSize: '80px' }}>Unleashed</span>
+                      <span style={{ color: 'transparent', WebkitTextStroke: '2px white', fontFamily: 'sans-serif' }}>Unleashed</span>
                     </h1>
                     <h2>Safeguarding High-Rise Legacies</h2>
                     <div
@@ -85,7 +85,7 @@ const Index = () => {
             />
             <div className="container">
               <div className="row">
-                <div className="col-xl-10 col-lg-10">
+                <div className="col-xl-11 col-lg-11">
                   {/*=== Hero Content ===*/}
                   <div className="hero-content text-white">
                     {/* <span
@@ -103,7 +103,7 @@ const Index = () => {
                     <h1>
                       <b>Compliance</b>
                       &nbsp;
-                      <span style={{ color: 'transparent', WebkitTextStroke: '2px white', fontFamily: 'sans-serif', fontSize: '80px' }}>Unleashed</span>
+                      <span style={{ color: 'transparent', WebkitTextStroke: '2px white', fontFamily: 'sans-serif' }}>Unleashed</span>
                     </h1>
                     <h2>Safeguarding High-Rise Legacies</h2>
                     {/* <div
@@ -134,7 +134,7 @@ const Index = () => {
             />
             <div className="container">
               <div className="row">
-                <div className="col-xl-10 col-lg-10">
+                <div className="col-xl-11 col-lg-11">
                   {/*=== Hero Content ===*/}
                   <div className="hero-content text-white">
                     {/* <span
@@ -152,7 +152,7 @@ const Index = () => {
                     <h1>
                       <b>Compliance</b>
                       &nbsp;
-                      <span style={{ color: 'transparent', WebkitTextStroke: '2px white', fontFamily: 'sans-serif', fontSize: '80px' }}>Unleashed</span>
+                      <span style={{ color: 'transparent', WebkitTextStroke: '2px white', fontFamily: 'sans-serif' }}>Unleashed</span>
                     </h1>
                     <h2>Safeguarding High-Rise Legacies</h2>
                     {/* <div
