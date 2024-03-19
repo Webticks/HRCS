@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.ico"
+          href="assets/images/hrcsfavicon.ico"
           type="image/png"
         />
         {/*====== FontAwesome css ======*/}
