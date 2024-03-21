@@ -167,22 +167,18 @@ const ContactUsForm = () => {
                 </div>
 
                 {isSubmitted && (
-                    <div className="popup" style={{ marginTop: '20px', color: '#EDC254', fontSize: '20px' }}>
+                    <div className="popup"
+                        style={{
+                            marginTop: '20px',
+                            backgroundColor: '#EDC254',
+                            color: '#fff',
+                            padding: '5px 12px',
+                            borderRadius: '6px',
+                            fontSize: '19px',
+                        }}>
                         <span className="popup-text">Request for consultation submitted successfully!</span>
                     </div>
                 )}
-
-                <div className="popup"
-                    style={{
-                        marginTop: '20px',
-                        backgroundColor: '#EDC254',
-                        color: '#fff',
-                        padding: '5px 12px',
-                        borderRadius: '6px',
-                        fontSize: '19px',
-                    }}>
-                    <span className="popup-text">Request for consultation submitted successfully!</span>
-                </div>
 
             </div>
         </form>
