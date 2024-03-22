@@ -10,7 +10,7 @@ const ContactUsForm = () => {
         company_name: '',
         email: '',
         phone_number: '',
-        interested: 'Compliance Audits',
+        interested: '',
         hear_about_us: '',
         state: '',
         checkbox: false
@@ -21,7 +21,7 @@ const ContactUsForm = () => {
         setIsLoading(true);
 
         try {
-            emailjs.sendForm('service_yv1l1sn', 'template_7jeygv3', form.current, 'BSMdByZGi6bl1MH4N')
+            emailjs.sendForm('service_5cgcr58', 'template_gujh30r', form.current, 'Cqu8TYI1jHmp-mkB4')
                 .then(
                     () => {
                         console.log('SUCCESS!');
