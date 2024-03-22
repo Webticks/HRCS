@@ -2,62 +2,27 @@ import Newsletter from "../src/components/Newsletter";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import Image from "next/image";
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
-  const [isLoading, setIsLoading] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    full_name: '',
-    email: '',
-    phone_number: '',
-    subject: 'Business Capabilities',
-    message: '',
-  });
 
-  const sendEmail = async (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    setIsLoading(true);
 
-    try {
-      const formElement = document.querySelector('.contact-form');
-      const oldFormData = formElement.innerHTML;
-      let subjectValue;
-      console.log("formElement", formElement)
-      const selectElements = formElement.querySelectorAll('select');
-      selectElements.forEach(select => {
-        const nameAttribute = select.getAttribute('name');
-        if (nameAttribute === 'subject') {
-          subjectValue = select.nextElementSibling.querySelector('.current').textContent.trim();
-        }
-      });
-
-      console.log("subjectValue:", subjectValue);
-
-      const newFormHTML = `
-            <form>
-                <input name="full_name" value="${formData.full_name}">
-                <input name="email" value="${formData.email}">
-                <input name="phone_number" value="${formData.phone_number}">
-                <input name="subject" value="${subjectValue}">
-                <input name="message" value="${formData.message}">
-            </form>
-        `;
-
-      formElement.innerHTML = newFormHTML;
-
-      const result = await emailjs.sendForm('service_yv1l1sn', 'template_4spmm3j', formElement, 'BSMdByZGi6bl1MH4N');
-      console.log(result.text);
-      formElement.innerHTML = oldFormData;
-    } catch (error) {
-      console.log(error.text);
-    } finally {
-      setIsLoading(false);
-      setIsSubmitted(true);
-      console.log("formData", formData)
-    }
+    emailjs
+      .sendForm('service_yv1l1sn', 'template_4spmm3j', form.current, {
+        publicKey: 'BSMdByZGi6bl1MH4N',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (
@@ -163,145 +128,89 @@ const Contact = () => {
             <div className="col-lg-7">
               {/*=== Contact Form Box ===*/}
               <div className="contact-one_form-box ml-lg-40 mb-50 wow fadeInRight">
-                <div style={{ position: 'relative' }}>
-                  {isLoading && (
-                    <div style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      zIndex: 9999,
-                    }}>
-                      <div style={{
-                        border: '8px solid #f3f3f3',
-                        borderTop: '8px solid #3498db',
-                        borderRadius: '50%',
-                        width: '60px',
-                        height: '60px',
-                        animation: 'spin 2s linear infinite',
-                      }} />
-                    </div>
-                  )}
-                  {!isLoading && (
-                    <form
-                      ref={form} onSubmit={sendEmail}
-                      className="contact-form"
-                    >
-                      <div className="row">
-                        <div className="col-lg-6">
-                          <div className="form_group">
-                            <input
-                              type="text"
-                              className="form_control"
-                              placeholder="Full Name"
-                              name="full_name"
-                              required
-                              value={formData.full_name}
-                              onChange={(e) => setFormData({ ...formData, full_name: e.target.value })}
-                            />
-                            <i className="far fa-user" />
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="form_group">
-                            <input
-                              type="email"
-                              className="form_control"
-                              placeholder="Email Address"
-                              name="email"
-                              required
-                              value={formData.email}
-                              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                            />
-                            <i className="far fa-envelope" />
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="form_group">
-                            <input
-                              type="text"
-                              className="form_control"
-                              placeholder="Phone"
-                              name="phone_number"
-                              required
-                              value={formData.phone_number}
-                              onChange={(e) => setFormData({ ...formData, phone_number: e.target.value })}
-                            />
-                            <i className="far fa-phone" />
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="form_group">
-                            <select
-                              className="wide"
-                              name="subject"
-                              value={formData.subject}
-                              onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                            >
-                              <option value={"Business Capabilities"}>Business Capabilities</option>
-                              <option value={"Request for Proposal"}>Request for Proposal</option>
-                              <option value={"Career Information"}>Career Information</option>
-                              <option value={"Customer Support"}>Customer Support</option>
-                              <option value={"General Inquiries"}>General Inquiries</option>
-                            </select>
-                            <i className="far fa-question" />
-                          </div>
-                        </div>
-                        <div className="col-lg-12">
-                          <div className="form_group">
-                            <textarea
-                              className="form_control"
-                              name="message"
-                              placeholder="Write your Message"
-                              defaultValue={""}
-                              required
-                              value={formData.message}
-                              onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                            />
-                            <i className="far fa-pencil" />
-                          </div>
-                        </div>
-                        <div className="col-lg-12">
-                          <div className="form_checkbox">
-                            <input type="checkbox" name="checkbox" id="check1" />
-                            <label htmlFor="check1">
-                              <span>
-                                I agree that my data is collected and stored.
-                              </span>
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-lg-12">
-                          <div className="form_group">
-                            <button type="submit" className="main-btn btn-red">
-                              Send Message
-                            </button>
-                          </div>
-                        </div>
+                <form
+                  ref={form} onSubmit={sendEmail}
+                  className="contact-form"
+                >
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="text"
+                          className="form_control"
+                          placeholder="Full Name"
+                          name="full_name"
+                          required=""
+                        />
+                        <i className="far fa-user" />
                       </div>
-
-                      {isSubmitted && (
-                        <div className="popup"
-                          style={{
-                            marginTop: '20px',
-                            backgroundColor: '#EDC254',
-                            color: '#fff',
-                            padding: '5px 12px',
-                            borderRadius: '6px',
-                            fontSize: '19px',
-                          }}>
-                          <span className="popup-text">Your inquiry has been submitted successfully!</span>
-                        </div>
-                      )}
-
-                    </form>
-                  )}
-                </div>
-
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="email"
+                          className="form_control"
+                          placeholder="Email Address"
+                          name="email"
+                          required=""
+                        />
+                        <i className="far fa-envelope" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="text"
+                          className="form_control"
+                          placeholder="Phone"
+                          name="phone_number"
+                          required=""
+                        />
+                        <i className="far fa-phone" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="text"
+                          className="form_control"
+                          placeholder="Subject?"
+                          name="subject"
+                          required
+                        />
+                        <i className="far fa-question" />
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="form_group">
+                        <textarea
+                          className="form_control"
+                          name="message"
+                          placeholder="Write your Message"
+                          defaultValue={""}
+                        />
+                        <i className="far fa-pencil" />
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="form_checkbox">
+                        <input type="checkbox" name="checkbox" id="check1" />
+                        <label htmlFor="check1">
+                          <span>
+                            I agree that my data is collected and stored.
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="form_group">
+                        <button type="submit" className="main-btn btn-red">
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
