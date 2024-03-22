@@ -14,6 +14,23 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
+        <script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-FJ5JP1QY0R" />
+        <script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'G-FJ5JP1QY0R', {
+                      page_path: window.location.pathname,
+                      });
+                    `,
+          }}
+        />
         <title>
           HRCS
         </title>
@@ -61,7 +78,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       {loader && <PreLoader />}
       <Component {...pageProps} />
-    </Fragment>
+    </Fragment >
   );
 }
 
