@@ -104,38 +104,7 @@
 
 /* Contact Form box */ 
 
-.contact-one_form-box{
-    & .contact-form{
-        & .form_control{
-            &::placeholder{
-                color: #74787c;
-            }
-            &:focus{
-                border-color: #1a1a1a;
-            }
-        }
-        & .nice-select,
-        & .form_control{
-            font-size: 17px;
-            font-weight: 500;
-            height: 40px;
-            border-bottom: 1px solid rgba(26, 26, 26, 0.15);
-            padding: 0 33px;
-            margin-bottom: 40px;
-        }
-        & textarea.form_control{
-            height: 100px;
-        }
-        & i{
-            position: absolute;
-            top: 10px;
-            left: 0;
-        }
-        & .form_checkbox{
-            margin-bottom: 30px;
-        }
-    }
-}
+
 .contact-two_form-box{
     background-color: $light-gray;
     padding: 65px 70px 80px;

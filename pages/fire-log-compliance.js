@@ -24,7 +24,7 @@ const FireLogCompliance = () => {
         <Layout>
             <section
                 className="page-banner bg_cover p-r z-1"
-                style={{ backgroundImage: "url(assets/images/services/logBookCompliance.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/services/FLC-BG.jpeg)" }}
             >
                 <div className="container">
                     <div className="row justify-content-center">

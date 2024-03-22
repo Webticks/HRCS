@@ -49,7 +49,7 @@ const InspectionServices = () => {
                             <div className="management-one_content-box content-box-gap mb-50 ml-lg-40 wow fadeInRight">
                                 <div className="section-title section-title-left mb-25">
                                     <span className="sub-title">Inspection Services</span>
-                                    <h3>Delegate safety inspections, focus on core business success confidently.</h3>
+                                    <h3>Delegate safety inspections, focus on core business successes confidently.</h3>
                                 </div>
                                 <p>
                                     Stay confidently compliant while staying focused on your core business, as
