@@ -24,23 +24,15 @@ const ContactUsForm = () => {
             const formElement = document.querySelector('.contact-form');
             const oldFormData = formElement.innerHTML;
             let interestedValue;
-            let hearAboutUsValue;
-            let stateValue;
-            const selectElements = formElement.querySelectorAll('select');
-            selectElements.forEach(select => {
-                const nameAttribute = select.getAttribute('name');
-                if (nameAttribute === 'interested') {
-                    interestedValue = select.nextElementSibling.querySelector('.current').textContent.trim();
-                } else if (nameAttribute === 'hear_about_us') {
-                    hearAboutUsValue = select.nextElementSibling.querySelector('.current').textContent.trim();
-                } else if (nameAttribute === 'state') {
-                    stateValue = select.nextElementSibling.querySelector('.current').textContent.trim();
+            console.log("formElement2:", formElement);
+            for (const child of formElement.children) {
+                if (!interestedValue && child.querySelector('[name="interested"]')) {
+                    interestedValue = child.querySelector('.nice-select .current').textContent.trim();
+                    console.log("interestedValue1:", interestedValue);
                 }
-            });
+            }
 
             console.log("interestedValue:", interestedValue);
-            console.log("hearAboutUsValue:", hearAboutUsValue);
-            console.log("stateValue:", stateValue);
             console.log("formElement2:", formElement);
 
             const newFormHTML = `
@@ -50,8 +42,8 @@ const ContactUsForm = () => {
                     <input name="email" value="${formData.email}">
                     <input name="phone_number" value="${formData.phone_number}">
                     <input name="interested" value="${interestedValue}">
-                    <input name="hear_about_us" value="${hearAboutUsValue}">
-                    <input name="state" value="${stateValue}">
+                    <input name="hear_about_us" value="${formData.hear_about_us}">
+                    <input name="state" value="${formData.state}">
                 </form>
             `;
 
@@ -59,12 +51,12 @@ const ContactUsForm = () => {
 
             const result = await emailjs.sendForm('service_yv1l1sn', 'template_7jeygv3', formElement, 'BSMdByZGi6bl1MH4N');
             console.log(result.text);
-            formElement.innerHTML = oldFormData;
+            formElement.innerHTML = oldFormData;            
+            setIsSubmitted(true);
         } catch (error) {
             console.log(error.text);
         } finally {
             setIsLoading(false);
-            setIsSubmitted(true);
         }
     };
 
