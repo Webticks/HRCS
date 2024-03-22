@@ -26,6 +26,7 @@ const ContactUsForm = () => {
                     () => {
                         console.log('SUCCESS!');
                         setIsSubmitted(true);
+                        resetForm();
                     },
                     (error) => {
                         console.log('FAILED...', error.text);
@@ -36,6 +37,10 @@ const ContactUsForm = () => {
         } finally {
             setIsLoading(false);
         }
+    };
+
+    const resetForm = () => {
+        form.current.reset();
     };
 
     const handleOptionClick = (option) => {

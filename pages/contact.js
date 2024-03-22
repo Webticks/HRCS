@@ -18,11 +18,16 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          resetForm();
         },
         (error) => {
           console.log('FAILED...', error.text);
         },
       );
+  };
+
+  const resetForm = () => {
+    form.current.reset();
   };
 
   return (
