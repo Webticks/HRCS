@@ -124,7 +124,7 @@ const DefaultFooter = () => (
                     <img src="assets/images/footer/verified-vendor-seal-2024-sm.png" alt="Seal Image" />
                   </a> */}
                   <a href="https://usfcr.com" target="_blank">
-                    <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" title="US Federal Contractor Registration System for Award Management Verified Vendor Seal" />
+                    <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
                     </a>
                 </div>
               </div>
