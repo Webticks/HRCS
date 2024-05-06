@@ -111,18 +111,21 @@ const DefaultFooter = () => (
             <div className="footer-widget contact-info-widget mb-40 wow fadeInUp">
               <div className="footer-content">
                 <h5 className="title">Main Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt"></i>
+                <div class="contact-info-box d-flex mb-40">
+                  <div class="icon">
+                    <i class="far fa-map-marker-alt"></i>
                   </div>
-                  <div className="text">
+                  <div class="text">
                     <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
-                <div className="image">
-                  <a href="https://usfcr.com" target="_blank" rel="noopener">
+                <div class="image">
+                  {/* <a href="https://usfcr.com/resources/logo-download-page/" target="_blank">
+                    <img src="assets/images/footer/verified-vendor-seal-2024-sm.png" alt="Seal Image" />
+                  </a> */}
+                  <a href="https://usfcr.com">
                     <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
-                  </a>
+                    </a>
                 </div>
               </div>
             </div>
