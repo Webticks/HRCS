@@ -198,7 +198,7 @@ const ContactUsForm = () => {
                         />
                         <label    >
                             <span>
-                                I Agree with the service and terms and conditions
+                            I agree that my data is collected and stored.
                             </span>
                         </label>
                     </div>

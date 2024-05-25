@@ -119,13 +119,13 @@ const DefaultFooter = () => (
                     <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
-                <div class="image">
-                  {/* <a href="https://usfcr.com/resources/logo-download-page/" target="_blank">
-                    <img src="assets/images/footer/verified-vendor-seal-2024-sm.png" alt="Seal Image" />
-                  </a> */}
-                  <a href="https://usfcr.com">
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <a href="https://usfcr.com" style={{ margin: '0 10px' }}>
                     <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
-                    </a>
+                  </a>
+                  <a href="https://usfcr.com" style={{ margin: '0 10px', width: '90px' }}>
+                    <img src="assets/images/footer/seal2.png" alt="USFCR Verified Vendor" />
+                  </a>
                 </div>
               </div>
             </div>

@@ -1151,7 +1151,7 @@ const OnePageIndex2 = () => {
                         <input type="checkbox" name="checkbox" id="check1" />
                         <label htmlFo r="check1">
                           <span>
-                            I Agree with the service and terms and conditions
+                            I agree that my data is collected and stored.
                           </span>
                         </label>
                       </div>
