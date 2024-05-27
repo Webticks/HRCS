@@ -123,7 +123,7 @@ const DefaultFooter = () => (
                   <a href="https://usfcr.com" style={{ margin: '0 10px' }}>
                     <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
                   </a>
-                  <a href="https://usfcr.com" style={{ margin: '0 10px', width: '90px' }}>
+                  <a href="https://www.bbb.org/us/ca/sacramento/profile/compliance-consulting/high-rise-compliance-solutions-llc-1156-90095432" style={{ margin: '0 10px', width: '90px' }}>
                     <img src="assets/images/footer/seal2.png" alt="USFCR Verified Vendor" />
                   </a>
                 </div>
