@@ -238,7 +238,7 @@ const Header2 = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <video controls loop src="assets/images/logo/Hrcs_logo.mp4" width="150" alt="Site Logo" />
+                <img src="assets/images/logo/Hrcs_logo.gif" width="150" alt="Site Logo" />
               </a>
             </Link>
           </div>
