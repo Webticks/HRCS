@@ -119,14 +119,27 @@ const DefaultFooter = () => (
                     <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+               
+                {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <a href="https://usfcr.com" style={{ margin: '0 10px' }}>
                     <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
                   </a>
                   <a href="https://www.bbb.org/us/ca/sacramento/profile/compliance-consulting/high-rise-compliance-solutions-llc-1156-90095432" style={{ margin: '0 10px', width: '90px' }}>
                     <img src="assets/images/footer/seal2.png" alt="USFCR Verified Vendor" />
                   </a>
+                </div> */}
+                 <h5 className="title">Email Address</h5>
+                <div className="contact-info-box d-flex mb-20">
+                  <div className="icon">
+                    <i className="far fa-envelope" />
+                  </div>
+                  <div className="text">
+                    <p>
+                      <a href="mailto:info@teamhrcs.com">info@teamhrcs.com</a>
+                    </p>
+                  </div>
                 </div>
+                <p>Copy@ 2024 HRCS. All Rights reserved by Webticks</p>
               </div>
             </div>
           </div>
@@ -140,7 +153,7 @@ const DefaultFooter = () => (
                     </a>
                   </Link>
                 </div>
-                <h5 className="title">Email Address</h5>
+                {/* <h5 className="title">Email Address</h5>
                 <div className="contact-info-box d-flex mb-20">
                   <div className="icon">
                     <i className="far fa-envelope" />
@@ -151,7 +164,15 @@ const DefaultFooter = () => (
                     </p>
                   </div>
                 </div>
-                <p>Copy@ 2024 HRCS. All Rights reserved by Webticks</p>
+                <p>Copy@ 2024 HRCS. All Rights reserved by Webticks</p> */}
+               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <a href="https://usfcr.com" style={{ margin: '0 10px' }}>
+                    <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
+                  </a>
+                  <a href="https://www.bbb.org/us/ca/sacramento/profile/compliance-consulting/high-rise-compliance-solutions-llc-1156-90095432" style={{ margin: '0 10px', width: '90px' }}>
+                    <img src="assets/images/footer/seal2.png" alt="USFCR Verified Vendor" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
