@@ -19,7 +19,7 @@ const Layout = ({ children, header, footer, extraBodyCls, singleMenus }) => {
       <VideoPopup />
       <Header header={header} singleMenus={singleMenus} />
       {children}
-      <Footer footer={footer} />
+      {/* <Footer footer={footer} /> */}
     </Fragment>
   );
 };
