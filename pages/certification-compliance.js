@@ -76,7 +76,7 @@ const CertificationCompliance = () => {
                                     <h2 style={{ fontSize: '32px' }}>Key Features and Benefits:</h2>
                                 </div>
                                 <ul className="check-style-three">
-                                    <li>Comprehensive Certification Support</li>
+                                    <li>Comprehensive Certification Support: <span className="check-style-three-non-bold">dhasghdasghdgdahsgdjhas</span></li>
                                     <li>Streamlined Complexities</li>
                                     <li>Industry-Specific Expertise</li>
                                     <li>Confidence</li>
