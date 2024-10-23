@@ -564,9 +564,14 @@ const Menus = () => (
                 Fire Log Compliance
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link legacyBehavior href="certification-compliance">
                 Certification Compliance
+              </Link>
+            </li> */}
+            <li>
+              <Link legacyBehavior href="facilitiesMaintenanceAndManagement">
+                Facilities 
               </Link>
             </li>
             <li>
