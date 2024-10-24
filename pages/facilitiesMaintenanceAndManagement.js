@@ -74,7 +74,7 @@ const FacilitiesMaintenanceAndManagement = () => {
                 className="page-banner bg_cover p-r z-1"
                 style={{
                     backgroundImage:
-                        "url(assets/images/services/certificationCompliance.jpg)",
+                        "url(assets/images/services/FACMGMNT2.jpg)",
                 }}
             >
                 <div className="container">
