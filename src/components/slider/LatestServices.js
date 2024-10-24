@@ -18,7 +18,7 @@ const LatestServices = () => {
     },
     {
       imgSrc: "assets/images/services/FACMGMNT2.jpg",
-      title: "Facilities Maintenance and Management",
+      title: "Facilities Management",
       link: "/facilitiesMaintenanceAndManagement",
       description: "Optimizing Your Facility for Peak Performance.",
     },

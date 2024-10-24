@@ -49,7 +49,7 @@ const FacilitiesMaintenanceAndManagement = () => {
         {
             title: "Enhanced Property Value:",
             answer:
-                `: Consistent maintenance and upgrades preserve and potentially increase your property's market value.`,
+                `Consistent maintenance and upgrades preserve and potentially increase your property's market value.`,
         },
         {
             title: "Scalability:",
@@ -123,7 +123,7 @@ const FacilitiesMaintenanceAndManagement = () => {
                                     partner in creating a safe, efficient, and productive
                                     environment. By entrusting us with the complexities of
                                     facility management, you can ensure that your property
-                                    operates at its best, supporting your organization&Apos;s success
+                                    operates at its best, supporting your organization&#39;s success
                                     and growth.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ const FacilitiesMaintenanceAndManagement = () => {
             <section className="optimization-section pt-40">
                 <div className="container">
                     <div className="section-title section-title-left">
-                        <h2 style={{ fontSize: "32px", textAlign: "center" }}>
+                        <h2 style={{ fontSize: "32px", textAlign: "left" }}>
                             Key Features and Benefits:
                         </h2>
                     </div>
@@ -169,7 +169,7 @@ const FacilitiesMaintenanceAndManagement = () => {
                                         Predictive Maintenance Technology:
                                         <span className="check-style-three-non-bold margin-features">
                                             We harness advanced AI analytics and machine learning
-                                            technology to continuously monitor your facility&Apos;s critical
+                                            technology to continuously monitor your facility&#39;s critical
                                             mechanical systems, analyzing real-time data to detect subtle
                                             changes in performance to anticipate equipment failures.
                                         </span>
@@ -205,7 +205,7 @@ const FacilitiesMaintenanceAndManagement = () => {
                                         Energy Management:
                                         <span className="check-style-three-non-bold margin-features">
                                             We implement energy-efficient strategies and monitor
-                                            consumption to optimize your facility&Apos;s energy use, reducing
+                                            consumption to optimize your facility&#39;s energy use, reducing
                                             costs and environmental impact.
                                         </span>
                                     </li>
@@ -256,7 +256,7 @@ const FacilitiesMaintenanceAndManagement = () => {
                                     <li>
                                         Space Planning and Optimization:
                                         <span className="check-style-three-non-bold margin-features">
-                                            Our team analyzes your facility&Apos;s layout and usage patterns
+                                            Our team analyzes your facility&#39;s layout and usage patterns
                                             to maximize space efficiency and improve workflow.
                                         </span>
                                     </li>
@@ -281,7 +281,7 @@ const FacilitiesMaintenanceAndManagement = () => {
                                         Sustainability Initiatives:
                                         <span className="check-style-three-non-bold margin-features">
                                             We implement eco-friendly practices and technologies to
-                                            reduce your facility&Apos;s environmental footprint and promote
+                                            reduce your facility&#39;s environmental footprint and promote
                                             sustainability.
                                         </span>
                                     </li>
