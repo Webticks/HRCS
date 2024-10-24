@@ -17,10 +17,10 @@ const LatestServices = () => {
       description: "Ensuring peace of mind for your fire safety records.",
     },
     {
-      imgSrc: "assets/images/services/certificationCompliance.jpg",
-      title: "Certification Compliance",
-      link: "/certification-compliance",
-      description: "Guiding you to safety and compliance excellence.",
+      imgSrc: "assets/images/services/FACMGMNT2.jpg",
+      title: "Facilities Maintenance and Management",
+      link: "/facilitiesMaintenanceAndManagement",
+      description: "Optimizing Your Facility for Peak Performance.",
     },
     {
       imgSrc: "assets/images/services/fire-ext-inspection.jpg",

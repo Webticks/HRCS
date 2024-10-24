@@ -39,8 +39,8 @@ const MobileMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="certification-compliance">
-                  Certification Compliance
+                <Link legacyBehavior href="facilitiesMaintenanceAndManagement">
+                Facilities Maintenance
                 </Link>
               </li>
               <li>

@@ -3769,6 +3769,10 @@ button {
   font-size: 16px !important;
   color: #1a1a1a;
   margin-bottom: 5px;
+  
+}
+.margin-features{
+  margin-left: 30px;
 }
 
 .check-style-three li:before {

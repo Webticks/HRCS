@@ -89,7 +89,7 @@ const DefaultFooter = () => (
                     <a href="fire-log-compliance">Fire Log Compliance</a>
                   </li>
                   <li>
-                    <a href="certification-compliance">Certification Compliance</a>
+                    <a href="facilitiesMaintenanceAndManagement">Facilities Maintenance and Management </a>
                   </li>
                   <li>
                     <a href="inspection-services">Inspection Services</a>
@@ -258,7 +258,7 @@ const Footer2 = () => (
                     <a href="fire-log-compliance">Fire Log Compliance</a>
                   </li>
                   <li>
-                    <a href="certification-compliance">Certification Compliance</a>
+                    <a href="facilitiesMaintenanceAndManagement">Facilities Maintenance</a>
                   </li>
                   <li>
                     <a href="inspection-services">Inspection Services</a>
