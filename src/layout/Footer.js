@@ -119,7 +119,7 @@ const DefaultFooter = () => (
                     <p>1401 21st Street Suite R Sacramento, CA 95811</p>
                   </div>
                 </div>
-               
+
                 {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <a href="https://usfcr.com" style={{ margin: '0 10px' }}>
                     <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
@@ -128,7 +128,7 @@ const DefaultFooter = () => (
                     <img src="assets/images/footer/seal2.png" alt="USFCR Verified Vendor" />
                   </a>
                 </div> */}
-                 <h5 className="title">Email Address</h5>
+                <h5 className="title">Email Address</h5>
                 <div className="contact-info-box d-flex mb-20">
                   <div className="icon">
                     <i className="far fa-envelope" />
@@ -165,7 +165,7 @@ const DefaultFooter = () => (
                   </div>
                 </div>
                 <p>Copy@ 2024 HRCS. All Rights reserved by Webticks</p> */}
-               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <a href="https://usfcr.com" style={{ margin: '0 10px' }}>
                     <img src="https://usfcr.com/assets/img/verified-vendor-seal-2024-sm.png" alt="USFCR Verified Vendor" />
                   </a>
@@ -258,7 +258,7 @@ const Footer2 = () => (
                     <a href="fire-log-compliance">Fire Log Compliance</a>
                   </li>
                   <li>
-                    <a href="facilitiesMaintenanceAndManagement">Facilities Maintenance</a>
+                    <a href="facilitiesMaintenanceAndManagement" style={{ lineHeight: 'normal' }}>Facilities Maintenance and Management</a>
                   </li>
                   <li>
                     <a href="inspection-services">Inspection Services</a>

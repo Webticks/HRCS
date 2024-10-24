@@ -553,7 +553,7 @@ const Menus = () => (
         </li>
         <li className="menu-item has-children">
           <a href="#">Services</a>
-          <ul className="sub-menu">
+          <ul className="sub-menu" style={{ width: '380px' }}>
             <li>
               <Link legacyBehavior href="compliance-audits">
                 Compliance Audits
