@@ -114,8 +114,8 @@ const FacilitiesMaintenanceAndManagement = () => {
                                 </div>
                                 <p>
                                     Effective facilities maintenance is crucial for organizational
-                                    success, providing a safe and productive environment. High
-                                    <b> Rise Compliance Solutions LLC</b> manages all aspects of
+                                    success, providing a safe and productive environment. <b>High
+                                    Rise Compliance Solutions LLC</b> manages all aspects of
                                     facility operations and maintenance, allowing you to focus on
                                     your core business while we ensure your facility maintains
                                     innovative, and efficient operational standards.<br></br>
