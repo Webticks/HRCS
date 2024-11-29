@@ -144,7 +144,7 @@ const About = () => {
                       <div className="tab-pane fade show active" id="mission">
                         <div className="content-box">
                           <p>
-                            Safeguarding lives, property in high-rises, delivering top-tier risk management. Ensuring compliance, leveraging expertise, technology, dedicated to qualityand our goal is to create secure work environments, trusted partner in building safety.{" "}
+                          Safeguarding lives and property in high-rise buildings through top-tier risk management, we ensure compliance by leveraging our expertise and technology. Committed to quality, our goal is to create secure work environments and be a trusted partner in building safety.{" "}
                           </p>
                           <ul className="check-style-two">
                             <li>Risk Management Excellence</li>
